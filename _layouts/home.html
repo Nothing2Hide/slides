@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ site.title }} : {{ site.description }}</title>
+	<meta name="description" content="{site.description}" />
+	{{ "/assets/reveal.js/css/reveal.css" | prepend: site.baseurl }}
+	
+	<link rel="stylesheet" href="{{ "/assets/blueprint/src/reset.css" | prepend: site.baseurl }}" type="text/css" media="screen">
+	<link rel="stylesheet" href="{{ "/assets/blueprint/src/typography.css" | prepend: site.baseurl }}" type="text/css" media="screen">
+	<link rel="stylesheet" href="{{ "/assets/css/reveal-n2h.css" | prepend: site.baseurl }}" type="text/css" media="screen">
+	<link rel="stylesheet" href="{{ "/assets/blueprint/src/print.css" | prepend: site.baseurl }}" type="text/css" media="print">
+	<style type="text/css" media="screen">
+		.container {margin: 2em}
+		.reveal {font-size: 150%}
+		.reveal h2 {margin: 1em 0 .5em 0}
+		.reveal h3 {margin: .5em 0 .5em}		
+		#mainfooter {margin: 5em 0 1em 0; position: relative }
+		.reveal footer p {font-size: .8em; margin: 0}
+		.reveal ul, 
+		.reveal ol {
+		  display: block;
+		}
+	</style>
+</head>
+  <body>
+    <div class="container reveal">
+      <header>
+        <h1>{{ page.title }}</h1>
+      </header>
+      {{content}}
+
+        {% for cat in site.category-list %}
+        <h2>{{ cat }}</h2>
+        
+        <ul>
+          {% for page in site.pages %}
+            {% if page.onhome == true %}
+              {% for pc in page.categories %}
+                {% if pc == cat %}
+                  <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}   <!-- cat-match-p -->
+              {% endfor %}  <!-- page-category -->
+            {% endif %}   <!-- resource-p -->
+          {% endfor %}  <!-- page -->
+        </ul>
+        {% endfor %}  <!-- cat -->
+
+       
+    </div>
+    <footer id="mainfooter">
+      <a href="{{ site.url}}{{ site.baseurl }}"><img src="assets/i/logo-n2h.png" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
+      <p> {{ page.title }} | {{ page.licence }}</p>
+    </footer>    
+  </body>
+</html>

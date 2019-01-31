@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Cryptographie avancée</title>
+
+	<link rel="stylesheet" href="/assets/reveal.js/css/reveal.css">
+
+  
+    <link rel="stylesheet" href="/assets/css/reveal-n2h.css" id="theme"/>
+  
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="/assets/reveal.js/lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/reveal.js/css/print/pdf.css' : 'assets/reveal.js/css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+<h1>Cryptographie avancée</h1>
+</section>
+
+<section id="gpg">
+<section>
+  <blockquote>
+      <p><q>Les mots de pase, c'est has been depuis les années 70</q></p>
+      <p><cite title="author"><a href="https://fr.wikipedia.org/wiki/Chiffrement_RSA">Ronald <strong>R</strong>ivest, Adi <strong>S</strong>hamir et Leonard <strong>A</strong>dleman</a></cite></p>
+  </blockquote>
+</section>
+    <section>
+        <h1>GPG</h1>
+        <p>Comment transmettre un document chiffré sans s'échanger de mot de passe</p>
+    </section>       
+    <section>
+        <h2>GPG dans un webmail</h2>
+        <ul>
+            <li><a href="https://www.mailvelope.com/">Mailvelope</a></li>
+            <li><p><a href="https://flowcrypt.com/">FlowCrypt</a> <small>uniquement pour Gmail</small></p></li>
+        </ul>
+    </section>
+    <section>
+        <h2>GPG pour client mail</h2>
+        <ul>
+            <li><a href="https://www.mozilla.org/fr/thunderbird/">Thunderbird</a> + <a href="https://addons.mozilla.org/fr/thunderbird/addon/enigmail/">Enigmail</a> pour Mac, Windows, Linux</li>                    
+            <li><a href="https://www.gpgtools.org/">GPGTools</a> pour Mac OS X</li>
+            <li><a href="http://www.gpg4win.org/">GPG4Win</a> pour Windows</li>
+    </section>
+    <section>
+        <h2>GPG sur smartphone</h2>
+        <ul>
+            <li><a href="https://itunes.apple.com/us/app/ipgmail/id430780873?mt=8">iPGMail</a> pour iphone</li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.fsck.k9">K9 Mail</a> pour Android</li>
+        </ul>
+        <p><small>A-t-on vraiment besoin d'avoir ses mails chiffrés (sa clé privée) en permanence sur soi ?</small></p>
+    </section>
+</section>
+
+<section id="OTR">      
+    <section>
+        <h1>Off The Reccord</h1>
+        <p>Comment s'assurer qu'une fois une conversation en ligne terminée, le contenu ne sera plus jamais déchiffrable ?</p>
+    </section>            
+    <section>
+        <h2>Off the Reccord sur desktop</h2>
+        <ul>
+            <li><a href="https://pidgin.im/">Pidgin</a> + <a href="https://otr.cypherpunks.ca/">plugin OTR</a>  pour Windows </li>
+            <li><a href="https://www.adium.im/">Adium</a> pour Mac</li>
+        </ul>
+        <p><small>Attention, sur un compte google, si vous avez la double authentification activée, <a href="https://support.google.com/accounts/answer/185833?hl=fr&guide=1056283&rd=2&visit_id=1-636439997454641715-3219616565">suivez cette étape</a></small></p>
+    </section>
+    <section>
+      <h2>Rappel</h2>
+      <p>chiffrement et anonymat sont deux choses différentes. Pour être anonyme en utilisant OTR, plutôt que d'utiliser un compte Google, il existe <a href="https://list.jabber.at/">une multitude de services</a> accessibles sans identifiants</p>
+    </section>
+</section>
+
+
+<section id="tails">
+    <section>
+        <img src="i/tails.png" alt="Tails" title="Tails"/>
+    </section>
+    <section>
+        <h1>Tails</h1>
+        <ul>
+            <li>Démarre  <a href="https://fr.wikipedia.org/wiki/Live%5FUSB">depuis une clé USB</a> ou un CD</li>
+            <li>Ne laisse <a href="https://tails.boum.org/about/index.fr.html#index2h1">aucune trace</a>  sur un ordinateur</li>
+            <li>Intègre les meilleurs <a href="https://tails.boum.org/about/index.fr.html#index3h1">outils de cryptographie</a></li>                            
+            <li>Utilise <a href="https://tails.boum.org/about/index.fr.html#index1h1">Tor pour toutes les connexions </a>sortantes</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Être vraiment anonyme</h2>
+        <ul>
+            <li>Supprimez tout lien avec votre vie "réelle" (meatspace)</li>                        
+            <li>N'utilisez surtout aucunne adresse mail ou compte déjà existant</li>                            
+            <li>Créez-vous une nouvelle identité : nouveau mail, compte facebook, twitter, clés gpg etc.</li>                        
+        </ul>
+        
+    </section>
+</section>
+
+
+<section data-background="i/questions-barack.gif" data-background-transition="zoom">
+    <h1>Questions ?</h1>   
+</section>
+
+       	<section>
+    <h2>Contact</h2>
+    <ul>
+        <li>Courriel : contact@nothing2hide.org</li>
+        <li>GPG : 6A22 9E8D 916A 1C3C 80A6 E180 D1A6 2CFD 5851 9BC4</li>
+        <li>Twitter : <a href="http://twitter.com/{site.twitter}">n0thing2hide</a></li>
+				<li>Facebook : <strong>non</strong></li>
+    </ul>
+</section>
+        
+			</div>
+		</div>
+    
+   	<footer id="mainfooter">
+	<a href="http://localhost:4000"><img src="assets/i/logo-n2h.png" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
+	<p> Sécurité numérique | Cryptographie avancée | CC BY 3.0</p>
+</footer>
+
+<script src=/assets/reveal.js/lib/js/head.min.js></script>
+<script src=/assets/reveal.js/js/reveal.js></script>
+
+<script>
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+   controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    
+      transition: 'slide',
+    
+
+		// More info https://github.com/hakimel/reveal.js#dependencies
+		dependencies: [
+			{ src: '/assets/reveal.js/plugin/markdown/marked.js' },
+			{ src: '/assets/reveal.js/plugin/markdown/markdown.js' },				
+			{ src: '/assets/reveal.js/plugin/notes/notes.js', async: true },
+			{ src: '/assets/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+		]
+	});
+</script>
+
+
+	</body>
+</html>

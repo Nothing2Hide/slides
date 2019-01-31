@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+
+{% include slide-head.html %}
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        {{ content }}
+       	{% include slide-contact.html %}        
+			</div>
+		</div>
+    
+   	{% include slide-footer.html %}
+
+	</body>
+</html>

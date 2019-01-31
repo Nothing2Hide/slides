@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>La crypto pour les nuls</title>
+
+	<link rel="stylesheet" href="/assets/reveal.js/css/reveal.css">
+
+  
+    <link rel="stylesheet" href="/assets/css/reveal-n2h.css" id="theme"/>
+  
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="/assets/reveal.js/lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement( 'link' );
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/reveal.js/css/print/pdf.css' : 'assets/reveal.js/css/print/paper.css';
+		document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+    <h1>La crypto pour les nuls</h1>
+</section>
+
+<section>
+    <h1>Crypto != Anonymat</h1>
+    <ul>
+        <li>Avec <a href="https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:emails">PGP</a> ou <a href="https://otr.cypherpunks.ca/">OTR</a> le contenu d'un email ou d'un clavardage est chiffré mais pas les adresses des correspondants</li>
+        <li>Les <a href="https://immersion.media.mit.edu/demo">métadonnées</a> suffisent. Ex : <a href="http://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order">Verizon</a>, les <a href="http://www.lemonde.fr/societe/article/2013/11/14/fadettes-du-monde-philippe-courroye-devant-le-csm_3513762_3224.html">fadettes du Monde</a></li>
+    </ul>
+</section>
+
+<section>
+    <h1>Anonymat</h1>
+    <ul>
+        <li>Envoyer un mail <strong>vraiment</strong> anonyme en passant par un service de mails jetables : <a href="https://www.mailinator.com/">mailinator</a>, <a href="http://www.yopmail.com/">yopmail</a>, <a href="http://www.dispostable.com/">dispostable</a>, <a href="http://mailcatch.com/">mailcatch</a>, <a href="www.business-garden.com/index.php/2010/03/17/50_services_d_email_jetable_antispam*">etc.</a></li>
+        <li>Créer et utiliser un boîte morte, déconnectée de votre identité</li>
+        <li>Profitez des <a href="http://www.business-garden.com/index.php/2010/03/17/50_services_d_email_jetable_antispam">Emails jetables</a></li>
+        <li>Envoyez des notes à la mission impossible avec <a href="https://privnote.com/">Privnote</a> ou <a href="https://zerobin.net/">Zerobin</a></li>
+    </ul>
+    <aside class="notes">Google et Microsoft demandent </aside>
+</section>
+
+<section>
+    <h1>Chiffrement</h1>
+    <ul>
+        <li>Chiffrer ses mails avec <a href="https://protonmail.com/">Proton Mail</a></li>
+        <li>Travailler de manière collaborative <strong>ET</strong> chiffrée avec <a href="https://cryptpad.fr/what-is-cryptpad.html">CryptPad</a> <small>(peut aussi être utilisé sur le même principe que la boîte morte)</small></a>
+        </li>
+        <li>Transmettre des fichiers chiffrés <a href="https://send.firefox.com/">en drag & drop</a></li>
+        <li>Plus facile avec un smartphone : <a href="https://www.whatsapp.com/">Whatsapp</a>, <a href="https://whispersystems.org/">Signal</a> ou <a href="https://wire.com/">Wire</a></li>
+    </ul>    
+</section>
+
+<section>
+    <section data-background="i/careful.gif">
+        <h1>On n'est jamais trop prudent</h1>   
+    </section>
+    <section>
+        <h1><acronym title="Trust No One">TNO</acronym></h1>
+        <p>Trust No One</p>
+        <ul>
+            <li>Pastebin + Tor</li>
+            <li>Cryptpad + Tor</li>
+            <li>Dropbox + Veracrypt</li>
+        </ul>                        
+    </section>
+</section>
+
+<section data-background="i/questions-hollywood.gif"data-background-transition="zoom">
+    <h1>Questions ?</h1>
+</section>
+
+       	<section>
+    <h2>Contact</h2>
+    <ul>
+        <li>Courriel : contact@nothing2hide.org</li>
+        <li>GPG : 6A22 9E8D 916A 1C3C 80A6 E180 D1A6 2CFD 5851 9BC4</li>
+        <li>Twitter : <a href="http://twitter.com/{site.twitter}">n0thing2hide</a></li>
+				<li>Facebook : <strong>non</strong></li>
+    </ul>
+</section>
+        
+			</div>
+		</div>
+    
+   	<footer id="mainfooter">
+	<a href="http://localhost:4000"><img src="assets/i/logo-n2h.png" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
+	<p> Sécurité numérique | La crypto pour les nuls | CC BY 3.0</p>
+</footer>
+
+<script src=/assets/reveal.js/lib/js/head.min.js></script>
+<script src=/assets/reveal.js/js/reveal.js></script>
+
+<script>
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+   controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    
+      transition: 'slide',
+    
+
+		// More info https://github.com/hakimel/reveal.js#dependencies
+		dependencies: [
+			{ src: '/assets/reveal.js/plugin/markdown/marked.js' },
+			{ src: '/assets/reveal.js/plugin/markdown/markdown.js' },				
+			{ src: '/assets/reveal.js/plugin/notes/notes.js', async: true },
+			{ src: '/assets/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+		]
+	});
+</script>
+
+
+	</body>
+</html>

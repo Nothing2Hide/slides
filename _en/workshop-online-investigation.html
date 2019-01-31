@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Advanced online search</title>
+
+
+		<link rel="stylesheet" href="reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="css/reveal-n2h.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+					<section>
+						<h1>Advanced Online Search</h1>
+					</section>
+
+                                    <section>
+					<section>
+						<h1>Google Dorking</h1>
+					</section>
+
+					<section>
+						<h2>Operators</h2>
+						<ul>
+							<li><pre>"exact expression"<pre></li>
+							<li><pre>OR</pre> &#8680; this word <strong>OR</strong> the other word: <pre>Google OR privacy</pre></li>
+							<li><pre>-</pre> &#8680; exclude a word from the search: <pre>Google -privacy</pre></li>
+							<li><pre>*</pre> &#8680; joker caracter: <pre>rock * roll</pre></li>
+							<li><pre>10..20</pre> &#8680; scale: <pre>Sarkozy 2002..2003</pre></li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Targets</h2>
+						<ul>
+						<li><pre>intitle:</pre> search something in the title of the page</li>
+						<li><pre>site:mysite.com</pre> search something only on mysite.com </li>
+						<li><pre>inurl:</pre> search something in the url of a page</li>
+						<li><pre>intext: search something inthe page body</pre></li>
+						<li><pre>filetype:pdf search a specific file type</pre></li>
+						<li><pre>link:http://site.com</pre> search every pages linking to site.com</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Combinations</h2>
+						<code>"Macron" -site:youtube.com inurl:2015</code>
+					</section>
+
+					<section>
+						<h2>Juicy stuffs</h2>
+						<code>intitle:”curriculum vitae” “Tel * * *” “adresse *” “e-mail”
+						</code>
+					</section>
+
+					<section>
+						<h2>Find copied pasted text</h2>
+						<code>intext:"My sentence copied somewhere" -site:monsite.com
+						</code>
+					</section>
+
+					<section>
+						<h2>Find other TLD</h2>
+						<code>site:amazon.* -site:amazon.com</code>
+					</section>
+
+					<section>
+						<h2>Twitter search</h2>
+						<code>site:twitter.com &amp; intext:dvdrip
+						</code>
+					</section>
+        </section>
+
+        <section>
+
+					<section>
+					<h1>Extra tools</h1>
+					<ul>
+						<li>Leaks portal : <a href="https://offshoreleaks.icij.org/">OffShore leaks</a>, <a href="https://www.icij.org/investigations/west-africa-leaks/">West africa leaks</a>
+						</li>
+				   	<li>Corporations: <a href="https://opencorporates.com/">Open Corporates</a> or <a href="https://data.occrp.org/">OCCRP Data</a></li>
+						<li>If you're not afraid of pyton, use <a href="https://github.com/x0rz/tweets_analyzer">account profiling tools</a></li>
+						<li>Whois <strong>is</strong> also your friend</li>
+					</ul>
+					</section>
+
+					<section data-background="i/use-the-force.jpg">
+					<h2>Use the Cache Luke</h2>
+					</section>
+
+					<section data-background="i/use-the-force.jpg">
+						<p><img src="i/encache.png" alt="Le cache de Google" title="" /></p>
+					</section>
+
+          <section data-markdown>
+              <textarea data-template>
+                  ## Search Engines
+
+                  Search in automated cache during crawling
+
+                  * Google
+                  * Bing
+                  * Yandex
+              </textarea>
+          </section>
+
+          <section data-markdown>
+              <textarea data-template>
+                  ## Cache Platorms
+
+                  Search and backup your findings
+
+
+                  * https://archive.org/web/
+                  * https://archive.fo/
+
+                  ![wayback](i/wayback.png)
+              </textarea>
+          </section>
+	      </section>
+	      
+	      <section data-markdown>
+	      	
+					# Swiss kniw of OS INT
+
+					[Intel techniques search tools](https://inteltechniques.com/menu.html)
+
+	      </section>
+
+				<section>
+					<h1>References</h1>
+					<ul>
+					<li><a href="https://moz.com/learn/seo/search-operators">Google Search Operators on moz.com</a>
+					</li>
+					<li><a href="https://moz.com/blog/mastering-google-search-operators-in-67-steps">Mastering Google Search Operators in 67 Easy Steps</a>
+					</li>
+					<li><a href="http://www.tekgyd.com/2015/07/how-to-use-google-dork-for-hacking.html">How To Use GOOGLE DORK for Hacking</a>
+					</li>
+					<li><a href="https://www.exploit-db.com/google-hacking-database/">Google Hacking Database</a>
+					</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<footer id="mainfooter">
+			<a href="http://nothing2hide.org"><img src="i/logo-n2h.png" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
+			<p>Advanced online search | CC BY 3.0</p>
+		</footer>
+
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				backgroundTransition: 'zoom' ,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true },
+					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]	
+			});
+		</script>
+	</body>
+</html>
