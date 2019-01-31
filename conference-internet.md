@@ -136,14 +136,6 @@ licence: "CC BY 3.0"
   </section>
 
   <section data-markdown>
-  ![Adresse IP V4](i/internet_ipv4.png)
-  </section>
-
-  <section data-markdown>
-  ![Adresse IP V6](i/internet_ipv6.png)
-  </section>
-
-  <section data-markdown>
   Noms de domaine et IP
   ----------
 
@@ -161,11 +153,12 @@ licence: "CC BY 3.0"
 <section>
   <section data-markdown>
   Blocages et censure
-  ------------
-
-  <img src="i/internet_sitebloque.png" alt="sites bloqués" height="500">
-
-  Note: Techniquement. Juridiquement : [loi terroriste de 2014](http://www.zdnet.fr/actualites/blocage-des-sites-le-decret-d-application-entre-en-vigueur-39814310.htm)
+  ===================
+  </section>
+  
+  <section>
+    <img src="i/internet_sitebloque.png" alt="sites bloqués" height="600">
+    <aside  class="notes">Techniquement. Juridiquement : [loi terroriste de 2014](http://www.zdnet.fr/actualites/blocage-des-sites-le-decret-d-application-entre-en-vigueur-39814310.htm)</aside>
   </section>
 
   <section data-markdown>
