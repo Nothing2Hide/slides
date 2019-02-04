@@ -122,8 +122,8 @@ licence: "CC BY 3.0"
   ### Ne pas avoir de compte Facebook
   </section>
 
-  <section data-markdown>
-  <img src="i/seriously.jpg" width="100%">
+  <section>
+  	<img src="i/seriously.jpg" width="100%">
   </section>
 
   <section data-markdown>
