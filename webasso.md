@@ -1,63 +1,81 @@
 ---
-layout: basic
+layout: slide
 title:  "Protégez vos contacts, collaborateurs et bénéficiaires"
 categories: [Conférence]
 licence: "CC BY 3.0"
 ---
 
+<section data-markdown>
+## {{ page.title }}
+</section>
 
-## Présentation Nothing2Hide
+<section data-markdown>
+  ## [![alt text](i/logo-n2h.png)](https://nothing2hide.org)
 
-Protection données et communication. Plus largement, notre structure travaille plus largement sur la technologie comme moyen de favoriser la diffusion et la protection de l'information. 
+ Une association qui défend la **liberté de l'information**.
+</section>
 
-## Pourquoi cette conf :
+<section data-markdown>
+## La sécurité numérique : pourquoi
 
-  * 1. raison évidente : communications sensibles
-  * 2. "Do no harm" -> Base essentielle de l’action humanitaire mais aussi de la culture de la solidarité internationale. L'un de vos devoirs : protéger la vie privée des gens avec qui vous travaillez.
+  1. Certaines de vos organisations traitent des sujets sensibles (corruption, lanceurs d'alerte, etc.)
+  2. **Do no harm** : la base de l’action humanitaire mais aussi de la culture de la solidarité internationale. Vous avez le devoir  de protéger la vie privée de vos bénéficiaires.
+</section>
 
-Rappel : Le droit à la vie privée est inscrit dans la déclaration universelle des droits de l'homme à [l'article 12](https://www.un.org/fr/universal-declaration-human-rights/index.html)
+<section data-markdown>
 
 > Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes.
 
-La vie privée est un droit fondamental.
 
-## Quelques conseils de base avant de devenir crypto-terroriste et de transformer son organisation en coffre-fort : 
+Le droit à la vie privée est inscrit dans la déclaration universelle des droits de l'homme à [l'article 12](https://www.un.org/fr/universal-declaration-human-rights/index.html)
 
-  * il n'y a pas un outil mieux qu'un autre mais juste des outils à utiliser en fonction des situations
-  * identifier et localiser les informations sensibles
-  * Pour ce faire : élaborer un modèle de menace :
+</section>
 
-    * Quelles informations je dois protéger ?
-    * Qui pourrait s'y intéresser ?
-    * Quels moyens peuvent-ils mobiliser ?
-    * Quelles sont les conséquences s'ils arrivent à accéder à ces informations ?
-    * Quels moyens suis-je prêt à mettre en œuvre ?
-  
-## Mais quand même
+<section data-markdown>
+##  La sécurité numérique : comment
+*Quelques conseils de base avant de devenir crypto-terroriste et de transformer son organisation en coffre-fort.*
+</section>
 
-  [Quiz](https://nothing2hide.org/slides/quizz.html)
+<section data-markdown>
+  * Il n'y a pas un outil mieux qu'un autre mais juste des outils à utiliser en fonction des situations
+  * Identifier et localiser les informations sensibles
+  * Pour ce faire : élaborer un modèle de menace
+</section>
 
-  * contre le vol : chiffrement (iphone)
-  * tout le temps, en déplacement - >VPN
-  * pour protéger vos communications : signal sur mobile et desktop. PGP pour les plus fous
+<section data-markdown>
+### Le modèle de menaces en 5 questions 
 
-## Nos interventions auprès de structures
+  * Quelles informations dois-je protéger ?
+  * Qui pourrait s'y intéresser ?
+  * Quels moyens peuvent-ils mobiliser ?
+  * Quelles sont les conséquences s'ils arrivent à accéder à ces informations ?
+  * Quels moyens suis-je prêt à mettre en œuvre ?
+</section>
 
-  * Pour simplifier la vie des gens : Médiacités
-  * Souriatna média syrien exilé en Turquie,
-  * Noor images,
-  * TI France, 
-  * Érythrée
+<section data-markdown>
+## Testons vos connaissances !
 
-## Nos ressources en ligne
+À l'aide d'un petit  [Quiz](https://nothing2hide.org/slides/quizz.html) !
+</section>
 
-  * https://nothing2hide.org/fr/catalogue-formations/
-  * https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:ressources
+<section data-markdown>
+## En vrac 
 
+Consultez notre [guide de voyage en milieu hostile (ou pas )](https://nothing2hide.org/fr/guide-de-voyage-en-milieu-hostile-ou-pas/)
+
+</section>
+
+<section data-markdown>
+## Pour aller plus loin
+
+  * [Notre catalogue de formation](https://nothing2hide.org/fr/catalogue-formations/)
+  * Notre sélection de [ressources sur la sécurité numérique](https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:ressources)
+  * Les [supports pédagogiques](https://nothing2hide.org/slides) de nos formations
+</section>
+
+<section data-markdown>
 ## Remerciements
 
-Criteo,une des entreprises pionnières dans le domaine du marketing programmatique. Criteo a mis au point un algorithme très efficace permettant de prévoir les intentions d’achat des internautes  à partie de leur habitudes de navigation. Pratique. Faut bien manger. Sauf que selon l'ONG [Transparency International](https://privacyinternational.org/press-release/2424/privacy-international-files-complaints-against-seven-companies-wide-scale-and) la collecte de ces données se fait en violation du règlement général de la protection des données, un règlement européen qui régit la collecte et l'exploitation des données personnelles pour les citoyens européens.
-Reproche : aucune de ces entreprises n’a « apporté la preuve que la manière dont elles collectent les données se faisait avec [le] consentement libre, spécifique, éclairé et univoque »
+Criteo a mis au point un algorithme très efficace permettant de prévoir les intentions d’achat des internautes  à partie de leur habitudes de navigation. Selon l'ONG [Transparency International](https://privacyinternational.org/press-release/2424/privacy-international-files-complaints-against-seven-companies-wide-scale-and) cette collecte de ces données se fait en violation du RGPD (Règlement Général de Protection des Données). Criteo, l'hôte de cet événement, ne respecte malheureusement pas [l'article 12](https://www.un.org/fr/universal-declaration-human-rights/index.html) de la DUDH.
+</section>
 
-Rappel : Article 12 
-> Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes.
