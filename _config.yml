@@ -7,7 +7,6 @@ url: "https://nothing2hide.org"
 twitter: n0thing2hide
 gpgid:  6A22 9E8D 916A 1C3C 80A6 E180 D1A6 2CFD 5851 9BC4
 category-list: [Sécurité numérique, OSINT, Conférences]
-destination: /var/www/nothing2hide/slides
 
 # Build settings
 markdown: kramdown
