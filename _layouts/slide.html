@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{% if page.lang == nil %}fr{% else %}{{ page.lang }}{% endif %}">
 
 {% include slide-head.html %}
 
