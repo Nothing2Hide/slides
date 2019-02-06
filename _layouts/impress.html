@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{% if page.lang == nil %}fr{% else %}{{ page.lang }}{% endif %}">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="author" content="Nothing2Hide" />
+    <link href="{{ "/assets/css/impress-n2h.css" | prepend: site.baseurl }}" rel="stylesheet"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+  <div class="fallback-message">
+      <p>Votre navigateur <b>ne supporte pas les fonctionnalités</b> de impress.js. Vous avez donc accès à une version simplifiée de cette présentation.</p>
+      <p>Pour une meilleure expérience utilisateur, utilisez la dernière version de <b>Chrome</b>, <b>Safari</b> ou <b>Firefox</b>.</p>
+  </div>
+
+  <div id="impress">
+    {{ content }}  
+  </div>
+  
+  <script src="{{ "/assets/impress.js/js/impress.js" | prepend: site.baseurl }}"></script>
+  <script>impress().init();</script>
+
+
+	</body>
+</html>
