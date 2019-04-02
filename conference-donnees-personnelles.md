@@ -69,6 +69,8 @@ licence: "CC BY 3.0"
 Google conserve une liste de tous vos achats, y compris ceux que vous effectuez hors Google Store...
 
     https://myaccount.google.com/purchases
+
+Note: Tous les achats dont on reçoit une confirmation par mail sont stockés ici, sans aucune demande de consentement particulière.
 </section>
 
   <section data-markdown>
