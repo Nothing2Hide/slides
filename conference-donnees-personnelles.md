@@ -59,9 +59,19 @@ licence: "CC BY 3.0"
   ---
   </section>
 
-  <section data-markdown>
-  **[![Historique Google Maps](i/ggmapstimeline.png)](https://www.google.com/maps/timeline)**
-  </section>
+<section data-markdown>
+**[![Historique Google Maps](i/ggmapstimeline.png)](https://www.google.com/maps/timeline)**
+
+    https://www.google.com/maps/timeline
+</section>
+
+<section data-markdown>
+Google conserve une liste de tous vos achats, y compris ceux que vous effectuez hors Google Store...
+
+    https://myaccount.google.com/purchases
+
+Note: Tous les achats dont on reçoit une confirmation par mail sont stockés ici, sans aucune demande de consentement particulière.
+</section>
 
   <section data-markdown>
   Pour aller plus loin : [Want to freak yourself out?](https://threadreaderapp.com/thread/977559925680467968.html)
