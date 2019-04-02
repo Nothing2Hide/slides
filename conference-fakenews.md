@@ -25,7 +25,7 @@ Note: Intro -> jm
 Une fakenews, c'est : 
   * Une fausse information
   * Une publication "orientée"
-  * Une inforamtion fausse destinée à générer du clic
+  * Une information fausse destinée à générer du clic
   * Un canular
 
 Note: GP. Macédoine https://www.nbcnews.com/news/world/fake-news-how-partying-macedonian-teen-earns-thousands-publishing-lies-n692451)
