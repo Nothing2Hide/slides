@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "Qu'est-ce qu'Internet"
 transition: slide
 onhome: true

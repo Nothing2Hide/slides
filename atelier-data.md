@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "Protection des données"
 transition: slide
 onhome: true

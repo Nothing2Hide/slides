@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "Données personnelles"
 transition: slide
 onhome: true

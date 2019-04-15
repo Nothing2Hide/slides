@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "THSF 2018 - La loi anti fake news"
 transition: slide
 onhome: true

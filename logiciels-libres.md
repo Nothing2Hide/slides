@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "Logiciels libres"
 transition: slide
 onhome: true

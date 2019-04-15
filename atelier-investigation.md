@@ -1,5 +1,7 @@
 ---
 layout: slide
+lang: FR
+ref: investigation
 title:  "Investigation en ligne"
 transition: slide
 onhome: true

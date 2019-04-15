@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "Protégez vos contacts, collaborateurs et bénéficiaires"
 categories: [Conférence]
 licence: "CC BY 3.0"

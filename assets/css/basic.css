@@ -1,0 +1,8 @@
+.container {margin: 2em}
+.reveal {font-size: 150%}
+.reveal h2 {margin: 1em 0 .5em 0}
+.reveal h3 {margin: .5em 0 .5em}		
+#mainfooter {margin: 5em 0 1em 2em; position: relative; left: 0;}
+.reveal footer p {font-size: .8em; margin: 0}
+.reveal ul, 
+.reveal ol {display: block;}

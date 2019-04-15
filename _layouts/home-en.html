@@ -19,27 +19,19 @@
       </header>
       {{content}}
 
-        {% for cat in site.category-list %}
-        <h2>{{ cat }}</h2>
-        {% assign pages=site.pages | where:"lang", page.lang %}        
-        <ul>
+       {% assign pages=site.pages | where:"lang", page.lang %}        
+       <ul>
           {% for page in pages %}
             {% if page.onhome == true %}
-              {% for pc in page.categories %}
-                {% if pc == cat %}
-                  <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                {% endif %}   <!-- cat-match-p -->
-              {% endfor %}  <!-- page-category -->
+              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}   <!-- resource-p -->
           {% endfor %}  <!-- page -->
         </ul>
-        {% endfor %}  <!-- cat -->
-
        
     </div>
     <footer id="mainfooter">
       <a href="{{ site.url}}{{ site.baseurl }}"><img src="{{ "/assets/i/logo-n2h.png" | prepend: site.baseurl }}" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
       <p> {{ page.title }} | {{ page.licence }}</p>
-    </footer>    
+    </footer>      
   </body>
 </html>

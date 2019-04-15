@@ -1,5 +1,6 @@
 ---
 layout: slide
+lang: FR
 title:  "Qu'est-ce que l'identité numérique"
 transition: slide
 onhome: true
