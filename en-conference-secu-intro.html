@@ -10,30 +10,7 @@ categories: [Conférences]
 licence: "CC BY 3.0"
 ---
 
-<!doctype html>
 
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Digital Security Workshop, presented by Nothing2Hide</title>
-
-    <meta name="description" content="You'll learn very basic steps to protect your computer and some more sophisticated tricks such as how to control traces on the Internet. This is only a 1h30 presentation so consider it as an introduction to Digital Safety rather than a real training." />
-    <link href="../impress.js/css/screen.css" rel="stylesheet"/>
-	<link href='http://fonts.googleapis.com/css?family=Cabin:700italic' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="../favicon.png" />
-    <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
-</head>
-
-<body class="impress-not-supported">
-
-<div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-</div>
-
-<div id="impress">
 
     <!--
     **********
@@ -58,12 +35,12 @@ licence: "CC BY 3.0"
       <p>You should truly care. The NYT has been the target of "maybe chinese" hackers towards the end of 2012. If the <em>Gray Lady</em> and her 1200 journalists couldn't protect herself, how can you?</p>
     </div>
 
-    <div id="youshouldcare" class="step" data-x="2550" data-y="1550" data-rotate="-45" data-z="-1300" data-scale="2">
+    <!--div id="youshouldcare" class="step" data-x="2550" data-y="1550" data-rotate="-45" data-z="-1300" data-scale="2">
       <blockquote>
 		<p><q>In the wake of this year’s disclosure, it should be clear that unencrypted journalist-source communication is unforgivably reckless</q></p>
 		<p><cite title="author">E. Snowden</cite> quoted by the <cite title="source">New-York Times</cite> in <a href="http://www.nytimes.com/2013/08/18/magazine/laura-poitras-snowden.html?pagewanted=all&_r=1&">How Laura Poitras Helped Snowden Spill His Secrets</a></p>
 	   </blockquote>
-    </div>
+    </div-->
 
     <!--
     **********
@@ -84,6 +61,7 @@ licence: "CC BY 3.0"
           <li>Don't sit with your back to the window</li>
           <li>Use screen protection filters</li>
           <li>Never leave your computer or device far from sight</li>
+		<li>Don't clik on a suspicious link. <em>Define suspicious</em></li>
         </ul>
       </div>
 
@@ -107,8 +85,8 @@ licence: "CC BY 3.0"
 	  <div id="encryption" class="step"  data-x="3400" data-y="3625" data-z="-1400" data-rotate="90" data-scale="2">
       	<ul>
       		<li>Lock your session</li>
-			  <li><strong>Encrypt</strong> your disk, flash drive, or any data in the cloud <small>using PGP, Luks, BitLocker, or FileVault</small></li>
-			  <!-- démo : prise de contrôle d'un windows ou linux non chiffré avec boot usb GP -->
+			  <li><strong>Encrypt</strong> your disk, flash drive, or any data in the cloud <small>using <a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a>, Filevault on Mac, BitLocker, or PGP</small></li>
+			  <!-- démo : prise dhttps://www.veracrypt.fr/en/Home.htmle contrôle d'un windows ou linux non chiffré avec boot usb GP -->
       	</ul>
 	  </div>
 
@@ -123,7 +101,8 @@ licence: "CC BY 3.0"
     <div id="passwords" class="step" data-x="-2500" data-y="2500" data-rotate="0" data-scale="2">
 		<h1><strike>Passwords</strike></h1>
         <p>How secure is your password?</p>
-        <p><a href="http://howsecureismypassword.net">Who wants to try</a>?</p>
+        <p><a href="https://nothing2hide.org/en/password-checker/
+">Who wants to try</a>?</p>
     </div>
 
 
@@ -138,7 +117,8 @@ licence: "CC BY 3.0"
 
 
     <div id="passwordmanagers" class="step" data-x="-3900" data-y="4500" data-z="-500" data-rotate="90" data-scale="1">
-      Never use the same passphrase twice.<br/> If you need some help, use <strong>password manager</strong> such as <a href="https://lastpass.com/">lastpass</a> or <a href="https://agilebits.com/onepassword">onepassword</a>.<br>Or <strong>write it  down</strong> (yes you can).
+    <p>Never use the same passphrase twice.<br/> If you need some help, use <strong>password manager</strong> such as <a href="https://lastpass.com/">lastpass</a> or <a href="https://agilebits.com/onepassword">onepassword</a>.<br>Or <strong>write it  down</strong> (yes you can).</p>
+<p><br>That being said, Maybe you should check if <a href="https://haveibeenpwned.com/">you need to change some passwords</a>...</p>
     </div>
 
     <!--
@@ -158,9 +138,11 @@ licence: "CC BY 3.0"
     <div id="erasingsolutions" class="step"  data-x="1730" data-y="-4100" data-z="-500" data-rotate="-90" data-scale="2">
 			<h2>Solutions</h2>
       <ul>
-        <li>Use private browsing</li>
+        <li>Use private browsing (it's not an ultimate solution though)</li>
 		<li>Check your privacy options</li>
-		<li><strong>Secure</strong> delete your files, etc.</li>
+		<li><strong>Secure</strong> delete your files, using <a href="http://eraser.heidi.ie/">eraser</a></li>
+		<li>Sometimes <a href="https://nothing2hide.org/slides/i/img-full-of-data.jpg">your files can talk</a> for you. <a href="http://exif.regex.info/exif.cgi">Check them</a>.
+		</li>
         <li>Even better: use a <strong>live OS</strong> such as <a href="https://tails.boum.org/">Tails</a></li>
       </ul>
     </div>
@@ -175,12 +157,12 @@ licence: "CC BY 3.0"
 
     <div id="badwifi1" class="step" data-x="4500" data-y="-2500" data-rotate="0" data-scale="2">
 		<h1>I can read your email</h1>
-		<img src="../i/badwifi1.jpg" alt="Step 1">
+		<!--img src="../i/badwifi1.jpg" alt="Step 1"-->
     </div>
 
-    <div id="badwifi2" class="step" data-x="4500" data-y="-1000" data-z="1000" data-rotate="0" data-scale="2">
+    <!--div id="badwifi2" class="step" data-x="4500" data-y="-1000" data-z="1000" data-rotate="0" data-scale="2">
 		<img src="../i/badwifi2.jpg" alt="Step 2">
-    </div>
+    </div-->
 
     <div id="wifidesktop" class="step" data-x="6000" data-y="-2500" data-z="0" data-scale="1">
       <img src="../i/wifidesktop.png" alt="wifi desktop">
@@ -189,9 +171,9 @@ licence: "CC BY 3.0"
 	  <div id="solutions" class="step" data-x="6000" data-y="-1700" data-z="0" data-scale="1">
 		  <h2>To avoid interception, use</h2>
 		  <ul>
-			  <li><a href="https://wefightcensorship.org">https</a>: encrypts your web browsing <em>when available on the visited website</em></li>
+			  <li>https: encrypts your web browsing <em>when available on the visited website</em></li>
 			  <li><a href="http://torproject.org">Tor bundle</a>: anonymise your web browsing. Anonymisation is NOT encryption</li>
-			  <li><a href="https://wefightcensorship.org/">VPN</a>: encrypts every network connection coming from your device</li>
+			  <li><a href="https://nothing2hide.org/wiki/doku.php?id=en:protectionnumerique:vpn#nothing2hide_vpn">VPN</a>: encrypts every network connection coming from your device</li>
 		  </ul>
 	  </div>
 
@@ -207,7 +189,9 @@ licence: "CC BY 3.0"
 
     <div id="cellphone" class="step" data-x="4500" data-y="1200" data-rotate="-90" data-z="-1000" data-scale="2">
         <h1>Spyphones</h1>
-		<p>A smartphone is a computer. Everything already mentionned is also true for a <strike>spyphone</strike> smartphone. Use a <strong>dumbphone</strong> instead. Or have a look at the Guardian Project, Redphone, Silence Circle, etc.</p>
+		<p>A smartphone is a computer. Everything already mentionned is also true for a <strike>spyphone</strike> smartphone. Use a <strong>dumbphone</strong> instead. Or have a look at the <a href="https://guardianproject.info/apps/">Guardian Project apps</a>, <a href="https://signal.org/">Signal</a>
+		, <a href="https://wickr.com/">Wickr</a> or <a href="https://wire.com/en/">Wire</a>
+		.</p>
     </div>
 
 	  <div id="wifiiphone1" class="step" data-x="7800" data-y="-2500" data-z="0" data-scale="1">
@@ -243,31 +227,16 @@ licence: "CC BY 3.0"
         <p class="footnote">Note : you can't remove your iPhone battery</p>
     </div>
 
-	<div id="onlinesurvivalkit" class="step" data-x="5500" data-y="3000" data-rotate-y="0" data-scale="3">
-		<a href="https://wefightcensorship.org/"><img src="../i/onlinesurvivalkit.jpg" alt="online survival kit" /></a>
-	</div>
 
 	<div id="contact" class="step" data-x="6100" data-y="3100" data-rotate-x="30" data-z="-300" data-scale="1">
 		<h1>Let's get in touch</h1>
 		<ul>
-			<li><a href="https://nothing2hide.org">https://nothing2hide.org</a></li>
-			<li>contact@nothing2hide.org // GPG ID: 58519BC4</li>
-			<li>Twitter : @n0thing2hide</li>
-			<li>Facebook : No wayyyyyyy</li>
+			<li>Courriel : {{ site.email }}</li>
+			<li>GPG : {{ site.gpgid }}</li>
+			<li>Twitter : <a href="http://twitter.com/{{ site.twitter }}">{{ site.twitter }}</a></li>
+			<li>Facebook : <strong>NO</strong></li>
 		</ul>
 	</div>
 
     <div id="overview" class="step" data-x="1000" data-y="000" data-scale="15" data-rotate="0">
     </div>
-
-</div>
-
-<div style="position: fixed; bottom: 10px; left: 10px;pointer-events: auto; color: #666; font-size: .9em">
-	<a href="https://nothing2hide.org">Nothing 2 Hide</a> | <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons by sa</a>
-</div>
-
-<script src="../impress.js/js/impress.js"></script>
-<script>impress().init();</script>
-
-</body>
-</html>
