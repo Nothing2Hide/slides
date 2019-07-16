@@ -68,7 +68,12 @@ licence: "CC BY 3.0"
     <section>
         <h2>Metadonnées</h2>
         <ul>
-            <li>Lire les métadonnées avec <a href="https://addons.mozilla.org/fr/firefox/addon/exif-viewer/">exif viewer</a></li>
+            <li>Lire les métadonnées
+              <ul>
+                <li>dans votre navigateur avec <a href="https://addons.mozilla.org/fr/firefox/addon/exif-viewer/">l'extension exif viewer</a></li> 
+                <li>en ligne avec <a href="http://exif.regex.info/exif.cgi">Jeffrey's Image Metadata Viewer</a></li>
+              </ul>
+            </li>
             <li>Les manipuler avec <a href="http://owl.phy.queensu.ca/~phil/exiftool/">exiftool</a> (power users)</li>
         </ul>    
     </section>
