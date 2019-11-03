@@ -7,13 +7,14 @@ order: 6
 onhome: true
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
+background: "#3498db"
 ---
 
-<section>
+<section data-background="{{page.background}}">
     <h1>{{page.title}}</h1>
 </section>
 
-<section>
+<section data-background="{{page.background}}">
     <h1>Crypto != Anonymat</h1>
     <ul>
         <li>Avec <a href="https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:emails">PGP</a> le contenu d'un email ou d'un clavardage est chiffré mais pas les adresses des correspondants</li>
@@ -21,7 +22,7 @@ licence: "CC BY 3.0"
     </ul>
 </section>
 
-<section>
+<section data-background="{{page.background}}">
     <h1>Anonymat</h1>
     <ul>
         <li>Créer et utiliser un boîte morte, déconnectée de votre identité</li>
@@ -31,7 +32,7 @@ licence: "CC BY 3.0"
     <aside class="notes">Google et Microsoft demandent </aside>
 </section>
 
-<section>
+<section data-background="{{page.background}}">
     <h1>Chiffrement</h1>
     <ul>
         <li>Chiffrer ses mails avec <a href="https://protonmail.com/">Proton Mail</a></li>
@@ -42,11 +43,11 @@ licence: "CC BY 3.0"
     </ul>    
 </section>
 
-<section>
-    <section data-background="i/careful.gif">
+<section data-background="{{page.background}}">
+    <section data-background="{{site.url}}{{site.baseurl}}/assets/i/careful.gif">
         <h1>On n'est jamais trop prudent</h1>   
     </section>
-    <section>
+    <section data-background="{{page.background}}">
         <h1><acronym title="Trust No One">TNO</acronym></h1>
         <p>Trust No One</p>
         <ul>
@@ -57,6 +58,6 @@ licence: "CC BY 3.0"
     </section>
 </section>
 
-<section data-background="i/questions-hollywood.gif"data-background-transition="zoom">
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-hollywood.gif"data-background-transition="zoom">
     <h1>Questions ?</h1>
 </section>

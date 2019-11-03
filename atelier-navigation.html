@@ -7,37 +7,41 @@ onhome: true
 order: 2
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
+background: "#1abc9c"
 ---
 
-<section>
-	<section>
-		<img src="i/fishing.gif" alt="Fishing" title="Fishing" />
+<section data-background="{{page.background}}">
+  <h1>{{page.title}}</h1>
+</section>
+<section data-background="{{page.background}}">
+	<section data-background="{{page.background}}">
+		<img src="{{site.url}}{{site.baseurl}}/assets/i/fishing.gif" alt="Fishing" title="Fishing" />
 	</section>
-	<section>
+	<section data-background="{{page.background}}">
 		<h1>URLs</h1>
 		<p>Savoir lire une url pour éviter <a href="https://freedom.press/training/email-security-tips/">les attaques type phishing</a> :</p>
 		<p class="fragment"><code>protocole://sousdomaine.domaine.tld</code></p>						
 	</section>
-	<section>
+	<section data-background="{{page.background}}">
 		<p>À qui appartient l'adresse <code>https://www.facebook.secure.com&nbsp;?</code></p>
 	</section>
 </section>
 
 <section data-background="#cc0000">
-	<section>
+	<section data-background="{{page.background}}">
 		<h1>Le wifi public #ceymal</h1>
 	</section>
-	<section>
-		<img src="i/badwifi1.jpg" alt="honey pot 1" title="" />
+	<section data-background="{{page.background}}">
+		<img src="{{site.url}}{{site.baseurl}}/assets/i/badwifi1.jpg" alt="honey pot 1" title="" />
 	</section>
-	<section>
-		<img src="i/badwifi2.jpg" alt="honey pot 2" title="" />
+	<section data-background="{{page.background}}">
+		<img src="{{site.url}}{{site.baseurl}}/assets/i/badwifi2.jpg" alt="honey pot 2" title="" />
 	</section>
-	<section data-background="i/wifidesktop.png">
+	<section data-background="{{site.url}}{{site.baseurl}}/assets/i/wifidesktop.png">
 	</section>
 </section>
 
-<section>
+<section data-background="{{page.background}}">
 	<h1>http S ?</h1>
 	<ol>
 			<li class="fragment"><strong>Authenticité</strong> : certificats https = carte d'identité d'un site</li>
@@ -46,8 +50,8 @@ licence: "CC BY 3.0"
 	</ol>
 </section>
 
-<section data-background="#4e9a06">
-	<h2>Solutions en carton</h2>
+<section data-background="{{page.background}}">
+	<h2>Solutions #1</h2>
 		<ul>
 			<li>Utiliser <del>IE</del> Firefox ou Chrome</li>
 			<li>Découvrez <a href="https://panopticlick.eff.org/">les traces</a> que votre navigateur laisse en ligne</li>
@@ -56,8 +60,8 @@ licence: "CC BY 3.0"
 		</ul>
 </section>
 
-<section data-background="#cc0000">
-	<h2>Solutions en béton</h2>
+<section data-background="{{page.background}}">
+	<h2>Solutions #2</h2>
 	<ul>
 		<li>Chiffrer votre connection avec un <a href="https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:vpn">VPN</a></li>
 		<li>Utiliser le navigateur <a href="https://www.torproject.org/download/download">Tor</a> contre les <a href="https://people.torproject.org/~lunar/tor-and-https/fr/tor-and-https.svg">écoutes indiscrètes</a></li>
@@ -67,6 +71,6 @@ licence: "CC BY 3.0"
 	</aside>
 </section>
 
-<section data-background="i/questions-cheezburger.gif" data-background-transition="zoom">
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-cheezburger.gif" data-background-transition="zoom">
 	<h1>Questions ?</h1>
 </section>

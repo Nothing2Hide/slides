@@ -2,19 +2,20 @@
 layout: slide
 lang: FR
 title:  "Données locales"
-transition: slide
+transition: convex
 onhome: true
 order: 5
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
+background: "#34495e"
 ---
 
-<section>
-    <h1>Protection des données</h1>    
+<section data-background="{{page.background}}">
+    <h1>{{page.title}}</h1>    
 </section>
 
-<section>
-    <section>
+<section data-background="{{page.background}}">
+    <section data-background="{{page.background}}">
         <h2>Sauvegardes</h2>
         <ul>
             <li>Sur un disque dur externe ?</li>
@@ -22,16 +23,16 @@ licence: "CC BY 3.0"
         </ul>
     </section>
     
-    <section>
+    <section data-background="{{page.background}}">
         <h2>Dans le cloud</h2>
         <ul>
             <li class="fragment highlight-green">Une fouille physique ne peut compromettre vos données.</li>
-            <li class="fragment highlight-red">Vous avez besoin d'une <strong>bonne</strong> connexion</li>
-            <li class="fragment highlight-red">Vous devez choisir un fournisseur de service de <strong>confiance</strong></li>
+            <li class="fragment highlight-red">Vous avez besoin d'une bonne connexion</li>
+            <li class="fragment highlight-red">Vous devez choisir un fournisseur de service de confiance</li>
         </ul>
     </section>
     
-    <section>                        
+    <section data-background="{{page.background}}">                        
       <h2>Sur un disque dur externe</h2>
         <ul>
             <li class="fragment highlight-green">Vous ne dépendez pas d'aucun fournisseur de service</li>
@@ -40,23 +41,23 @@ licence: "CC BY 3.0"
         </ul>
     </section>
         
-    <section data-background="#4e9a06">
-        <p><img src="i/ihasanidea.jpg" alt="I Has an idea" title="" /></p>
+    <section data-background="{{site.url}}{{site.baseurl}}/assets/i/ihasanidea.jpg">
+      <h1>I HAS AN IDEA</h1>
     </section>
     
-    <section data-background="#4e9a06">
+    <section data-background="{{page.background}}">
         <h2>Le chiffrement</h2>
         <p>Protégez vos données avec
         <a href="https://www.veracrypt.fr/en/Home.html">Veracrypt</a></p>
     </section>
 </section>
 
-<section>
-    <section>
+<section data-background="{{page.background}}">
+    <section data-background="{{page.background}}">
         <h1>Ne rien laisser traîner</h1>        
     </section>
 
-    <section>
+    <section data-background="{{page.background}}">
         <h2>Effacement sécurisé</h2>
         <p>Se débarrasser de données sensibles avec l'effacement sécurisé</p> 
         <ul>
@@ -66,20 +67,16 @@ licence: "CC BY 3.0"
             <li><a href="https://play.google.com/store/apps/details?id=com.peterhohsy.securedelete">Android</a></li>
         </ul>
     </section>
-    <section>
+    <section data-background="{{page.background}}">
         <h2>Metadonnées</h2>
-        <ul>
-            <li>Lire les métadonnées
-              <ul>
-                <li>dans votre navigateur avec <a href="https://addons.mozilla.org/fr/firefox/addon/exif-viewer/">l'extension exif viewer</a></li> 
+            <ul>
+                <li>Lire les métadonnées dans votre navigateur avec <a href="https://addons.mozilla.org/fr/firefox/addon/exif-viewer/">l'extension exif viewer</a></li> 
                 <li>en ligne avec <a href="http://exif.regex.info/exif.cgi">Jeffrey's Image Metadata Viewer</a></li>
-              </ul>
-            </li>
-            <li>Les manipuler avec <a href="http://owl.phy.queensu.ca/~phil/exiftool/">exiftool</a> (power users)</li>
+            <li>ou les manipuler avec <a href="http://owl.phy.queensu.ca/~phil/exiftool/">exiftool</a> (power users)</li>
         </ul>    
     </section>
 </section>
 
-<section data-background="i/questions-lunettes.gif" data-background-transition="zoom">
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-lunettes.gif">
     <h1>Questions?</h1>
 </section>

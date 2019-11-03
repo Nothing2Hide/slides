@@ -7,9 +7,14 @@ order: 8
 onhome: true
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
+background: "#5F007C"
 ---
 
-<section id="gpg">
+<section data-background="{{page.background}}">
+    <h1>{{page.title}}</h1>
+</section>
+
+<section data-background="{{page.background}}">
 <section>
   <blockquote>
       <p><q>Les mots de pase, c'est has been depuis les années 70</q></p>
@@ -44,7 +49,7 @@ licence: "CC BY 3.0"
     </section>
 </section>
 
-<section id="OTR">      
+<section data-background="{{page.background}}" id="OTR">      
     <section>
         <h1>Off The Reccord</h1>
         <p>Comment s'assurer qu'une fois une conversation en ligne terminée, le contenu ne sera plus jamais déchiffrable ?</p>
@@ -64,9 +69,10 @@ licence: "CC BY 3.0"
 </section>
 
 
-<section id="tails">
+<section data-background="{{page.background}}" id="tails">
     <section>
-        <img src="i/tails.png" alt="Tails" title="Tails"/>
+        <a href="https://tails.boum.org"><img src="{{site.url}}{{site.baseurl}}/assets/i/tails.png" alt="Tails" title="Tails"/></a>
+        
     </section>
     <section>
         <h1>Tails</h1>
@@ -90,6 +96,6 @@ licence: "CC BY 3.0"
 </section>
 
 
-<section data-background="i/questions-barack.gif" data-background-transition="zoom">
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-barack.gif" data-background-transition="zoom">
     <h1>Questions ?</h1>   
 </section>

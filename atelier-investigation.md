@@ -72,7 +72,7 @@ Recherche twitter
 <section data-markdown>
 Le cache
 --------
-![Le cache de Google](i/encache.png)
+![Le cache de Google]({{site.url}}{{site.baseurl}}/assets/i/encache.png)
 </section>
 
 <section data-markdown>
