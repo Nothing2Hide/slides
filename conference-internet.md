@@ -1,16 +1,17 @@
 ---
 layout: slide
 lang: FR
-title:  "Qu'est-ce qu'Internet"
+title:  "Internet : un peu d'histoire et de technique"
 transition: slide
 onhome: true
 categories: [Conférences]
 licence: "CC BY 3.0"
+order: 3
 ---
 
 <section>
   <section data-markdown>
-  C'est quoi Internet&nbsp;? 
+  {{page.title}} 
   ===============
 
   Note: 1.Un peu d'histoire. 2. La structure 3. Les DNS et les blocages

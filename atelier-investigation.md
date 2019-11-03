@@ -4,15 +4,11 @@ lang: FR
 ref: investigation
 title:  "Investigation en ligne"
 transition: slide
+order: 1
 onhome: true
 categories: [OSINT]
 licence: "CC BY 3.0"
 ---
-
-<section data-markdown>
-Recherche avancée d'informations
-======================
-</section>
 
 <section data-markdown>
 Google Dorking

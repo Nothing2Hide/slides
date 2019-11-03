@@ -1,11 +1,12 @@
 ---
 layout: slide
 lang: FR
-title:  "Les GAFAMS, comment et pourquoi en sortir "
+title:  "GAFAMS : comment et pourquoi en sortir "
 transition: slide
 onhome: true
 categories: [Conférences]
 licence: "CC BY 3.0"
+order: 4
 ---
 
 <section>

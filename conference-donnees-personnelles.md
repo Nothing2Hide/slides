@@ -6,6 +6,7 @@ transition: slide
 onhome: true
 categories: [Conférences]
 licence: "CC BY 3.0"
+order: 2
 ---
 
 <section>

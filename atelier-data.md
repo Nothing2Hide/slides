@@ -1,9 +1,10 @@
 ---
 layout: slide
 lang: FR
-title:  "Protection des données"
+title:  "Données locales"
 transition: slide
 onhome: true
+order: 5
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
 ---

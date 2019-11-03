@@ -3,7 +3,7 @@ layout: slide
 lang: FR
 title:  "Qu'est-ce que l'identité numérique"
 transition: slide
-onhome: true
+onhome: false
 categories: [Conférences]
 licence: "CC BY 3.0"
 ---
