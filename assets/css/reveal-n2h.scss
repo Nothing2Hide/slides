@@ -63,7 +63,7 @@ body {
   font-family: open_sansregular, arial, Helvetica, sans-serif;
   font-size: 35px;
   font-weight: normal;
-  color: #AAA; }
+  color: #efefef; }
 
 ::selection {
   color: #fff;
@@ -121,6 +121,7 @@ body {
 .reveal .slides li {
 	padding: .5em 0;
   border-top: 1px solid #666;
+  border: none;
 }
 .reveal .slides li:first-child {
 	border: none;
@@ -263,15 +264,13 @@ body {
   line-height: 1.2em;
 }
 
-.reveal small * {
-  vertical-align: top; }
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
