@@ -10,6 +10,10 @@ categories: [OSINT]
 licence: "CC BY 3.0"
 ---
 
+<section>
+  <h1>{{page.title}}</h1>
+</section>
+
 <section data-markdown>
 Google Dorking
 ================
