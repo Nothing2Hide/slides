@@ -10,33 +10,7 @@ categories: [OSINT]
 licence: "CC BY 3.0"
 ---
 
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Advanced online search</title>
-
-
-		<link rel="stylesheet" href="reveal.js/css/reveal.css">
-		<link rel="stylesheet" href="css/reveal-n2h.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
 					<section>
 						<h1>Advanced Online Search</h1>
 					</section>
@@ -111,12 +85,12 @@ licence: "CC BY 3.0"
 					</ul>
 					</section>
 
-					<section data-background="i/use-the-force.jpg">
+					<section data-background="/assets/i/use-the-force.jpg">
 					<h2>Use the Cache Luke</h2>
 					</section>
 
-					<section data-background="i/use-the-force.jpg">
-						<p><img src="i/encache.png" alt="Le cache de Google" title="" /></p>
+					<section data-background="/assets/i/use-the-force.jpg">
+						<p><img src="/assets/i/encache.png" alt="Le cache de Google" title="" /></p>
 					</section>
 
           <section data-markdown>
@@ -141,7 +115,7 @@ licence: "CC BY 3.0"
                   * https://archive.org/web/
                   * https://archive.fo/
 
-                  ![wayback](i/wayback.png)
+                  ![wayback](/assets/i/wayback.png)
               </textarea>
           </section>
 	      </section>
@@ -167,37 +141,3 @@ licence: "CC BY 3.0"
 					</li>
 					</ul>
 				</section>
-
-			</div>
-		</div>
-
-		<footer id="mainfooter">
-			<a href="http://nothing2hide.org"><img src="i/logo-n2h.png" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
-			<p>Advanced online search | CC BY 3.0</p>
-		</footer>
-
-
-		<script src="reveal.js/lib/js/head.min.js"></script>
-		<script src="reveal.js/js/reveal.js"></script>
-
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-				backgroundTransition: 'zoom' ,
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'reveal.js/plugin/notes/notes.js', async: true },
-					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]	
-			});
-		</script>
-	</body>
-</html>
