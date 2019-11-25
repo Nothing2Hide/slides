@@ -10,6 +10,30 @@
     <meta name="author" content="Nothing2Hide" />
     <link href="{{ "/assets/css/impress-n2h.css" | prepend: site.baseurl }}" rel="stylesheet"/>
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    
+    <style>
+     /* ==|== print styles =======================================================
+     Print styles.
+     Inlined to avoid required HTTP connection: h5bp.com/r
+     ========================================================================== */
+
+      @media print {
+        page land {size: landscape;}
+        .step { border: 0; opacity: 1 !important; page-break-inside: avoid; page-break-after: always; position: relative !important; -webkit-transform: none !important;  }
+        .step img { max-height: 100%; }
+        body { height: auto !important; overflow: visible !important; }
+        #impress { position: relative !important; -webkit-transform-origin: none !important; top: 0 !important; left: 0 !important; -webkit-transform: none !important; }
+
+
+        .fallback-message {display: none}
+
+        /* plus some more step specific styles of your own
+        #htop2 { display: none }
+         */
+      }
+    </style>
+
+    
 </head>
 
 <body class="impress-not-supported">
@@ -24,7 +48,12 @@
   </div>
   
   <script src="{{ "/assets/impress.js/js/impress.js" | prepend: site.baseurl }}"></script>
-  <script>impress().init();</script>
+  <script>
+    //impress().init();
+    if ( !window.location.search.match(/print/) ) {
+      impress().init();
+    }
+  </script>
 
 
 	</body>
