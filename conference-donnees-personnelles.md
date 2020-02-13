@@ -4,7 +4,7 @@ lang: FR
 title:  "Données personnelles"
 transition: slide
 onhome: true
-categories: [Conférences]
+categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
 order: 2
 background: "#1abc9c"

@@ -1,13 +1,13 @@
 ---
 layout: slide
 lang: FR
-title:  "Le cyberharcèlement"
+title:  "Cyberharcèlement"
 transition: slide
 onhome: true
-categories: [Atelier]
+categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
 images: /assets/i/
-order: 3
+order: 5
 background: "#34495e"
 ---
 
@@ -20,7 +20,7 @@ background: "#34495e"
 <section data-background="{{page.background}}">
 
 <section data-markdown data-background="{{page.background}}">
-    ## Comment s'en prémunir
+    # Comment s'en prémunir
 </section>
 
 <section data-markdown data-background="{{page.background}}">
@@ -66,11 +66,11 @@ Vérifiez les [options de confidentialité](https://www.facebook.com/settings?ta
 
 
 <section data-background="# {{page.background}}">
-<section data-markdown data-background="#ff4242">
-    ## Adoptez une stratégie
+<section data-markdown data-background="{{page.background}}">
+    # Quelle stratégie adopter
 </section>
 <section data-background="{{page.background}}">
-    <h1>Anonyme ou pas ?</h1>
+    <h2>Anonyme ou pas ?</h2>
     <ul>
         <li>Identité réelle</li>
         <li><del>Anonymat</del></li>
@@ -137,7 +137,7 @@ Vérifiez les [options de confidentialité](https://www.facebook.com/settings?ta
 
 <section data-background="{{page.background}}">
 
-<section data-markdown data-background="#FF4242">
+<section data-markdown data-background="{{page.background}}">
 ## Que faire quand on en est victime
 </section>
 
@@ -208,7 +208,7 @@ Vous pouvez aussi la jouer solo et télécharger puis importer dans votre compte
 
 
 
-<section data-markdown data-background="#FF4242">
+<section data-markdown data-background="{{page.background}}">
 ## Pour aller plus loin
 
 * Le chapitre [Réseaux soucieux](https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:reseauxsociaux#les_reseaux_sociaux) du guide de protection numérique de Nothing2Hide

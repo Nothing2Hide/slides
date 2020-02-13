@@ -1,5 +1,5 @@
 ---
-layout: home2
+layout: home
 lang: FR
 title:  "Supports de formation"
 local: fr

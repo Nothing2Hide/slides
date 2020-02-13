@@ -1,10 +1,11 @@
 ---
 layout: slide
 lang: FR
-title:  "Qu'est-ce que l'identité numérique"
+title:  "L'identité numérique"
 transition: slide
-onhome: false
-categories: [Conférences]
+onhome: true
+order : 6
+categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
 ---
 

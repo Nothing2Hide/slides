@@ -4,7 +4,7 @@ lang: FR
 title:  "GAFAMS : comment et pourquoi en sortir "
 transition: slide
 onhome: true
-categories: [Conférences]
+categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
 order: 4
 background: "#3498db"

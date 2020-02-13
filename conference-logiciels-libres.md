@@ -3,10 +3,10 @@ layout: slide
 lang: FR
 title:  "Logiciels libres"
 transition: slide
-onhome: false
-categories: [Conférences]
+onhome: true
+categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
-order : 5
+order : 7
 ---
 
 <section data-markdown>

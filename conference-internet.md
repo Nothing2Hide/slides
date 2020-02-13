@@ -4,7 +4,7 @@ lang: FR
 title:  "Internet : un peu d'histoire et de technique"
 transition: slide
 onhome: true
-categories: [Conférences]
+categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
 order: 3
 background: "#34495e"
