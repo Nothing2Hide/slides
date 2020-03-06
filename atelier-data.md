@@ -61,7 +61,7 @@ background: "#34495e"
         <h2>Effacement sécurisé</h2>
         <p>Se débarrasser de données sensibles avec l'effacement sécurisé</p> 
         <ul>
-            <li>sous <a href="http://eraser.heidi.ie/">Windows</a></li>
+            <li>sous <a href="https://sourceforge.net/projects/eraser/files/Eraser%206/6.2/Eraser%206.2.0.2986.exe/download">Windows</a></li>
             <li><a href="https://linux.die.net/man/1/wipe">Linux</a></li>
             <li><a href="https://support.apple.com/kb/PH18772?viewlocale=fr_FR&locale=fr_FR">Mac</a> <small>(fonctionnalité <a href="http://www.macg.co/os-x/2015/08/pour-la-sante-de-votre-ssd-el-capitan-ne-vide-plus-la-corbeille-en-mode-securise-90397">supprimée depuis El Capitan</a> - il existe un équivalent en <a href="http://osxdaily.com/2015/10/12/secure-empty-trash-equivalent-mac-os-x/">ligne de commandes</a>)</small></li>
             <li><a href="https://play.google.com/store/apps/details?id=com.peterhohsy.securedelete">Android</a></li>
