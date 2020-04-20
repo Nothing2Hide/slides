@@ -1,6 +1,7 @@
 ---
 layout: slide
 lang: FR
+images: 'assets/i/'
 title:  "Protégez vos contacts, collaborateurs et bénéficiaires"
 categories: [Conférence]
 licence: "CC BY 3.0"
@@ -11,7 +12,7 @@ licence: "CC BY 3.0"
 </section>
 
 <section data-markdown>
-  ## [![alt text](i/logo-n2h.png)](https://nothing2hide.org)
+  [![alt text]({{page.images}}logo-n2h.png)](https://nothing2hide.org)
 
  Une association qui défend la **liberté de l'information**.
 </section>
@@ -62,7 +63,7 @@ Le droit à la vie privée est inscrit dans la déclaration universelle des droi
 <section data-markdown>
 ## En vrac 
 
-Consultez notre [guide de voyage en milieu hostile (ou pas )](https://nothing2hide.org/fr/guide-de-voyage-en-milieu-hostile-ou-pas/)
+Consultez notre [guide de protection numérique](https://nothing2hide.org/fr/guide-de-protection-numerique/)
 
 </section>
 
