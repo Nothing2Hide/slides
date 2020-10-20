@@ -1,0 +1,143 @@
+---
+layout: slide
+lang: en
+title:  "Digital Security for Journalists Requires an Adaptable Toolkit"
+transition: slide
+onhome: false
+categories: [Ateliers thématiques]
+licence: "CC BY 3.0"
+background: "#000"
+permalink: /en/seminar-ebu-cyber-security
+images: "/assets/i/"
+---
+
+
+<section data-markdown data-background="{{page.background}}">
+{{page.title}}
+==========
+</section>
+
+<section data-markdown data-background="{{page.background}}">
+    ![alt text]({{page.images}}logo-n2h.png)
+</section>
+
+<section data-markdown data-background="{{page.background}}">
+We are
+----
+An **NGO** defending the
+freedom of information
+</section>
+
+<section data-background="{{page.background}}">
+
+<p>When it comes to digital security, what have in common: </p>
+
+<ul>
+<li class="fragment">A journalist from West Africa,</li>
+<li class="fragment">A Syrian journalist based in Turkey,</li>
+<li class="fragment">A French journalist on a reporting trip to Kashmir ?</li>
+</ul>
+
+</section>
+
+<section data-background="{{page.images}}nothing.gif" data-background-transition="zoom">
+<aside class="notes">A journalist working in France must learn how to protect his or her sources, but the situation (and therefore the tools they will use) are very different than for someone working in an environment where the rule of law does not apply.
+</aside>
+</section>
+
+<section>
+You need to learn which tools and which best practices fit your own specific situation and environment.
+<aside class="notes">If you have ever attended a digital safety workshop, you’ve probably been taught how to create strong passwords, how to encrypt a folder or an external hard drive, and how to activate two-factor authentication on your online messaging services. All that is fine. But it’s often not enough.</aside>
+</section>
+
+<section>
+	<section>
+		<h2>1. Securisation of a syrian media exiled in Turkey</h2>
+		<aside class="notes">We put in place solutions adapted to the team needs, with always the same motto in mind: “Keep It Simple, Stupid.” </aside>
+	</section>
+	<section>
+		<h2>Context</h2>
+	</section>
+	<section>
+		<p>Journalists from an independent Syrian media outlet based in Istanbul asked for our help to make their systems secure. They are in a very delicate situation; they work on a daily basis with journalists based inside Syria.</p>
+	</section>
+	<section>
+		<h2>Solution</h2>
+		<ul>
+			<li class="fragment">No Google Drive or dropbox (an explicit request on the journalists’ part)</li>
+			<li class="fragment">installation of a software allowing the team to save and encrypt files on N2H servers with a click of the mouse</li>
+			<li class="fragment">with a non blocked VPN in Turkey (WireGuard rather than open vpn)</li>
+		</ul>
+	</section>
+
+	<section data-background="{{page.images}}lessons-learned1.gif" data-background-transition="zoom">
+	</section>
+	<section>
+		<p>Avoid Changing Work Methods in order to get people to adopt security measures durably</p>
+	</section>	
+</section>
+
+<section>
+	<section>
+		<h2>2. Journalist in Togo</h2>
+	</section>
+	<section>
+		<h2>Context</h2>
+	</section>
+	<section>
+		<p>Arbitrary arrests, violence, and torture can surmount the most robust of passwords.</p>
+	</section>
+	<section>
+		<h2>Solution</h2>
+		<ul>
+			<li class="fragment">Leave the fewest possible traces on their smartphones</li>
+			<li class="fragment">Using secure tools such as proton mail through private navigation</li>
+			<li class="fragment">And a VPN</li>
+		</ul>
+	</section>
+	<section data-background="{{page.images}}lessons-learned2.gif" data-background-transition="zoom">
+	</section>
+	<section>
+		<p>Turning Your Smartphone into a safe Can Be Counter-Productive</p>
+	</section>
+</section>
+
+<section>
+	<section>
+		<h2>3. A French journalist in Kashmir</h2>
+	</section>
+	<section>
+		<h2>Context</h2>
+	</section>
+	<section>
+		<p> Kashmir: a region where foreign reporters run the risk of getting arrested and kicked out.</p>
+	</section>
+	<section>
+		<h2>Solution</h2>
+	</section>
+	<section>
+		<h3>Plan 1: Internet connection</h3>
+		Photos uploaded once a day to one of our servers. When the upload was complete, the files were copied onto a second server and erased from the first
+	</section>	
+	<section>
+		<h3>Plan B: no Internet connection</h3>
+		Files encryptted using veracrypt an hidden amongst multimedia files as .mp3 or .mov.
+	</section>
+		<section data-background="{{page.images}}lessons-learned3.gif" data-background-transition="zoom">
+		<h2>It's always a good idea to have a plan B</h2>
+	</section>
+</section>
+
+
+<section>
+There is not such thing as a magical tool. Each situation needs an assessment and an according set  of tools. 
+</section>
+
+<section>
+	<h2>Security is a process, not a product</h2>
+</section>
+
+
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-hollywood.gif" data-background-transition="zoom">
+    <h1>Questions ?</h1>
+</section>
