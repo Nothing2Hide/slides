@@ -59,7 +59,7 @@ You need to learn which tools and which best practices fit your own specific sit
 		<h2>Context</h2>
 	</section>
 	<section>
-		<p>Journalists from an independent Syrian media outlet based in Istanbul asked for our help to make their systems secure. They are in a very delicate situation; they work on a daily basis with journalists based inside Syria.</p>
+		<p>Journalists from an independent Syrian media outlet based in Istanbul asked for Nothing2Hide help to make their systems secure. They are in a very delicate situation; they work on a daily basis with journalists based inside Syria.</p>
 	</section>
 	<section>
 		<h2>Solution</h2>
@@ -90,7 +90,7 @@ You need to learn which tools and which best practices fit your own specific sit
 	<section>
 		<h2>Solution</h2>
 		<ul>
-			<li class="fragment">Leave the fewest possible traces on their smartphones</li>
+			<li class="fragment">Leave the fewest possible traces on smartphones</li>
 			<li class="fragment">Using secure tools such as proton mail through private navigation</li>
 			<li class="fragment">And a VPN</li>
 		</ul>
@@ -116,7 +116,7 @@ You need to learn which tools and which best practices fit your own specific sit
 		<h2>Solution</h2>
 	</section>
 	<section>
-		<h3>Plan 1: Internet connection</h3>
+		<h3>Plan A: Internet connection</h3>
 		Photos uploaded once a day to one of our servers. When the upload was complete, the files were copied onto a second server and erased from the first
 	</section>	
 	<section>
