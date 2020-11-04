@@ -20,10 +20,32 @@
 
 		// More info https://github.com/hakimel/reveal.js#dependencies
 		dependencies: [
-			{ src: '{{"/assets/reveal.js/plugin/markdown/marked.js"| prepend: site.baseurl }}' },
+			{ src: '{{"/assets/reveal.js/plugin/markdown/mardown.js"| prepend: site.baseurl }}' },
 			{ src: '{{"/assets/reveal.js/plugin/markdown/markdown.js"| prepend: site.baseurl }}' },				
 			{ src: '{{"/assets/reveal.js/plugin/notes/notes.js"| prepend: site.baseurl }}', async: true },
-			{ src: '{{"/assets/reveal.js/plugin/highlight/highlight.js"| prepend: site.baseurl }}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+			{ src: '{{"	/assets/reveal.js/plugin/highlight/highlight.js"| prepend: site.baseurl }}', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 		]
 	});
+</script>
+
+<script src="{{ "/assets/reveal	.js/dist/reveal.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/reveal.js/plugin/zoom/zoom.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/reveal.js/plugin/search/search.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}"></script>
+<script>
+
+	// Also available as an ES module, see:
+	// https://revealjs.com/initialization/
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		center: true,
+		hash: true,
+
+		// Learn about plugins: https://revealjs.com/plugins/
+		plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+	});
+
 </script>
