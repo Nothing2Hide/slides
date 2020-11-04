@@ -2,13 +2,18 @@
 layout: slide
 lang: FR
 images: 'assets/i/'
-title:  "Protégez vos contacts, collaborateurs et bénéficiaires"
-categories: [Conférence]
+onhome: true
+title:  "Associations et sécurité numérique'"
+categories: [Ateliers thématiques]
+order: 8
 licence: "CC BY 3.0"
 ---
 
 <section data-markdown>
-## {{ page.title }}
+# {{ page.title }}
+
+Protégez vos contacts, collaborateurs et bénéficiaires
+
 </section>
 
 <section data-markdown>
@@ -75,9 +80,9 @@ Consultez notre [guide de protection numérique](https://nothing2hide.org/fr/gui
   * Les [supports pédagogiques](https://nothing2hide.org/slides) de nos formations
 </section>
 
-<section data-markdown>
+<!--section data-markdown>
 ## Remerciements
 
 Criteo a mis au point un algorithme très efficace permettant de prévoir les intentions d’achat des internautes  à partie de leur habitudes de navigation. Selon l'ONG [Transparency International](https://privacyinternational.org/press-release/2424/privacy-international-files-complaints-against-seven-companies-wide-scale-and) cette collecte de ces données se fait en violation du RGPD (Règlement Général de Protection des Données). Criteo, l'hôte de cet événement, ne respecte malheureusement pas [l'article 12](https://www.un.org/fr/universal-declaration-human-rights/index.html) de la DUDH.
-</section>
+</section-->
 
