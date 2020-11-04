@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="{{ "/assets/reveal.js/dist/reveal.css" | prepend: site.baseurl }}">
 
   {%if page.theme %}
-    <link rel="stylesheet" href="{{ "/reveal.js/dist/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
+    <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
   {% else %}
     <link rel="stylesheet" href="{{ "/assets/css/reveal-n2h.css" | prepend: site.baseurl }}" id="theme"/>
   {% endif %}
@@ -19,7 +19,7 @@
 		var link = document.createElement( 'link' );
 		link.rel = 'stylesheet';
 		link.type = 'text/css';
-		link.href = window.location.search.match( /print-pdf/gi ) ? '{{ "/assets/reveal.js/css/print/pdf.scss" | prepend: site.baseurl }}' : '{{ "/assets/reveal.js/css/print/paper.css" | prepend: site.baseurl }}';
+		link.href = window.location.search.match( /print-pdf/gi ) ? '{{ "/assets/reveal.js/css/print/pdf.scss" | prepend: site.baseurl }}' : '{{ "/assets/reveal.js/css/print/paper.scss" | prepend: site.baseurl }}';
 		document.getElementsByTagName( 'head' )[0].appendChild( link );
 	</script>
 </head>
