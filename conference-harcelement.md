@@ -214,4 +214,6 @@ Vous pouvez aussi la jouer solo et télécharger puis importer dans votre compte
 * Le chapitre [Réseaux soucieux](https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:reseauxsociaux#les_reseaux_sociaux) du guide de protection numérique de Nothing2Hide
 * Les supports pédagogiques [Réseaux sociaux](https://slides.nothing2hide.org/atelier-reseauxsociaux.html#/) de Nothing2Hide
 * Le guide de tactical tech : [Zen and the art of making tech work for you](https://gendersec.tacticaltech.org/wiki/index.php/Complete_manual)
+* Le test de Digital First Aid Kit : [Êtes-vous victime de harcèlement en ligne ?](https://www.digitalfirstaid.org/fr/topics/harassed-online/)
+* Pour aller plus loin : [Harcèlement par la "Ligue du LOL" : Léa Lejeune et Florence Porcel racontent](https://www.youtube.com/watch?v=hxgJVccvHZQ)
 </section>
