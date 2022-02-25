@@ -7,7 +7,7 @@ onhome: false
 categories: [Ateliers thématiques]
 licence: "CC BY 3.0"
 background: "#000"
-permalink: /en/seminar-ebu-cyber-security
+permalink: 	/en/seminar-ebu-cyber-security
 images: "/assets/i/"
 ---
 
