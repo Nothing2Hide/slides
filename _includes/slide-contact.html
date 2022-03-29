@@ -1,9 +1,9 @@
 <section data-background="{% if slide.background %}{{slide.background}}{% else %}{{page.background}}{% endif %}">
     <h2>Contact</h2>
     <ul>
-        <li>Courriel : {{ site.email }}</li>
-        <li>GPG : {{ site.gpgid }}</li>
-        <li>Twitter : <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a></li>
-				<li>Facebook : <strong>Non</strong></li>
+        <li>{{site.t.[page.lang].email}}{{site.t.[page.lang].deuxpoints}} {{ site.email }}</li>
+        <li>Hotline{{site.t.[page.lang].deuxpoints}} {{site.T4Pemail}} {{site.t.[page.lang].or}} via Signal{{site.t.[page.lang].deuxpoints}} {{ site.signal }}</li>
+        <li>Twitter{{site.t.[page.lang].deuxpoints}} <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a></li>
+				<li>Facebook{{site.t.[page.lang].deuxpoints}} <strong>No</strong></li>
     </ul>
 </section>
