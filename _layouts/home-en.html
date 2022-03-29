@@ -4,10 +4,6 @@
 	<meta charset="UTF-8">
 	<title>{{ site.title }} : {{ site.description }}</title>
 	<meta name="description" content="{site.description}" />
-	
-	<link rel="stylesheet" href="{{ "/assets/css/reveal-n2h.css" | prepend: site.baseurl }}" type="text/css" media="screen">
-  <link rel="stylesheet" href="{{ "/assets/css/basic.css" | prepend: site.baseurl }}" type="text/css" media="screen">	
-
 </head>
   <body>
     <div class="container reveal">
@@ -16,19 +12,15 @@
       </header>
       {{content}}
 
-       {% assign pages=site.pages | where:"lang", page.lang %}        
+       {% assign pages=site.pages | where:"lang", page.lang %}
        <ul>
           {% for page in pages %}
             {% if page.onhome == true %}
               <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %}   <!-- resource-p -->
-          {% endfor %}  <!-- page -->
+            {% endif %}
+          {% endfor %}
         </ul>
-       
+
     </div>
-    <footer id="mainfooter">
-      <a href="{{ site.url}}{{ site.baseurl }}"><img src="{{ "/assets/i/logo-n2h.png" | prepend: site.baseurl }}" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a>
-      <p> {{ page.title }} | {{ page.licence }}</p>
-    </footer>      
   </body>
 </html>
