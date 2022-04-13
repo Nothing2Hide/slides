@@ -113,8 +113,8 @@ order: 1
 <!--
 **********
 
-3. Passphrase is the new password : JM  GP  salle
-  	10 mn
+3. Passphrase is the new password :
+10 mn
 
 *********
 -->
@@ -134,17 +134,22 @@ order: 1
 </div>
 
 
-<div id="passwordmanagers" class="step" data-x="-3900" data-y="4500" data-z="00" data-rotate="90" data-scale="1">
+<div id="passwordmanagers" class="step" data-x="-3900" data-y="4500" data-z="0" data-rotate="90" data-scale="1">
   <ul>
       <li>N'utilisez <strong>jamais le même mot de passe </strong>deux fois</li>
       <li>Si vous avez besoin d'aide, utilisez un <strong>password manager</strong> : <a href="https://bitwarden.com/">Bitwarden</a>, <a href="https://www.dashlane.com/">Dashlane</a> ou <a href="http://keepass.info/">KeePass</a></li>
+      <li>Activez la <a href="https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:lesbases&s[]=double&s[]=authentification#la_double_authentification">double authentification</a> losrque cela est possible</li>
   </ul>
+</div>
+
+<div id="danslavraievie" class="step" data-x="-3900" data-y="6000" data-rotate="90" data-scale="1">
+  <img src="{{site.url}}{{site.baseurl}}/assets/i/security.png" alt="La sécurité dans le monde réel" title="La sécurité dans le monde réel" width="100%" />
 </div>
 
 <!--
 **********
 
-4. Traces sur l'ordi - GP
+4. Traces sur l'ordi
 10 mn
 
 *********
@@ -152,14 +157,18 @@ order: 1
 
 <div id="traceordi" class="step" data-x="1000" data-y="0" data-z="-1000" data-rotate="0" data-scale="2">
   <h1>Des traces...</h1>
-  <h2>sur votre ordinateur</h2>
-  <p>Historique de navigation, cookies, mots de passe enregistrés, historique des fichiers, logs de conversations, emails, etc.</p>
+  <h2>sur votre ordinateur ou votre smartphone</h2>
+</div>
+
+<div id="traceordi-liste" class="step" data-x="1730" data-y="-2100" data-z="-500" data-rotate="-90" data-scale="2">
+  <p>Historique de navigation, cookies, mots de passe enregistrés, historique des fichiers, messages chat, emails, etc.</p>
 </div>
 
 
-<div id="erasingsolutions" class="step"  data-x="1730" data-y="-2100" data-z="-500" data-rotate="-90" data-scale="2">
+<div id="erasingsolutions" class="step"  data-x="1730" data-y="-5000" data-z="-500" data-rotate="-90" data-scale="2">
   <ul>
     <li>Avec votre navigateur : utilisez la navigation privée</li>
+    <li>Utilisez les messages éphémères sur WhatsApp, Signal Telegram (préférez Signal quand même)</li>
     <li>Effacez vos fichiers de <a href="https://nothing2hide.org/slides/atelier-data.html#/2/1">manière sécurisée</a></li>
     <li>Pour les plus paranos : utilisez un <strong>live OS</strong> tel que <a href="https://tails.boum.org/">Tails</a> ou <a href="https://www.qubes-os.org/">Qubes</a></li>
   </ul>
@@ -169,7 +178,7 @@ order: 1
 <!--
 **********
 
-5. Traces sur le réseau - JM
+5. Traces sur le réseau
 
 *********
 -->
@@ -177,19 +186,14 @@ order: 1
 <div id="badwifi1" class="step" data-x="3900" data-y="-2500" data-rotate="0" data-scale="2">
   <h1>Des traces...</h1>
   <h2>sur le réseau</h2>
-<img src="{{site.url}}{{site.baseurl}}/assets/i/badwifi1.jpg" alt="Step 1">
 </div>
 
-<div id="badwifi2" class="step" data-x="3900" data-y="-1000" data-z="1000" data-rotate="0" data-scale="2">
-<img src="{{site.url}}{{site.baseurl}}/assets/i/badwifi2.jpg" alt="Step 2">
-</div>
-
-<div id="wifidesktop" class="step" data-x="6000" data-y="-2500" data-z="0" data-scale="1">
-  <img src="{{site.url}}{{site.baseurl}}/assets/i/wifidesktop.png" alt="wifi desktop">
+<div id="wifiiphone" class="step" data-x="6000" data-y="-2500" data-scale="1">
+  <img src="{{site.url}}{{site.baseurl}}/assets/i/wifiiphone1.png" alt="analyse wifi ipone"> 
 </div>
 
 <div id="amiuniq" class="step" data-x="7000" data-y="-3500" data-z="1" data-scale="2">
-  <p>Êtes-vous <a href="https://www.amiunique.org/">unique en ligne</a> ?</p>
+  <p>Scoop : vous n'êtes pas <a href="https://www.amiunique.org/">unique</a> (en ligne)</p>
 </div>
 
 
@@ -217,11 +221,7 @@ order: 1
 		<p>Un smartphone est un ordinateur. Tout ce qui a été mentionné précédemment s'applique également aux  <strike>spyphones</strike> smartphones.</p>
 </div>
 
-<div id="wifiiphone1" class="step" data-x="7800" data-y="-2500" data-z="0" data-scale="1">
-  <img src="{{site.url}}{{site.baseurl}}/assets/i/wifiiphone1.png" alt="wifi iphone 1">
-</div>
-
-<div id="dumbphone" class="step" data-x="6000" data-y="1200" data-scale="2">
+<div id="dumbphone" class="step" data-x="7000" data-y="1200" data-scale="1">
   <img src="{{site.url}}{{site.baseurl}}/assets/i/dumbphone.jpg" alt="Dumbphone"><br/>
   <!-- Image issue de <a href="http://in30minutes.com">In 30 Minutes guides</a> sous licence CC 2.0 -->
 </div>
@@ -244,7 +244,6 @@ order: 1
 </ul>
 </div>
 
-
 <div id="cellphone-standby" class="step" data-x="7000" data-y="1700" data-rotate-y="60" data-z="000" data-scale="1">
     <h2>En veille</h2>
     <p><a href="http://www.gsmespion.com/">De nombreux logiciels</a> peuvent transformer votre smartphone en micro espion. Ils doivent cependant être installés sur votre téléphone.</p>
@@ -265,15 +264,11 @@ order: 1
 <!--
 **********
 
-6. Précisions et conclusion
-10 mn
+6. Conclusion
+5 mn
 
 *********
 -->
-
-<div id="danslavraievie" class="step" data-x="5500" data-y="2800" data-rotate-y="0" data-scale="1">
-<img src="{{site.url}}{{site.baseurl}}/assets/i/security.png" alt="La sécurité dans le monde réel" title="La sécurité dans le monde réel" width="100%" />
-</div>
 
 <div id="n2hslides" class="step" data-x="5500" data-y="2800" data-rotate-x="-90" data-z="0" data-scale="1">
 <p>
