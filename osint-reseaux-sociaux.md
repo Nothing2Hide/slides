@@ -4,7 +4,7 @@ lang: FR
 title:  "OSINT réseaux sociaux"
 transition: slide
 order: 2
-onhome: true
+onhome: false
 categories: [OSINT]
 licence: "CC BY 3.0"
 ---
