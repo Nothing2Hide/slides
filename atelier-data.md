@@ -7,15 +7,14 @@ onhome: true
 order: 5
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
-background: "#34495e"
 ---
 
-<section data-background="{{page.background}}">
+<section>
     <h1>{{page.title}}</h1>    
 </section>
 
-<section data-background="{{page.background}}">
-    <section data-background="{{page.background}}">
+<section>
+    <section>
         <h2>Sauvegardes</h2>
         <ul>
             <li>Sur un disque dur externe ?</li>
@@ -23,7 +22,7 @@ background: "#34495e"
         </ul>
     </section>
     
-    <section data-background="{{page.background}}">
+    <section>
         <h2>Dans le cloud</h2>
         <ul>
             <li class="fragment highlight-green">Une fouille physique ne peut compromettre vos données.</li>
@@ -32,7 +31,7 @@ background: "#34495e"
         </ul>
     </section>
     
-    <section data-background="{{page.background}}">                        
+    <section>                        
       <h2>Sur un disque dur externe</h2>
         <ul>
             <li class="fragment highlight-green">Vous ne dépendez pas d'aucun fournisseur de service</li>
@@ -45,19 +44,19 @@ background: "#34495e"
       <h1>I HAS AN IDEA</h1>
     </section>
     
-    <section data-background="{{page.background}}">
+    <section>
         <h2>Le chiffrement</h2>
         <p>Protégez vos données avec
         <a href="https://www.veracrypt.fr/en/Home.html">Veracrypt</a></p>
     </section>
 </section>
 
-<section data-background="{{page.background}}">
-    <section data-background="{{page.background}}">
+<section>
+    <section>
         <h1>Ne rien laisser traîner</h1>        
     </section>
 
-    <section data-background="{{page.background}}">
+    <section>
         <h2>Effacement sécurisé</h2>
         <p>Se débarrasser de données sensibles avec l'effacement sécurisé</p> 
         <ul>
@@ -67,7 +66,7 @@ background: "#34495e"
             <li><a href="https://play.google.com/store/apps/details?id=com.peterhohsy.securedelete">Android</a></li>
         </ul>
     </section>
-    <section data-background="{{page.background}}">
+    <section>
         <h2>Metadonnées</h2>
             <ul>
                 <li>Lire les métadonnées dans votre navigateur avec <a href="https://addons.mozilla.org/fr/firefox/addon/exif-viewer/">l'extension exif viewer</a></li> 
