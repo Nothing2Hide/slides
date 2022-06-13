@@ -1,0 +1,120 @@
+---
+layout: slide
+lang: EN
+title: "The basics"
+transition: convex
+onhome: true
+order: 1
+categories: [Digital safety]
+license: CC BY 3.0
+---
+
+<section>
+    <h1>{{page.title}}</h1>    
+</section>
+
+<section>
+    <h2>The NYT case</h2>
+    <blockquote>
+      <p>"Hackers aren't going after our firewalls anymore. They're going after the
+    individuals."</p>
+    <p><cite><a href="http://www.telegraph.co.uk/news/9840125/New-York-Times-cyber-attacked-by-Chinese-hackers-for-four-months-after-Wen-Jiabao-investigation.html">Michael Higgins</a>,
+    head of security at the NYT</cite></p>
+    </blockquote>    
+</section>
+
+<section>
+    <h1>Between the keyboard and the chair</h1>
+</section>
+<section>
+    <ul>
+        <li>Like in a western movie, don't sit with your back to a window</li>                        
+        <li class="fragment">Use a <a href="{{site.url}}{{site.baseurl}}/assets/i/dicota-filter-screen-security.jpg">privacy filter</a></li>
+        <li class="fragment">In <em>hostile</em> environments, don't  leave you computer or smartphone unattended. Just like in Dirty Dancing, <em>Nobody puts a computer in a corner</em></li>
+        <li class="fragment">Never use an unknown USB charger (such as the one you can find in airports)</li>
+    </ul>    
+</section>
+
+<section>
+    <section data-background="{{site.url}}{{site.baseurl}}/assets/i/hygiene.gif">
+        <h1>Digital Hygiene</h1> 
+    </section>
+    
+    <section>
+        <ul>
+            <li>Keep your operating system and your <small>(free)</small></li> software <strong>up to date</strong>.
+            <li class="fragment">Use an <strong>antivirus</strong> <small>(ClamXav, ClamTk, Avast, <a href="https://support.microsoft.com/fr-fr/windows/rester-prot%C3%A9g%C3%A9-avec-s%C3%A9curit%C3%A9-windows-2ae0363d-0ada-c064-8b56-6a39afb6a963">Windows Defender</a>, Mc Afee, Norton)</small> <strong>even on mac</strong></li>
+            <li class="fragment">Avoid using <strong>Adobe pdf reader</strong></li>
+            <li class="fragment">Enable your <strong>Firewall</strong> on <a href="https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f">Windows</a> and on <a href="https://support.apple.com/kb/index?page=search&q=firewall&requestid=&product=&currentPage=1&locale=en_US&includeArchived=false&doctype=&supportAnswerIndex=0">Mac</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>On Windows</h3>
+        <p>To check or activate the antivirus as well as the Firewall, Type Windows Defender in the <em>Start</em> menu</p>
+        <img src="{{site.url}}{{site.baseurl}}/assets/i/windows-11-firewall-en.webp">
+    </section>
+
+    <section>
+        <h3>On Mac</h3>
+        <img src="{{site.url}}{{site.baseurl}}/assets/i/firewall-macos-en.png">
+        <br><small>System Preferences / Security and Privacy / Tab</small>
+    </section>
+
+    <section> 
+        <ul>
+            <li><strong>Lock</strong> your smartphone (using a pin code) and your computer (using a passphrase)</li>
+            <li class="fragment"><strong>Encrypt</strong> your data on your smartphone, computer, cloud storage space, flash drive... <strong>Everywhere</strong> !
+            	<ul>
+ 		            <li class="fragment">On Mac, turn on and set up <a href="https://support.apple.com/kb/index?page=search&q=filevault&requestid=&product=&currentPage=1&locale=en_US&includeArchived=false&doctype=&supportAnswerIndex=1">Filevault</a></li>
+					      <li class="fragment">On Windows Pro, use <a href="https://support.microsoft.com/en-us/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838">BitLocker</a></li>
+					      <li class="fragment">On Windows (and any desktop OS),use <a href="https://veracrypt.codeplex.com/">VeraCrypt</a></li>
+					      <li class="fragment">Good news, if you have set up a pin code, your smartphone may already be encrypted.</li>
+			        </ul>
+	          </li>
+        </ul>        
+    </section>
+    <aside class="notes">Any Android device with an OS version above 6, that has a legal license of GMS (Google Mobile Services), will always be encrypted out-of-the-box. Regarding ios, all iphone are using hardware encryption since iOS 6. You can <a href="http://somesite.com/">check if your iphone is encrypted</a></aside>
+</section>
+
+<section>
+    <section>
+        <h2><del>Passwords</del></h2>
+        <p>Is your password <a href="https://nothing2hide.org/fr/verifier-la-robustesse-de-votre-mot-de-passe/">strong enough</a>?</p>
+    </section>
+
+    <section>
+        <ul>
+            <li>Forget your old <del>passwords</del>, and use <a href="https://www.xkcd.com/936/">passphrases</a></li>
+            <li>The more characters in your passphrase, the harder it will be to crack</li>
+            <li>Avoid movie titles, novel titles or any personal information that is easy to guess</li>
+            <li class="fragment"><strong>Use a different passphrase per service</strong></li>
+            <li class="fragment">Use a password manager: <a href="https://bitwarden.com/">Bitwarden</a>, <a href="https://www.dashlane.com/">Dashlane</a>, <a href="https://1password.com/">onepassword</a> or <a href="http://keepass.info/">KeePass</a> are some solid options</li>
+        </ul>
+    </section>
+
+    <section>
+        <img src="{{site.url}}{{site.baseurl}}/assets/i/password_strength.png" alt="The strength of a password is relative">
+    </section>
+
+    <section>
+        <p>Enable <strong>dual authentication</strong> on your accounts:
+        <ul>
+          <li> <a href="https://myaccount.google.com/security">Google</a></li>
+          <li><a href="https://docs.microsoft.com/fr-fr/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide">Microsoft</a></li>
+          <li><a href="https://twitter.com/settings/account/login_verification">Twitter</a></li>
+          <li><a href="https://www.facebook.com/settings?tab=security&section=approvals&view">Facebook</a></li>
+          <li><a href="https://help.instagram.com/566810106808145">Instagram</a></li>
+        </ul>
+    </section>
+</section>
+
+    <section>
+      <h2>Security settings</h2>
+      <p>Check which <a href="https://myaccount.google.com/device-activity">devices</a> and <a href="https://myaccount.google.com/permissions">which apps</a> have access to your Google account.
+    </section>
+</section>
+
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-hollywood.gif">
+    <h1>Questions?</h1>
+</section>
