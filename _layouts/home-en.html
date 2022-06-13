@@ -1,26 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="fr-FR">
-<head>
-	<meta charset="UTF-8">
-	<title>{{ site.title }} : {{ site.description }}</title>
-	<meta name="description" content="{site.description}" />
-</head>
-  <body>
-    <div class="container reveal">
-      <header>
-        <h1>{{ page.title }}</h1>
-      </header>
-      {{content}}
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} - {{site.title}}</title>
+		<meta name="description" content="{{page.description}}">
+		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+		<link rel="stylesheet" href="{{site.baseurl}}/assets/css/home.css">
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico" />
+	</head>
 
-       {% assign pages=site.pages | where:"lang", page.lang %}
-       <ul>
-          {% for page in pages %}
-            {% if page.onhome == true %}
-              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-
-    </div>
-  </body>
+	<body>
+	<div class="pack">
+	  {% for cat in site.category-list-en %}
+			<h2>{{ cat }}</h2>
+			{% assign pages=site.pages | where:"lang", page.lang | sort:"order"%} 
+	    {% for page in pages %}
+		    {% if page.onhome == true %}
+			    {% for pc in page.categories %}
+				    {% if pc == cat %}
+	            <a target="_blank" class="link" href="{{site.baseurl}}{{page.url}}">
+								<div class="card" style="background-color: {% cycle '#e74c3c', '#1abc9c', '#e67e22', '#34495e', '#f1c40f', '#3498db', '#2ecc71', '#9b59b6' %}" >
+				        	<div class="card-number">
+			          	{{page.order}}
+				          </div>
+					          <div class="card-title">
+					          	{{ page.title | truncate: 16 }}
+					          </div>
+					        </div>
+			          </a>
+		          {% endif %}   <!-- cat-match-p -->
+		        {% endfor %}  <!-- page-category -->
+		      {% endif %}   <!-- resource-p -->
+		    {% endfor %}  <!-- page -->
+		  {% endfor %}  <!-- cat -->
+		</div>
+		<footer><a href="https://nothing2hide.org"><img class="logo" src="/assets/i/logo-nothing2hide-red.svg" alt="Nothing2Hide" title="Nothing2Hide" height="40" /></a></footer>
+	</body>
 </html>

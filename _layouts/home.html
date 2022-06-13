@@ -13,7 +13,7 @@
 
 	<body>
 	<div class="pack">
-	  {% for cat in site.category-list %}
+	  {% for cat in site.category-list-fr %}
 			<h2>{{ cat }}</h2>
 			{% assign pages=site.pages | where:"lang", page.lang | sort:"order"%} 
 	    {% for page in pages %}
