@@ -1,0 +1,101 @@
+---
+layout: slide
+lang: EN
+title: Threat Modeling
+transition: slide
+onhome: true
+order: 5
+categories: [Digital safety]
+license: "CC BY 3.0"
+permalink: /en/workshop-threat-modeling.html
+---
+<section>
+    <h1>{{page.title}}</h1>
+</section>
+
+<section>
+<p>Digital safety is not about tools or computers, it is about risk assessment. Hence the ...</p>
+</section>
+
+<section>
+    <section>
+        <h1>Threat Model</h1>
+        <ul>
+            <li class="fragment">What information should I protect?</li>
+            <li class="fragment">Who might be interested?</li>
+            <li class="fragment">What resources can they mobilize?</li>
+            <li class="fragment">What are the consequences if they manage to access this information?</li>
+            <li class="fragment">What means am I willing to use?</li>
+        </ul>
+</section>
+<section>
+    <h2>What are you protecting?</h2>
+    <p>
+        emails, chat, <a href="{{ site.url}}{{ site.baseurl }}/atelier-mobile.html#/1">phone calls</a>, photos, rush, <a href="{{ site.url}}{{ site.baseurl }}/atelier-crypto.html#/1">addresses and identities of my contacts</a>, etc.
+    </p>
+    <aside class="notes">Remember encryption only protects the content of messages. Not the sender's name or the recipient's name.</aside>
+
+</section>
+
+<section>
+    <h2>Who are you protecting this from?</h2>
+    <ul>
+        <li>The organizations or individuals that are the subject of my article</li>
+        <li>A government</li>
+        <li>A judge or police officer</li>
+        <li>A private company</li>
+    </ul>
+    <aside class="notes">
+        Reminder: we are rarely the target of the NSA. But sometimes we are.
+    </aside>
+</section>
+<section>
+        <h2>What kind of resources can they mobilize?</h2>
+        <ul>
+            <li>Technical: interception, hacking</li>
+            <li>Legal: wiretapping, subpoenas</li>
+            <li>Social: social engineering</li>
+            <li>Physical: theft, <a href="{{ site.url}}{{ site.baseurl }}/workshop-bases.html#/4">installing malware</a></li>
+        </ul>
+</section>
+
+<section>
+    <h2>What are the consequences if there is a leak?</h2>
+    <ul>
+        <li>Grilled topic</li>
+        <li>Problems with the law for a source</li>
+        <li>Physical threats</li>
+      </ul>
+</section>
+
+<section>
+    <h2>How many resources am I going to invest?</h2>
+    <ul>
+        <li><a href="{{ site.url}}{{ site.baseurl }}/workshop-crypto.html#/3">Techniques</a></li>
+        <li>Legal</li>
+    </ul>
+</section>
+</section>
+
+<section>
+<section>
+    <h1>Scenarios</h1>
+</section>
+<section>
+    <h2>#1</h2>
+    <p>Photojournalist. Objective: to take out photos from an authoritarian country. Internet access is available in a cyber café. The identity of the people in the photo must not be revealed or they will be imprisoned. You must remain anonymous until the photos are published in order to continue working there and leave the country without problems.</p>
+</section>
+    <section>
+    <h2>#2</h2>
+    <p>Two whistleblowers working for a major bank have contacted you to alert you about internal irregularities. If your sources are identified they may lose their jobs and be sued by the bank. A large amount of documents needs to be analyzed.</p>
+</section>
+<section>
+    <h2>#3</h2>
+    <p>You are working in Europe and helping a human rights activist in China. This personn is working with other activists in China. The Chinese government has not identified them as such. You have met one of the activists only once. You have his phone number but need to set up a secure communication channel.</p> <p>
+</section>
+</section>
+
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-cheezburger.gif" data-background-transition="zoom">
+    <h1>Questions?</h1>
+</section>
+
