@@ -5,7 +5,7 @@ permalink: /en/quiz.html
 title:  "Quiz"
 description : "A quiz in 5 questions to talk about digital safety basis"
 onhome: true
-order: 4
+order: 6
 categories: [Digital safety]
 licence: "CC BY 3.0"
 ---
@@ -23,15 +23,33 @@ licence: "CC BY 3.0"
   <h2>NO</h2>
     <p>The use of uppercase, lowercase letters, numbers and special characters does not garantee that a password is safe. The number of character in a password is the most important. So forget about passwords and use <strong><a href="https://www.xkcd.com/936/">passphrases</a></strong>.</p>
   </section>
-</section>  
-
+  <section>
+  	<p>T do: totem online course on <a href="https://learn.totem-project.org/courses/course-v1:Totem+TP_SP_001+course/about">Secure Passwords</a>
+  	</p>
+  </section>
+</section>
 
 <section>
 	<section>
-			<h1>Question #2</h1>  
+		<h1>Question #2</h1>
+		<p>Does this address belong to facebook? <code>https://www.facebook.secure.com/friends/</code></p>
+	</section>
+	<section>
+		<h2>NO</h2>
+  	<p><strong>It belongs to secure.com</strong>. You must learn how to read a url n order to get phished and to loose access to your online accounts.</p>
+	</section>
+	<section>
+		<ul>
+			<li>Todo: <a href="https://learn.totem-project.org/courses/course-v1:Totem+TP_PM_001+course/about">Totem course on Phishing attacks</a></li>
+	</ul>
+	</section>
+</section>
+
+<section>
+	<section>
+			<h1>Question #3</h1>  
 			<p>Are my files protected is if lock my session on my computer using a <strike>password</strike> passphrase ?</p>
 		</section>
-	
 		<section>
 			<h2>NO</h2>
 			<p>Only the use of <a href="http://nothing2hide.org/slides/atelier-data.html#/">encryption</a> can guarantee your files are safe. <a href="https://www.veracrypt.fr/en/Home.html">VeraCrypt</a> and PGP are great open source software for disk encryption.</p>
@@ -40,13 +58,13 @@ licence: "CC BY 3.0"
 
 <section>
 	<section>
-		<h1>Question #3</h1>  
+		<h1>Question #4</h1>  
 		<p>Which is the safest messaging app?</p>
 		<ol>
 			<li>Whatsapp</li>
 			<li>Messenger</li>
+			<li>Mail</li>
 			<li>Signal</li>
-			<li>Jitsi</li>
 			<li>Skype</li>
 			<li>Telegram</li>
 			<li>Wire</li>
@@ -54,28 +72,39 @@ licence: "CC BY 3.0"
 	</section>
 	<section>
 		<h2>It depends.</h2>
-		<p>All these apps offer end to end encryption. However only Signal, Wire and Jitsi have been fully audited.</p>
+		<p>All these apps offer end to end encryption. However only Signal and Wire offers it <strong>by default</strong> and only these two apps protect your metadata.</p>
+		<aside class="notes">Signal also <a href="https://signal.org/blog/looking-back-as-the-world-moves-forward">does not have access</a> to your contacts, social graph, group data, group membership, profile name, profile avatar, location data, gif searches, etc. – and we don’t include trackers, ads, or analytics in our software at all.</a></aside>
+	</section>
+	<section>
+		<ul>
+			<li>To do: Totem course on <a href="https://learn.totem-project.org/courses/course-v1:Totem+TP_SM_001+course/about">Secure Messenging Apps</a></li>
+			<li>To read: <a href="https://www.messenger-matrix.de/messenger-matrix-en.html">a comparative table</a> of every secure communication app</li>
+		</ul>
 	</section>
 </section>
 
-<section>
-	<section>
-	<h1>Question #4</h1>
-	<p>Is it safe to use a public Wifi network?</p>
-	</section>
-
-	<section>
-	<h2>NO</h2>
-	<p>When you visit a website or any online service, your data goes through many different computers (wifi router, your ISP server, Internet routers). Each of these computers can access to your unencrypted data. You should <strong>always</strong> secure your surf using https, a VPN or Tor.</p>
-	</section>
-</section>
 
 <section>
 	<section>
 	<h1>Question #5</h1>
+	<p>Is it safe to use a public Wifi network?</p>
+	</section>
+	<section>
+	<h2>NO</h2>
+	<p>When you visit a website or any online service, your data goes through many different computers (wifi router, your ISP server, Internet routers). Each of these computers can access to your unencrypted data. You should <strong>always</strong> secure your surf using https, a VPN or Tor.</p>
+	</section>
+	<section>
+	<ul>
+		<li>To do: Totem course <a href="https://learn.totem-project.org/courses/course-v1:Totem+TP_SM_001+course/about">How the Internet works?</a></li>
+	</ul>
+</section>
+</section>
+
+<section>
+	<section>
+	<h1>Question #6</h1>
 	<p>Is my smartphone safer than my computer?</p>
 	</section>
-
 	<section>
 	<img src="{{site.baseurl}}/assets/i/dumbphone.jpg" alt="Dumbphone"><br/>
 	</section>	
