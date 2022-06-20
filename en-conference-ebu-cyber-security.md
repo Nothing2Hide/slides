@@ -4,9 +4,8 @@ lang: en
 title:  "Digital Security for Journalists Requires an Adaptable Toolkit"
 transition: slide
 onhome: false
-categories: [Ateliers thématiques]
+categories: [Conferences]
 licence: "CC BY 3.0"
-background: "#000"
 permalink: 	/en/seminar-ebu-cyber-security
 images: "/assets/i/"
 ---
