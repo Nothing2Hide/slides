@@ -44,11 +44,31 @@ licence: "CC BY 3.0"
       <h1>I HAS AN IDEA</h1>
     </section>
     
-    <section>
-        <h2>Le chiffrement</h2>
-        <p>Protégez vos données avec
-        <a href="https://www.veracrypt.fr/en/Home.html">Veracrypt</a></p>
+    <section data-markdown>
+        Le chiffrement
+        -------------
+        Protégez vos données avec
+        * [Veracrypt](https://www.veracrypt.fr/en/Home.html) ou 
+        * [Cryptomator](https://cryptomator.org)
     </section>
+    <section data-markdown>
+      Veracrypt
+      ------
+      
+      Le logiciel Veracrypt permet de chiffrer un dossier ou un périphérique externe, disque dur ou clé USB.Veracrypt permet même de chiffrer l'intégralité dun système d'exploitation. 
+      
+      **[Le tutoriel](https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:veracrypt)** (français)
+      
+    </section>
+    <section data-markdown>
+      Cryptomator
+      ------
+      S'il permet de stocker des coffres forts de données localement, cryptomator a été pensé pour être utilisé avec des services de stockage dans le cloud. Cryptomator intègre nativement l'utilisation de  Dropbox, GoogleDrive, iCloud et OneDrive. Cryptomator propose également des applications mobiles pour Android et iOS (payantes).
+
+      **[Le tutoriel](https://docs.cryptomator.org/en/latest/desktop/setup/)** (anglais)
+     
+    </section>
+    
 </section>
 
 <section>
