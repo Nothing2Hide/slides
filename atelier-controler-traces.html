@@ -1,47 +1,117 @@
 ---
 layout: slide
 lang: FR
-ref: investigation
-title:  "Contrôler ses traces sur Internet"
+title:  "Traces en ligne, comment les contrôler"
 transition: slide
 order: 9
+onhome: true
 categories: [Sécurité numérique]
 licence: "CC BY 3.0"
 ---
 
-<section>
-  <h1>{{page.title}}</h1>
-</section>
-
 <section data-markdown>
-Google Dorking
-================
+{{page.title}}
+==========
 </section>
 
-Identifier les contenus
+<section>
+  <section data-markdown>
+  Les journalistes et militants peuvent faire l'objet de menaces en représailles de leur travail. L'une des techniques utilisées pour les faire taire est le **doxing** : les agresseurs exploitent les informations publiées sur les médias sociaux et les sites web professionnels pour pirater, abuser ou diffamer leur cible.
+  </section>
+  <section data-markdown>
+  Il est donc essentiel de connaître **quelles informations nous concernant sont accessibles en ligne**, réfléchir à ce qu'elles révèlent sur nous et prendre des mesures pour les supprimer lorsque cela est possible.
+  </section>
+  <section data-markdown>
+  **Internet n'oublie pas**. Il peut être très difficile d'effacer complètement ses données en ligne. Elles peuvent avoir été sauvegardées sur archive.org ou sous forme d'une capture d'écran et partagées avec d'autres personnes. Elles peuvent aussi avoir été publiées par des tiers sur des sites ou des comptes que vous ne maîtrisez pas.  
+  </section>
+</section>
 
-* Faites des recherches sur vous-même en ligne en utilisant tous les moteurs de recherche - cf tableau OSINT N2H
-* * Recherchez en ligne les membres de votre famille proche pour voir quelles données sont disponibles à leur sujet, y compris leur relation avec vous.
-* Vérifiez les photos et les vidéos, ainsi que les commentaires sur les articles que vous avez publiés. 
-* Notez le contenu que vous souhaitez supprimer.
-* * aites le régulièrement. Un rappel dans un calendrier
 
-Mieux vaut prévenir que guérir
-	
-* alertes google - Configurez des alertes Google pour votre nom, votre adresse et d’autres informations, telles que votre date de naissance. Prévoyez des alertes pour les fautes d’orthographe courantes de votre nom. https://www.google.fr/alerts#
-* comptes séparés pour votre travail et votre vie personnelle : ex une adresse email pour le travail, une pour le perso, idem pour les réseaux sociaux - Mélanger du contenu professionnel et des données personnelles dans vos comptes en ligne, tels que vos comptes de médias sociaux, vous rend plus vulnérable. 
-* Passez régulièrement en revue vos comptes de médias sociaux pour voir quelles données personnelles sont exposées en fonction de vos paramètres de confidentialité
-  * sur twitter lien
-  * sur facebook
-  * sur instagram 
+<section>
+  <section data-markdown>
+  Identifier les informations que l'on peut trouver sur vous
+  ====
+  </section>
 
-Supprimer les données
+  <section data-markdown>
+  * Faites des recherches sur vous et sur les membres de votre famille proche
+  * Utilisez les [Dorks Google](/atelier-investigation.html#/1) pour accélérer vos recherches
+  * Utilisez également d'autres moteurs que Google :  Yahoo, Bing et [tous les autres](https://start.me/p/6rn8eo/osint)
+  </section>
 
-* Connectez-vous à vos comptes et supprimez toutes les données personnelles que vous avez identifiées et qui ne devraient pas être publiques.
-* Parcourez votre site web et tout autre site que vous gérez pour identifier les données sensibles ou identifiantes et trouvez des moyens pour les supprimer dans la mesure du possible. Par exemple, utilisez un formulaire de contact au lieu d’afficher votre adresse physique ou de courrier électronique.
-* Eneurope : droit  à l'oubli : adresse formulaire Google
-* Parlez avec votre famille et vos amis des informations qu’ils publient sur vous et sur les autres. Expliquez quelles données vous êtes prêt à partager et quelles données vous souhaitez garder confidentielles. Discutez avec eux de la possibilité de limiter les publications dans lesquelles ils vous marquent.
-* Soyez prêt à aider les membres de votre famille à vérifier leurs paramètres de sécurité et à supprimer des informations de leurs comptes de médias sociaux.
-* Contactez le créateur de la base de données publique, souvent un organisme public, pour voir si vos informations peuvent être supprimées ou rendues privées.  Les lois en la matière varient selon les pays.
-* Contactez Google Maps, https://support.google.com/maps/answer/7011973 Apple Maps et d’autres sociétés pour qu’elles suppriment votre domicile ou d’autres informations d’identification.
+  <section data-markdown>
+  * Sur vos réseaux sociaux, vérifiez les photos et les vidéos, ainsi que les commentaires sur les articles que vous avez publiés
+  * Notez le contenu que vous souhaitez supprimer
+  * Faites le régulièrement. Calez vous un rappel tous les 6 mois dans votre calendrier. 
+  </section>
 
+</section>
+
+
+
+<section>
+  <section data-markdown>
+  Supprimer les données
+  ====================
+  </section>
+
+  <section data-markdown>
+  Sur vos comptes
+  ---- 
+  Connectez-vous et supprimez toutes les données personnelles que vous avez identifiées et qui ne devraient pas être publiques.
+  </section>
+
+  <section data-markdown>
+  Sur vos sites
+  ----
+  Parcourez votre site web et tout autre site que vous gérez pour identifier les données sensibles et trouvez des moyens pour les supprimer dans la mesure du possible. Par exemple, utilisez un formulaire de contact au lieu d’afficher votre adresse physique ou de courrier électronique.
+  </section>
+
+  <section data-markdown>
+  Sur les sites tiers
+  ----
+  Vous pouvez demander à un site publiant des informations vous concernant de les supprimer mais c'est un procédé aléatoire qui demande du temps et qui dépend du bon vouloir du site concerné. En Europe, depuis 2014 vous pouvez cependant exercer votre droit à l'oubli et [demander à Google Search](https://support.google.com/websearch/troubleshooter/3111061?hl=fr) de désindexer les liens vous concernant.
+  </section>
+
+  <section data-markdown>
+  Sensibilisez votre entourage
+  ----
+  Parlez avec votre famille et vos amis des informations qu’ils publient sur vous et sur les autres. Expliquez quelles données vous êtes prêt à partager et quelles données vous souhaitez garder confidentielles. Discutez avec eux de la possibilité de limiter les publications dans lesquelles ils vous marquent. 
+  </section>
+</section>
+
+<section>
+  <section data-markdown>
+  Prévenir plutôt que guérir
+  ===
+  </section>
+  <section data-markdown>
+  Mettez en place des alertes
+  ---
+  Configurez des [alertes Google](https://www.google.fr/alerts#) pour votre nom, votre adresse et d’autres informations telles que votre date de naissance ou votre adresse. Prévoyez des alertes pour les fautes d’orthographe courantes de votre nom
+  </section>
+  <section data-markdown>
+  Compartimentez vos activités
+  ----
+  Utilisez des comptes différents pour votre travail et pour votre vie personnelle : une adresse mail pour le travail, une pour le personnel, idem pour les réseaux sociaux. 
+  </section>
+  <section data-markdown>
+  Vérifiez vos paramètres de confidentialité
+  ----
+  Passez en revue les paramètres de confidentialité de vos comptes de réseaux sociaux pour voir quelles données sont exposées sur [Twitter](https://twitter.com/settings/audience_and_tagging), [Facebook](https://www.facebook.com/privacy/checkup/?source=settings_and_privacy), [Instagram ](https://echap.eu.org/ressources/guides/guide-de-confidentialite-et-de-securite-pour-instagram/), [Tiktok](https://support.tiktok.com/fr/account-and-privacy/account-privacy-settings/making-your-account-public-or-private).
+  </section>
+  <section data-markdown>
+  Sortez les vieux squelettes du placard
+  ---
+  Vérifiez que vous n'avez pas oublié un vieux compte sur une plate-forme ou un service en ligne avec [whatsmyname](https://whatsmyname.app/)
+  </section>
+  <section data-markdown>
+  Have you been powned
+  ----
+  Vérifier qu'aucun de vos comptes n'ai fait l'objet d'une fuite de données. Entrez votre adresse mail sur [Firefox Monitor](https://monitor.firefox.com/)
+  </section>
+</section>
+
+<section data-background="{{site.url}}{{site.baseurl}}/assets/i/questions-barack.gif">
+    <h1>Questions?</h1>
+</section>
