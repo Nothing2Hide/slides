@@ -12,7 +12,7 @@ background: "#34495e"
 ---
 
 <section data-background="{{page.images}}harcelement.jpg">
-    <h1>{{page.title}}</h1>    
+    <h1>{{page.title}}</h1>
 </section>
 
 <section data-background="{{page.background}}">
@@ -22,24 +22,7 @@ background: "#34495e"
 </section>
 
 <section data-markdown data-background="{{page.background}}">
-Vérifiez votre présence sur Internet avec [namechecker](http://namechk.com/)
-</section>
-
-<section data-markdown data-background="{{page.background}}">
-Utilisez des [requêtes avancées dans Google](https://slides.nothing2hide.org/atelier-investigation.html) : 
-</section>
-
-<section data-markdown data-background="{{page.background}}">
-Pour voir si votre adresse traîne en ligne :
-
-    "nom prénom" "adresse *"
-</section>
-<section data-markdown data-background="{{page.background}}">
-Pour voir si votre numéro traîne en ligne :
-
-    "nom prénom" "06 *"
-
-    "nom prénom" "07 *"
+[Contrôler vos traces en ligne](https://slides.nothing2hide.org/conference-donnees-personnelles.html)
 </section>
 
 <section data-markdown data-background="{{page.background}}">
@@ -59,10 +42,7 @@ Vérifiez les [options de confidentialité](https://twitter.com/settings/safety)
 * Vérifiez les [options de confidentialité](https://www.facebook.com/settings?tab=privacy) de votre compte Facebook
 </section>
 
-
 </section>
-
-
 
 
 
