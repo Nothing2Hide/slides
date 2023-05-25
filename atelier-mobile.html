@@ -13,53 +13,6 @@ licence: "CC BY 3.0"
 </section>
 
 <section>
-    <section>
-        <h2>En communication</h2>
-        <ul>
-            <li>L'algorithme de chiffrement du réseau GSM est compromis depuis  longtemps</li>
-            <li>Interception légale : depuis 2015 et la loi renseignement, l'utilisation d'IMSI catchers est autorisée</li>
-        </ul>
-    <aside class="notes">
-      rememember les fadettes du Monde
-    </aside>
-    </section>
-    <section>
-        <h2>En veille</h2>
-        <ul>
-            <li>N° IMSI : identifiant unique votre carte SIM</li>
-            <li>N° IMEI : identifiant unique votre téléphone <small>(changer de sim ne suffit pas)</small></li>
-            <li>La cellule réseau : de quelques mètres à plusieurs kilomètres</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Bonus #1</h2>
-        <p><a href="http://www.gsmespion.com/">De nombreux logiciels</a> peuvent transformer votre smartphone en micro espion. Ils doivent cependant être installés sur votre téléphone.</p>
-    </section>
-    <section>
-        <h2>Bonus #2</h2>
-        <img src="{{site.url}}{{site.baseurl}}/assets/i/iphone-puce.jpg" alt="puce espionne" title="puce espionne" />
-       <aside class="notes">
-       Pour à peine 15$ on peut acheter du matériel espion sur Alibaba. Ici une puce trouvée dans l'iphone d'un activiste russe.
-      </aside>
-    </section>
-    <section>
-        <h2>Éteint</h2>
-        <p>La batterie, branchée, est toujours une source d'énergie. Avec la collaboration l'opérateur téléphonique, qui lui peut accéder aux paquets envoyés à la carte SIM (Application Protocol Data Unit), le téléphone peut théoriquement être activé.</p>
-    </section>
-    <section>
-        <h2>Batterie démontée</h2>
-        <p>Sans batterie, pas d'énergie, pas de signaux transmis, pas de
-        surveillance.</p>
-    </section>
-    <section>
-        <blockquote>
-          <p>In my fridge ← Snowden</p>
-        </blockquote>
-        <p>Note : il est impossible de retirer la batterie sur un iphone</p>
-    </section>
-</section>
-
-<section>
   <section>
     <h2>Applications droits et permissions</h2>
     <p>Comme sur un poste informatique on n’installe pas n'importe quelle application sur son Smartphone. Il faut vérifier les droits que réclame une application sur votre smartphone. Ex : est-il normal qu’une application lampe de poche réclame l’accès à vos contacts ?</p>
@@ -70,99 +23,168 @@ licence: "CC BY 3.0"
         <li>Apple est réputé pour ses contrôles et validations avant la mise à disposition public.</li>
         <li>Android (Google) hélas beaucoup moins.</li>
     </ol>
-  </section>
+  </section>  
   <section>
   	<img src="/assets/i/android-permissions.png" alt="description" title="tool tip" width="" height="" />
   </section>
   <section>
 		<p>
-		    Selon votre version Android(6 et supérieur), il vous faudra chercher le plus souvent dans Paramètres > Applications > ( parfois Paramètres avancés) > Autorisation des applis.
+		    Selon votre version Android (6 et supérieur), il vous faudra chercher le plus souvent dans Paramètres > Applications > ( parfois Paramètres avancés) > Autorisation des applis.
 		</p>
   </section>
   <section>
-  	<p>Afin de vérifier ce que va faire une application sur votre Android, allez faire un tour sur le projet <a href="https://exodus-privacy.eu.org/fr/page/what/">Exodus Privacy</a>.</p>
+  	<p>Afin de vérifier les droits que s'octroie sur votre téléphone une application Android, allez faire un tour sur le projet <a href="https://exodus-privacy.eu.org/fr/page/what/">Exodus Privacy</a>.</p>
   </section>
 </section>
 
 <section>
+
+  <section>
+      <h2>Chiffrement et smartphone</h2>
+      <ul>
+          <li class="fragment">Protéger l'ouverture de votre smartphone Android ou <a href="https://support.apple.com/fr-fr/HT204060">iOS</a> avec un mot de passe</li>
+          <li class="fragment">Éviter les shémas (Android), les empreintes ou la reconnaissance faciale</li>
+      </ul>
+  </section>
+  <section>
+      <h2>Android</h2>
+          <p>Le chiffrement de vos données est activé par défaut depuis <strong>Android 6.0 Marshmallow</strong>. Le chiffrement se fait de façon invisible lorsque le configurateur vous demande de choisir un verrouillage d'écran : schéma, code PIN ou mot de passe. Reconnaissance faciale et empreinte digitale ne rentrent pas dans le lot !</p>
+  </section>
+  <section>
+      <h2>iPhone</h2>
+          <p>Depuis <strong>iOS 8</strong> les données personnelles sur les téléphones d'Apple sont chiffrées par défaut lorsque le téléphone est verrouillé par un code ou par Touch ID.</p>
+          <p>Il est possible de configurer un effacement automatique après 10 tentatives infructueuses de déverouillage.</p>
+  </section>
+  <section>
+    <img src="/assets/i/ios-erasing.webp" height="600">
+  </section>
+  
   <section>
     <h2>Des données partout</h2>
+    <p>Rappelez-vous, votre smartphone contient des données à plusieurs endroits : </p>
     <ul>
         <li>Sur la carte sim</li>
         <li>Dans la mémoire du téléphone</li>
         <li>Sur la carte SD</li>
-        <li>Dans les "nuages"</li>
+        <li>Dans les "nuages" si vous utilisez une service de cloud icloud ou Google drive</li>
     </ul>
   </section>
-
+    
   <section>
-      <h2>Données</h2>
-      <ul>
-          <li>Protéger son smartphone Android ou <a href="https://support.apple.com/fr-fr/HT204060">iOS</a> avec un mot de passe <small>(plus de 20 caractères ou effacement après 10 tentatives)</small></li>
-          <li>Chiffrer le contenu d'un smartphone sous <a href="https://support.google.com/pixelphone/answer/2844831">Android</a> ou <a href="https://www.apple.com/privacy/government-information-requests/">iOS</a> (par défaut depuis iOS 8)</li>
-      </ul>
-  <aside class="notes">
-    Sous ios le contenu est chifffré automatiquement, à aprtir du moment où on définit un code. Ne pas oubler les données sur les mémoires externes (cartes SD, carte sim) et éventuellement stockées dans le cloud (automatiquement chiffré sous ios mais pas forcément avec d'autres services).
-  </aside>
-  </section>
-    <section>
     	<h2>Tella : un coffre fort local</h2>
     	<p>
     	    <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella&hl">Tella</a> est une application android qui permet de prendre des photos et vidéos et de les stocker chiffrées, de les camoufler, voire des les effacer en cas d'urgence.
     	</p>
-    </section>
-    <section>
-    	<img src="/assets/i/tella.webp" alt="Tella" title="Tella" width="" height="" />
-    </section>
-</section>
-
-<section>
-    <section>
-    <h2>Messages et appels</h2>
-    <ul>
-        <li><a href="https://signal.org/">Signal</a> pour <a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms">Android</a> et <a href="https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8">Iphone</a></li>
-        <li><a href="https://wire.com/en/">Wire</a> pour <a href="https://itunes.apple.com/app/wire/id930944768?mt=8">iOS</a> ou <a href="https://play.google.com/store/apps/details?id=com.wire">Android</a></li>
-        <li>Évitez <a href="https://www.whatsapp.com/">Whatsapp</a> suite au récents <a href="https://www.francetvinfo.fr/internet/reseaux-sociaux/facebook/quatre-questions-sur-la-nouvelle-politique-de-partage-de-donnees-entre-facebook-et-whatsapp_4254337.html">changements de conditions d'utilisation</a>
-        </li>
-        <li><small>Il existe de <a href="https://wiki.nothing2hide.org/doku.php?id=formations:smartphones:app-communications-securisees">nombreuses autres applications</a> de communication sécurisées</small>
-        </li>
-    </ul>
-    </section>
-</section>
-
-<section>
-  <section data-markdown>
-Gérer vos données à distance
-----
   </section>
-  
-	<section data-markdown>
-### Android
-1. allez dans la section [sécurité/ appareils](https://myaccount.google.com/device-activity) de votre compte Google
-1.. faites le sonner, effacez les données à distance ou localisez le</li>
-	</section>
-
-	<section data-markdown>
-### iOS
-1. [Retrouver un appareil perdu](https://support.apple.com/fr-fr/HT210515) avec le [service Find de iCloud](https://www.icloud.com/find)
-1. [Effacer ses données à distance](https://support.apple.com/fr-fr/HT210515#erasedevice)
-	</section>
+  <section>
+    	<img src="/assets/i/tella-installation.gif" alt="Installation de Tella" title="Installation de Tella" height="600px" />
+  </section>
+  <section>
+    	<img src="/assets/i/tella-video.gif" alt="Prise d'images, de vidéos ou de sons dans Tella" title="Prise d'images, de vidéos ou de sons dans Tella" height="600px" />
+  </section>
+  <section>
+    	<img src="/assets/i/tella-import.gif" alt="Import de fichiers dans Tella" title="Import de fichiers dans Tella" height="600px" />
+  </section>
+  <section>
+    	<img src="/assets/i/tella-camouflage-icon.gif" alt="Camoufler l'icône de Tella" title="Camoufler l'icône de Tella" height="600px" />
+  </section>  
 </section>
 
 <section>
-    <h2>Protéger votre connexion</h2>
-    <ul>
-        <li><a href="https://guardianproject.info/apps/org.torproject.torbrowser/">Tor Browser</a> pour Android</li>
-        <li><a href="https://itunes.apple.com/us/app/onion-browser/id519296448">Onion browser</a> pour Iphone</li>
-        <li>Openvpn connect pour <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn">Android</a> et <a href="https://itunes.apple.com/fr/app/openvpn-connect/id590379981?mt=8">Iphone</a></li>
-    </ul>
+<section data-markdown>
+Un mouchard de poche
+============
+</section>
+<section data-markdown>
+En veille
+---------
+
+-   Vous êtes identifié de manière unique sur le réseau GSM
+    avec le numéro unique de votre carte SIM (IMSI) et celui de votre téléphone(IMEI).
+-   Votre téléphone se borne régulièrement auprès des antennes relais en
+    transmettant ces deux informations
+-   Votre opérateur téléphonique a la capacité technique de localiser la
+    celulle réseau dans laquelle vous vous situez (de quelques mètres à
+    plusieurs kilomètres)
+</section>
+<section data-markdown>
+[De nombreux logiciels](http://www.gsmespion.com/) peuvent transformer
+votre smartphone en micro espion. Ils doivent cependant être installés
+sur votre téléphone.
+</section>
+<section data-markdown>
+![puce espionne]({{site.url}}{{site.baseurl}}/assets/i/iphone-puce.jpg "Puce espionne")
+<aside class="notes">
+Pour à peine 15$ on peut acheter du matériel espion sur Alibaba. Ici une puce trouvée dans l'iphone d'un activiste russe.
+</aside>
+</section>
+<section data-markdown>
+Éteint
+------
+
+La batterie, branchée, est toujours une source d\'énergie. Avec la
+collaboration l\'opérateur téléphonique, qui lui peut accéder aux
+paquets envoyés à la carte SIM (Application Protocol Data Unit), le
+téléphone peut théoriquement être activé.
+</section>
+<section data-markdown>
+Batterie démontée
+-----------------
+
+-   Sans batterie, pas d\'énergie, pas de signaux transmis, pas de
+    surveillance.
+-   Problème : peu de téléphones disposent encore d\'une batterie
+    amovible
+</section>
+</section>
+
+
+<section>
+<section data-markdown>
+Communications
+==========
+</section>
+<section data-markdown>
+Le réseau GSM
+----------------
+L'algorithme de chiffrement du réseau GSM est compromis depuis
+longtemps. Les communications téléphoniques et SMS ne sont pas
+sécurisées.
+</section>
+<section data-markdown>
+4G / WiFI
+----
+- [Signal](https://signal.org/) pour [Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) et [Iphone](https://itunes.apple.com/us/app/signal-private-messenger/id874139669?mt=8) 
+- [Wire](https://wire.com/en/) pour [iOS](https://itunes.apple.com/app/wire/id930944768?mt=8) ou [Android](https://play.google.com/store/apps/details?id=com.wire)
+- Évitez [Whatsapp](https://www.whatsapp.com/) pour les communications sensibles
+- Telegram est à banir
+</section>
+</section>
+
+<section>
+<section data-markdown>
+Contrôler ses données à distance
+===
+</section>
+<section data-markdown>
+Android
+---
+
+1.  Allez dans la section [appareils](https://myaccount.google.com/device-activity) de sécurité de votre compte Google
+2.  faites sonner votre smartphone, localisez-le ou effacez les données à distance
+</section>
+<section data-markdown>
+iOS
+---
+Le service de localisation [icloud.com/find/](https://www.icloud.com/find/) vous permet de localiser tout appareil Apple (iphone, ipad, mac, airpods) et d'effacer des données à distance si besoin.
+</section>
 </section>
 
 <section>
     <section>
-        <h2>Solution #2</h2>
+        <h2>Autre option</h2>
     </section>
-    <section data-background="/assets/i/dumbphone.jpg">
+    <section data-background="{{site.url}}{{site.baseurl}}/assets/i/dumbphone.jpg">
         <aside class="notes">Burner phone. Image issue de <a href="http://in30minutes.com">In 30 Minutes guides</a> sous licence CC 2.0</aside>
     </section>
 </section>
