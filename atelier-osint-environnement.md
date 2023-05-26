@@ -11,7 +11,8 @@ licence: "CC BY 3.0"
 
 <section data-markdown>
   {{page.title}}
-  Préparer son psote de traavilr une investigation en ligne.
+  ==============
+  Préparer son poste de travail pour une investigation en ligne.
 </section>
 
 <section data-markdown>
