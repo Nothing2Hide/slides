@@ -1,7 +1,7 @@
 ---
 layout: slide
 lang: FR
-title:  "Recherche avancée[](URL)"
+title:  "Search avancé"
 transition: slide
 order: 4
 onhome: true
@@ -60,7 +60,7 @@ Des infos juteuses
 </section>
 
 <section data-markdown>
-Quand y’en a plus, y’en a encore
+Apprendre à remonter le temps
 ----
 
 * Utiliser le cache de Google
