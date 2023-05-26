@@ -1,0 +1,60 @@
+---
+layout: slide
+lang: FR
+title:  "Environnement OSINT"
+transition: slide
+order: 1
+onhome: true
+categories: [OSINT]
+licence: "CC BY 3.0"
+---
+
+<section data-markdown>
+  {{page.title}}
+  Préparer son psote de traavilr une investigation en ligne.
+</section>
+
+<section data-markdown>
+Investigation en ligne ou OSINT
+-----
+* OSINT = Open Source Intelligence
+* Des renseignement ou informations obtenus via des sources d’informations publiques
+* En d’autres termes : une exploitation avancée des sources ouvertes
+</section>
+
+<section data-markdown>
+Un point sur la méthodologie
+----
+1. Définir les besoins : que cherche-t-on ?
+2. Récupérer les données
+3. Analyser l’information recueillie
+4. Pivotement et rapport :
+  * soit définir de nouvelles exigences en s’appuyant sur les
+données qui viennent d’être recueillies,
+  * soit mettre fin à l’enquête et publier
+</section>
+
+<section data-markdown>
+Pourquoi préparer son poste
+---
+* Éviter de se faire accuser d’intrusion dans un système
+d’information (c’est rare mais ça arrive)
+* Éviter d’attirer l’attention pendant l’enquête et de voir l‘ensemble
+des sources dé-publiées (c’est moins rare et ça arrive)
+</section>
+
+<section data-markdown>
+Comment préparer son poste
+---
+* Utiliser un VPN
+* Vérifier sa plateforme de travail avant de commencer avec
+device.info
+* Créer des profils de réseaux sociaux spécifiques pour la
+recherche. Un outil utile : thispersondoesnotexist.com
+* Installer des extensions utiles dans firefox/chrome
+https://etherprod.slowme.xyz/p/OSINT_N2H_2021
+</section>
+
+<section data-markdown>
+Vous pouvez consulter une lsite d'outils et d'extensions indispensables à votre travail d'OSINT sur le site [Factoscope.fr](https://factoscope.fr/outils-osint/).
+</section>
