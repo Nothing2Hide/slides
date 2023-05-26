@@ -1,7 +1,7 @@
 ---
 layout: slide
 lang: FR
-title:  "Éplucher un site web"
+title:  "Site web"
 transition: slide
 order: 3
 onhome: true
@@ -10,7 +10,7 @@ licence: "CC BY 3.0"
 ---
 
 <section>
-  <h1>{{page.title}}</h1>
+  <h1>Éplucher un {{page.title}}</h1>
 </section>
 
 <section data-markdown>
@@ -30,6 +30,7 @@ Apprendre à [remonter le temps](atelier-osint-search.html#/7) en fouillant les 
 
 <section data-markdown>
 Exercices
+-------
 Quelle est la galaxie des sites suivants ?
 * medias-presse.info
 * ivg.net
@@ -39,6 +40,7 @@ Quelle est la galaxie des sites suivants ?
 
 <section data-markdown>
 Exercices
+---------
 Quel était le titre de Une sur la page du New York Times le 11
 septembre 2001 ?
 1) Plane Hits World Trade Center
@@ -49,6 +51,7 @@ septembre 2001 ?
 
 <section data-markdown>
 Exercices
+------
 A la suite du coup d'Etat de 2021 en Birmanie, à quelle date
 le département d'Etat américain a-t-il fait basculer le pays de
 orange ("reconsider travel") à rouge ("do not travel") dans
