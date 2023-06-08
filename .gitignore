@@ -1,3 +1,9 @@
 _site/*
 *~
 .jekyll-cache/*
+.bundle/*
+vendor/*
+.git/*
+atelier-rpt.html
+en-atelier-rpt.html
+mozfest-workshop-online-investigation.html  
