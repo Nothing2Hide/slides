@@ -1,4 +1,4 @@
-![Fishing](/assets/i/fishing.gif "Fishing")
+<img src="/assets/i/fishing.gif" alt="Phishing" title="Phishing"  class="r-stretch" />
 
 
 URLs

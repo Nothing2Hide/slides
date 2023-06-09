@@ -32,7 +32,7 @@ http[s]
 3.  **Intégrité** : les données envoyées ne peuvent être modifiées
 
 
-<img src="/assets/i/interception-https.png" alt="Les points d'interception'" title="Les point d'interception'" width="900" height="" />
+<img src="/assets/i/interception-https.png" alt="Les points d'interception'" title="Les point d'interception'" class="r-stretch" />
 
 
 Solution
@@ -62,7 +62,7 @@ Solution
 Protégez et chiffrez votre connection avec un [VPN](https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:vpn)
 
 
-<img src="/assets/i/vpn-and-https-2-en.png" alt="VPN et https" title="VPN et https" width="900" height="" />
+<img src="/assets/i/vpn-and-https-2-en.png" alt="VPN et https" title="VPN et https" class="r-stretch" width="auto" height="" />
 
 
 Les autres traces
@@ -83,7 +83,7 @@ Note: Tor ou un VPN ne vous rend pas anonyme à tous les coups. Exemple : se con
 rompre son anonymat.
 
 
-<a href="https://people.torproject.org/~lunar/tor-and-https/fr/tor-and-https.svg"><img src="/assets/i/interception-tor-https.png" alt="Tor" title="Tor" width="900" height="" /></a>
+<img src="/assets/i/interception-tor-https.png" class="r-stretch" alt="Tor" title="Tor" />
 
 
 Sur smartphone
