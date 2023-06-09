@@ -1,14 +1,14 @@
-title: Supports pédagogiques
+title: Supports pédagogiques Nothing2Hide
 email: contact@nothing2hide.org
 T4Pemail: help@nothing2hide.org
 signal: +33 7 81 37 80 08
-description: "Technologie et information, les ateliers et formations de Nothing2Hide"
+description: "Technologie et information, les supports pédagogiques de Nothing2Hide"
 baseurl: ""
 # url: "http://nothing2hide.local"
 url: "https://slides.nothing2hide.org"
 twitter: n0thing2hide
 gpgid:  6A22 9E8D 916A 1C3C 80A6 E180 D1A6 2CFD 5851 9BC4
-category-list-fr: [Sécurité numérique, OSINT, Ateliers thématiques]
+category-list-fr: [Sécurité numérique, OSINT, Divers]
 category-list-en: [Digital safety, Conferences, OSINT]
 
 # Build settings

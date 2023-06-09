@@ -4,7 +4,7 @@ lang: FR
 images: 'assets/i/'
 onhome: true
 title:  "Associations et sécurité numérique'"
-categories: [Ateliers thématiques]
+categories: [Divers]
 order: 8
 licence: "CC BY 3.0"
 ---
