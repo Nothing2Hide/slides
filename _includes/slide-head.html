@@ -10,7 +10,7 @@
   {%if page.theme %}
     <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
   {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/reveal-n2h.css" | prepend: site.baseurl }}" id="theme"/>
+    <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/theme/" | prepend: site.baseurl | append: "white" | append: '.css' }}" id="theme"/>
   {% endif %}
 
 
