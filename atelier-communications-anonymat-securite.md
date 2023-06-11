@@ -1,6 +1,5 @@
-<section>
-    <h1 class="r-fit-text">Chiffrement ou anonymat ?</h1>
-</section>
+Chiffrement ou anonymat ?
+=======
 
 
 -   Avec WhatsApp, Messenger ou Telegram, le contenu de votre message
