@@ -64,6 +64,10 @@ $text-color: #efefef;
  * GLOBAL STYLES
  *********************************************/
 
+.reveal-viewport {
+    background: #191919;
+    background-color: var(--r-background-color);
+}
 
 .reveal {
   font-family: open_sansregular, arial, Helvetica, sans-serif;
