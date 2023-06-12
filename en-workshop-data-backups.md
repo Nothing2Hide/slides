@@ -1,23 +1,23 @@
-Sauvegardes
+Backups
 -----------
 
--   Sur un disque dur externe ?
--   Dans le cloud ?
+- On an external hard drive?
+- In the cloud?
 
 
-Dans le cloud
+In the cloud
 -------------
 <ul>
-    <li class="fragment highlight-green">Une fouille physique ne peut compromettre vos données.</li>
-    <li class="fragment highlight-red">Vous avez besoin d'une bonne connexion</li>
-    <li class="fragment highlight-red">Vous devez choisir un fournisseur de service de confiance</li>
+    <li class="fragment highlight-green">A physical search cannot compromise your data.</li>
+    <li class="fragment highlight-red">You need a good connection</li>.
+    <li class="fragment highlight-red">You need to choose a trusted service provider</li>
 </ul>
 
 
-Sur un disque dur externe
+On an external hard drive
 ------------
 <ul>
-    <li class="fragment highlight-green">Vous ne dépendez pas d'aucun fournisseur de service</li>
-    <li class="fragment highlight-green">Vous n'avez pas besoin de connexion</li>
-    <li class="fragment highlight-red">Vous transportez vos données sur vous</li>
+    <li class="fragment highlight-green">You're not dependent on any service provider</li>
+    <li class="fragment highlight-green">You don't need a connection</li>
+    <li class="fragment highlight-red">You carry your data with you</li>
 </ul>
