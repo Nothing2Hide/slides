@@ -26,6 +26,12 @@ header, footer {
 		color: #333;
 		text-decoration: underline;
 	}
+	.logo {
+	}
+	.lang {
+		display: block;
+		margin-top: 1em;
+		}
 }
 footer {
 	margin-bottom: 2em;
@@ -89,18 +95,6 @@ footer {
 
 .link {
     text-decoration: none;
-}
-
-.brand {
-    position: relative;
-    left: 10%;
-    top: 10%;
-    padding: 10px;
-    margin: 10px;
-    @media screen and (max-width: $on-palm) {
-        position: static;
-        padding: 0;
-    }
 }
 
 .logo{
