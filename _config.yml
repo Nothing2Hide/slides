@@ -9,7 +9,7 @@ url: "https://slides.nothing2hide.org"
 twitter: n0thing2hide
 gpgid:  6A22 9E8D 916A 1C3C 80A6 E180 D1A6 2CFD 5851 9BC4
 category-list-fr: [Sécurité numérique, OSINT, Conférences]
-category-list-en: [Digital safety, Conferences, OSINT]
+category-list-en: [Digital safety]
 
 # Build settings
 markdown: kramdown
