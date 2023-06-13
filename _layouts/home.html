@@ -17,7 +17,7 @@
 	</header>
 	<div class="pack">
 	  {% for cat in site.category-list-fr %}
-			<h2>{{ cat }}</h3>
+			<h2 id="{{ cat | slugify:"latin" }}">{{ cat }}</h3>
 			{% assign pages=site.pages | where:"lang", page.lang | sort:"order"%} 
 	    {% for page in pages %}
 		    {% if page.onhome == true %}
