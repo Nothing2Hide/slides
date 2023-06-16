@@ -1,7 +1,7 @@
 Effacement sécurisé
 -------------------
 
-Lorsque vous effacez un ficher, vous ne faites que supprimer son entrée dans l'index du disque dur. Autrement dit vous n'effacez jamais mais le fichier amis suelement sa réfrence.
+Lorsque vous effacez un ficher, vous ne faites que supprimer son entrée dans l'index du disque dur. Autrement dit vous n'effacez jamais mais le fichier mais seulement sa référence.
 
 
 Une fois effacés, vos fichiers peuvent être récupérés à l'aide d'outils tels que [Photorec](https://www.cgsecurity.org/wiki/PhotoRec) ou [TestDisk](https://www.cgsecurity.org/wiki/TestDisk). 
