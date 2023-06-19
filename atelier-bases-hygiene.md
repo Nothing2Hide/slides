@@ -1,9 +1,8 @@
-<section data-background="/assets/i/hygiene.gif">
-</section>
-
-
 Hygiène numérique
 ====
+
+
+<img src="/assets/i/hygiene.gif" alt="Hygiène numérique" title="Hygiène numérique"  class="r-stretch" />
 
 
 -   Installez les **mises à jour** de votre système d'exploitation et de vos logiciels (libres)
@@ -29,6 +28,7 @@ Plus bas dans la même fenêtre pour le Pare-Feu :
 
 Pour vérifier ou activer le firewall, se rendre dans les Préférences
 Système / Sécurité et Confidentialité / Onglet Cliquez pour l'activer :
+
 
 ![Pare feu Mac OS](/assets/i/firewall_mac.png)
 

@@ -53,7 +53,7 @@ Briar
 
 Olvid
 ---
-[Olvid](https://olvid.io/) :  Un simple pseudo suffit pour se créer un comtpe. Sur Olvid les communications **et** les métadonnées sont chiffrées de bout en bout. L’application est certifié CSPN par l’Agence nationale de la sécurité des systèmes d’information (ANSSI). Olvid propose une version gratuite avec quelques fonctionnalités en moins (pas d'appels vocaux).
+[Olvid](https://olvid.io/) :  Un simple pseudo suffit pour se créer un compte. Sur Olvid les communications **et** les métadonnées sont chiffrées de bout en bout. L’application est certifié CSPN par l’Agence nationale de la sécurité des systèmes d’information (ANSSI). Olvid propose une version gratuite avec quelques fonctionnalités en moins (pas d'appels vocaux).
 
 
 <img src="/assets/i/careful.gif" alt="On n'est jamais trop prudent" title="On n'est jamais trop prudent" width="" height="500" />

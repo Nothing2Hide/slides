@@ -1,4 +1,4 @@
-# Quelle stratégie adopter
+# Quelle stratégie adopter ?
 
 
 Anonyme ou pas ?

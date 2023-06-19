@@ -26,8 +26,8 @@ Note: Pour à peine 15$ on peut acheter du matériel espion sur Alibaba. Ici une
 Éteint
 ------
 
-La batterie, branchée, est toujours une source d\'énergie. Avec la
-collaboration l\'opérateur téléphonique, qui lui peut accéder aux
+La batterie, branchée, est toujours une source d'énergie. Avec la
+collaboration de l'opérateur téléphonique, qui lui peut accéder aux
 paquets envoyés à la carte SIM (Application Protocol Data Unit), le
 téléphone peut théoriquement être activé.
 

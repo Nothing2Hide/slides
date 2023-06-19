@@ -8,7 +8,7 @@ Protégez vos données avec
 Veracrypt
 ------
 
-Le logiciel Veracrypt permet de chiffrer un dossier ou un périphérique externe, disque dur ou clé USB.Veracrypt permet même de chiffrer l'intégralité dun système d'exploitation. 
+Le logiciel Veracrypt permet de chiffrer un dossier ou un périphérique externe, disque dur ou clé USB. Veracrypt permet même de chiffrer l'intégralité d'un système d'exploitation. 
 
 **[Le tutoriel](https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:veracrypt)** (français)
 

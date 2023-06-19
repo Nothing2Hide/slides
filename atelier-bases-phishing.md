@@ -32,7 +32,7 @@ S’il est important d’installer un antivirus sur son poste, il est encore plu
 
 * Ne téléchargez pas de fichiers ou ne cliquez pas sur des liens qui vous sont envoyés par des expéditeurs inconnus.
 * Vérifiez soigneusement l’adresse mail ou le compte Twitter de ceux qui partagent un lien avec vous. En cas de doute, vérifiez l’identité de l’expéditeur auprès d’autres contacts ou par l’intermédiaire d’un moteur de recherche.
-* Si le fichier et l’expéditeur vous semble suspect, n'hésitez pas à contacter des experts qui pourront vous aider
+* Si le fichier ou l’expéditeur vous semble suspect, n'hésitez pas à contacter des experts qui pourront vous aider
 
 
 Quiz

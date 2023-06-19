@@ -1,7 +1,7 @@
 Modèle de menace
 =====
 
-Il n'y a rien de sécurisé à 100 , juste des informations protégées contre une menace spécifique pendant un temps donné.
+Il n'y a rien de sécurisé à 100%, juste des informations protégées contre une menace spécifique pendant un temps donné.
 
 
 5 questions à se poser

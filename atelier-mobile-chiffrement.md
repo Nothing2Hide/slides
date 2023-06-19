@@ -3,7 +3,7 @@ Chiffrement et smartphone
 
 -   Protéger l\'ouverture de votre smartphone Android ou
     [iOS](https://support.apple.com/fr-fr/HT204060) avec un mot de passe
--   Éviter les shémas (Android), les empreintes ou la reconnaissance
+-   Éviter les schémas (Android), les empreintes ou la reconnaissance
     faciale
 
 
