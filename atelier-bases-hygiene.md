@@ -5,10 +5,12 @@ Hygiène numérique
 <img src="/assets/i/hygiene.gif" alt="Hygiène numérique" title="Hygiène numérique"  class="r-stretch" />
 
 
--   Installez les **mises à jour** de votre système d'exploitation et de vos logiciels (libres)
--   Utilisez un **antivirus** ([Malwarebytes](https://fr.malwarebytes.com/mac/) pour Mac [ClamAv](https://doc.ubuntu-fr.org/clamav) pour Linux, Avast,
-[Windows Defender](https://support.microsoft.com/fr-fr/windows/rester-prot%C3%A9g%C3%A9-avec-s%C3%A9curit%C3%A9-windows-2ae0363d-0ada-c064-8b56-6a39afb6a963), Mc Afee, Norton) **même sur mac**
--   Activez votre **Firewall** sur [Windows](http://windows.microsoft.com/fr-fr/windows7/products/features/windows-firewall) et sur [Mac](https://support.apple.com/kb/HT1810?viewlocale-fr_FR&locale-fr_FR)
+<ul>
+<li class="fragment">Installez les <strong>mises à jour</strong> de votre système d'exploitation et de vos logiciels (libres)</li>
+<li class="fragment">Utilisez un <strong>antivirus</strong> (<a href="https://fr.malwarebytes.com/mac/">Malwarebytes</a> pour Mac <a href="https://doc.ubuntu-fr.org/clamav">ClamAv</a> pour Linux, Avast,
+<a href="https://support.microsoft.com/fr-fr/windows/rester-prot%C3%A9g%C3%A9-avec-s%C3%A9curit%C3%A9-windows-2ae0363d-0ada-c064-8b56-6a39afb6a963">Windows Defender</a>, Mc Afee, Norton) <strong>même sur mac</strong></li>
+<li class="fragment">Activez votre <strong>Firewall</strong> sur <a href="http://windows.microsoft.com/fr-fr/windows7/products/features/windows-firewall">Windows</a> et sur <a href="https://support.apple.com/kb/HT1810?viewlocale-fr_FR&amp;locale-fr_FR">Mac</a></li>
+</ul>
 
 
 ### Windows
