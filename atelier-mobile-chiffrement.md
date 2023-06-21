@@ -1,10 +1,12 @@
 Chiffrement et smartphone
--------------------------
+==========================
 
--   Protéger l\'ouverture de votre smartphone Android ou
-    [iOS](https://support.apple.com/fr-fr/HT204060) avec un mot de passe
--   Éviter les schémas (Android), les empreintes ou la reconnaissance
-    faciale
+
+La base
+--------
+
+-   Protéger l'ouverture de votre smartphone Android ou [iOS](https://support.apple.com/fr-fr/HT204060) avec un mot de passe
+-   Éviter les schémas (Android), les empreintes ou la reconnaissance faciale
 
 
 Android
@@ -12,7 +14,7 @@ Android
 
 Le chiffrement de vos données est activé par défaut depuis **Android 6.0
 Marshmallow**. Le chiffrement se fait de façon invisible lorsque le
-configurateur vous demande de choisir un verrouillage d\'écran : schéma,
+configurateur vous demande de choisir un verrouillage d'écran : schéma,
 code PIN ou mot de passe. Reconnaissance faciale et empreinte digitale
 ne rentrent pas dans le lot !
 
@@ -20,7 +22,7 @@ ne rentrent pas dans le lot !
 iPhone
 ------
 
-Depuis **iOS 8** les données personnelles sur les téléphones d\'Apple
+Depuis **iOS 8** les données personnelles sur les téléphones d'Apple
 sont chiffrées par défaut lorsque le téléphone est verrouillé par un
 code ou par Touch ID.
 
@@ -47,10 +49,8 @@ endroits :
 Tella : un coffre fort local
 ----------------------------
 
-[Tella](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl)
-est une application android qui permet de prendre des photos et vidéos
-et de les stocker chiffrées, de les camoufler, voire des les effacer en
-cas d\'urgence.
+
+Tella est une application disponible sur [Android](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl) et [iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) qui permet de prendre des photos et vidéos et de les stocker chiffrées, de les camoufler, voire des les effacer en cas d'urgence.
 
 
 <img src="/assets/i/tella-installation.gif" alt="Installation de Tella" title="Installation de Tella" height="600px" />
