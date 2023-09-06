@@ -1,8 +1,7 @@
 ---
 layout: impress
 lang: FR
-ref: secu-intro
-title:  "Sécurité numérique : une introduction"
+title:  "Sécurité numérique"
 description : "Introduction à la sécurité numérique, par Nothing2Hide"
 onhome: true
 categories: [Conférences]
@@ -31,7 +30,8 @@ order: 1
 <div id="digitalsafety" class="step" data-x="500" data-y="1700" data-rotate="0" data-scale="3">
   <h1>Sécurité numérique</h1>
   <p>Vous <strong>devez</strong> vous y intéresser. <br />
-  En 2013, <a href="http://www.nytimes.com/2013/01/31/technology/chinese-hackers-infiltrate-new-york-times-computers.html?pagewanted=1&ref=technology&_r=0">le NYT a été victime d'attaques</a> venant probablement de Chine. Le journal a été infiltré grâce au piratage non pas de l'ensemble du SI mais de comptes individuels.</p>
+  <a href="https://www.nytimes.com/2013/01/31/technology/chinese-hackers-infiltrate-new-york-times-computers.html">Ainsi que l'explique le NYT lui même</a>, suite à la publication d'une enquête sur la fortune du remier ministre de l'éoque Wen Jiabao, la rédactiondu média a été victime d'attaques venant probablement de l'Etat chinois lui même. Le journal a été infiltré grâce au piratage non pas de l'ensemble du SI mais de comptes individuels.</p>
+  <p class="footnote">Plus proche de nous, on peut citer l'affaire <a href="https://nothing2hide.org/fr/2021/09/07/pegasus-et-le-marche-de-la-surveillance/">Pegasus</a>.</p>
 </div>
 
 <!--div id="youshouldcare" class="step" data-x="2550" data-y="1350" data-rotate="-45" data-z="-1300" data-scale="2">
@@ -77,7 +77,7 @@ order: 1
   </div>
 
 <div id="maj" class="step" data-x="2000" data-y="3625" data-z="-500" data-rotate="90" data-scale="1">
-  <p>Installez les <strong>mises à jour</strong> de votre système d'exploitation (libres) et vos logiciels (libres)</p>
+  <p>Installez les <strong>mises à jour</strong> de votre système d'exploitation (libre) et vos logiciels (libres)</p>
 </div>
 
 <div id="antivirus" class="step" data-x="2350" data-y="3625" data-z="-1000" data-rotate="90" data-scale="1">
@@ -88,15 +88,15 @@ order: 1
         <p>Activez votre <strong>Firewall</strong></p>
 </div>
 
-<div id="firewallwindowslol" class="step" data-x="2400" data-y="5525" data-z="-500" data-rotate="180" data-scale="2">
+<!--div id="firewallwindows" class="step" data-x="2400" data-y="5525" data-z="-500" data-rotate="180" data-scale="2">
   <img src="{{site.url}}{{site.baseurl}}/assets/i/firewall_windows.png" alt="windows firewall" width="100%">
 </div>
 
-<div id="firewallwindows" class="step" data-x="2400" data-y="7525" data-z="0" data-rotate="180" data-scale="2">
+<div id="firewallmac" class="step" data-x="2400" data-y="7525" data-z="0" data-rotate="180" data-scale="2">
   <img src="{{site.url}}{{site.baseurl}}/assets/i/firewall_mac.png" alt="Mac firewall">
-</div>
+</div-->
 
-<div id="firewallmac" class="step" data-x="2400" data-y="9525" data-z="-1000" data-rotate="180" data-scale="2">
+<div id="firewallwindowslol" class="step" data-x="2400" data-y="9525" data-z="-1000" data-rotate="180" data-scale="2">
     <img src="{{site.url}}{{site.baseurl}}/assets/i/firewall_windows_lol.gif" alt="windows firewall lol" width="100%">		  
 </div>
 
@@ -105,7 +105,7 @@ order: 1
   </div>
   
  <div id="chiffrement" class="step"  data-x="3300" data-y="3625" data-z="-1000" data-rotate="90" data-scale="1">
-	<p><strong>Chiffrez</strong> vos données sur votre disque dur, clés USB, dans le cloud chez Apple, Google ou Dropbox <small>avec PGP, BitLocker, <a href="https://nothing2hide.org/slides/atelier-data.html#/1/4">VeraCrypt</a>, FileVault, MiniLock.io</small></p>
+	<p><strong>Chiffrez</strong> vos données sur votre disque dur, clés USB, dans le cloud chez Apple, Google ou Dropbox <small>avec PGP, BitLocker, <a href="https://nothing2hide.org/slides/atelier-data.html#/1/4">VeraCrypt</a>, FileVault, <a href="https://cryptomator.org/">Cryptomator</a></small></p>
 	  <!-- démo : prise de contrôle d'un windows ou linux non chiffré avec boot usb GP -->
 </div>
 
@@ -123,22 +123,21 @@ order: 1
     <p>Votre mot de passe est-il vraiment robuste ? Qui veut <a href="http://howsecureismypassword.net">essayer</a> ?</p>
 </div>
 
-
 <div id="passphrases" class="step"  data-x="-1500" data-y="4200" data-z="2000" data-rotate="90" data-scale="2">
     <h1>Les phrases de passe</h1>
     <p>Oubliez les <b class="rotating">mots de passe</b> et utilisez des <strong>phrases de passe</strong>.</p>
 </div>
 
-<div id="xkcd" class="step" data-x="-2400" data-y="4500" data-z="2000" data-rotate="90" data-scale="1">
+<!--div id="xkcd" class="step" data-x="-2400" data-y="4500" data-z="2000" data-rotate="90" data-scale="1">
   <img src="{{site.url}}{{site.baseurl}}/assets/i/password_strength.png" alt="Password strength" />
-</div>
+</div-->
 
 
 <div id="passwordmanagers" class="step" data-x="-3900" data-y="4500" data-z="0" data-rotate="90" data-scale="1">
   <ul>
       <li>N'utilisez <strong>jamais le même mot de passe </strong>deux fois</li>
       <li>Si vous avez besoin d'aide, utilisez un <strong>password manager</strong> : <a href="https://bitwarden.com/">Bitwarden</a>, <a href="https://www.dashlane.com/">Dashlane</a> ou <a href="http://keepass.info/">KeePass</a></li>
-      <li>Activez la <a href="https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:lesbases&s[]=double&s[]=authentification#la_double_authentification">double authentification</a> losrque cela est possible</li>
+      <li>Activez la <a href="https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:lesbases&s[]=double&s[]=authentification#la_double_authentification">double authentification</a> lorsque cela est possible</li>
   </ul>
 </div>
 
@@ -161,13 +160,12 @@ order: 1
 </div>
 
 <div id="traceordi-liste" class="step" data-x="1730" data-y="-2100" data-z="-500" data-rotate="-90" data-scale="2">
-  <p>Historique de navigation, cookies, mots de passe enregistrés, historique des fichiers, messages chat, emails, etc.</p>
+  <p>Historique de navigation, cookies, mots de passe enregistrés, historique des fichiers, <a href="https://www.lepoint.fr/politique/la-note-judiciaire-secrete-transmise-par-urvoas-a-solere-13-12-2017-2179219_20.php#11">messages</a>, chat, emails, etc.</p>
 </div>
 
 
 <div id="erasingsolutions" class="step"  data-x="1730" data-y="-5000" data-z="-500" data-rotate="-90" data-scale="2">
   <ul>
-    <li>Avec votre navigateur : utilisez la navigation privée</li>
     <li>Utilisez les messages éphémères sur WhatsApp, Signal Telegram (préférez Signal quand même)</li>
     <li>Effacez vos fichiers de <a href="https://nothing2hide.org/slides/atelier-data.html#/2/1">manière sécurisée</a></li>
     <li>Pour les plus paranos : utilisez un <strong>live OS</strong> tel que <a href="https://tails.boum.org/">Tails</a> ou <a href="https://www.qubes-os.org/">Qubes</a></li>
@@ -221,11 +219,6 @@ order: 1
 		<p>Un smartphone est un ordinateur. Tout ce qui a été mentionné précédemment s'applique également aux  <strike>spyphones</strike> smartphones.</p>
 </div>
 
-<div id="dumbphone" class="step" data-x="7000" data-y="1200" data-scale="1">
-  <img src="{{site.url}}{{site.baseurl}}/assets/i/dumbphone.jpg" alt="Dumbphone"><br/>
-  <!-- Image issue de <a href="http://in30minutes.com">In 30 Minutes guides</a> sous licence CC 2.0 -->
-</div>
-
 <div id="cellphone-data" class="step" data-x="7000" data-y="750" data-z="000" data-rotate="0" data-rotate-y="0" data-scale="1">
     <h2>Votre téléphone transmet en permanence</h2>
     <ul>
@@ -260,6 +253,10 @@ order: 1
     <p class="footnote">Note : il est impossible de retirer la batterie sur un iphone</p>
 </div>
 
+<div id="dumbphone" class="step" data-x="7000" data-y="1200" data-scale="0.1">
+  <img src="{{site.url}}{{site.baseurl}}/assets/i/dumbphone.jpg" alt="Dumbphone"><br/>
+  <!-- Image issue de <a href="http://in30minutes.com">In 30 Minutes guides</a> sous licence CC 2.0 -->
+</div>
 
 <!--
 **********
@@ -272,7 +269,7 @@ order: 1
 
 <div id="n2hslides" class="step" data-x="5500" data-y="2800" data-rotate-x="-90" data-z="0" data-scale="1">
 <p>
-    Tous nos documents sont <a href="https://nothinghide.org/slides">accessibles en ligne</a> sous licence libre
+    Tous nos documents sont <a href="https://slides.nothinghide.org">accessibles en ligne</a> sous licence libre
 </p>
 </div>
 
