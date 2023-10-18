@@ -1,57 +1,55 @@
-Que faire quand on en est victime ?
+Que faire quand on en est victime ? 
 =====
 
-
-Sur Twitter
-====
+DDVSS
 
 
-Réglages et notifications
------
+D. Demandez de l'aide
+------
+Parlez-en à une tierce personne. Dans une situation de cyberharcèlement, le plus important est de ne pas se taire et de ne pas rester isolé. Au besoin vous pourrez confier vos comptes à ce tiers de confiance pourn qu'il ou elle gère la situation le temps de la tempête.
 
 
-Dans les [paramètres de notifications](https://twitter.com/settings/notifications/advanced_filters), masquez les profils qui ne vous suivent pas, qui n'ont pas de photos et qui n'ont pas confirmé leur mail.
+D. Documentez
+----
+**Documentez** les faits de harcèlement à votre encontre. Faites des captures d’écran, conservez les messages et les informations liées aux auteurs du cyberharcèlement (vous ou votre tiers de confiance si vous avez déjà délégué votre compte). Ces informations vous serviront pour signaler et caractériser cette situation, voire pour déposer plainte.
 
 
-![Filtres avancés de twitter](/assets/i/twitter-filtre-avances.jpg)
+V. Verrouillez
+------
+**Verrouillez** vos comptes de réseaux sociaux. Modifiez les paramètres de confidentialité afin d'en restreindre l'accès. Vous pouvez les passer basiquement en privé ou utiliser des options de confidentialité plus avancées telles que « ne plus me trouver » ou « ne pas afficher/partager ma liste d'amis ». Aussi et surtout, n'hésitez pas à bloquer largement les harceleurs.
 
 
-Soft block
+S. Supprimez
 ------
 
-
-Bloquer puis débloquer immédiatement un compte permet de le **supprimer de vos followers** sans qu'il en soit informé. Vos messages ne remonteront plus dans la timeline du troll. 
-
-
-Avec les paramétrages précédents, le soft block permet également d'**expulser un compte de votre timeline** (puisque vous ne faites apparaître que les comptes qui vous suivent).
+Demandez à déréférencer les contenus utilisés pour vous harceler. La plupart des moteurs de recherche mettent à votre disposition un formulaire en ligne à remplir pour demander un déréférencement. Faites une demande auprès de chaque moteur de recherche concerné : Bing, Qwant, Google, Yahoo, autres. 
 
 
-Pour ne pas perdre le contact
----------------
+S. Signalez
+----
+
+**Signalez** les contenus auprès des plateformes :
+
+* [Facebook](https://www.facebook.com/help/263149623790594URL)
+* [Twitter](https://www.facebook.com/help/263149623790594)
+* [LinkedIn](https://www.linkedin.com/help/linkedin/answer/37855/identifier-et-signaler-du-spam-et-des-contenus-inappropries-ou-abusifs?lang=fr)
+* [Instagram](https://www.facebook.com/help/instagram/165828726894770)
+* [Snapchat](https://www.facebook.com/help/instagram/165828726894770)
+* [TikTok](https://support.tiktok.com/fr/safety-hc/report-a-problem)
+* [WhatsApp](https://faq.whatsapp.com/general/security-and-privacy/staying-safe-on-whatsapp/?lang=fr#Report)
+* [YouTube](https://support.google.com/youtube/answer/2802027)
 
 
-Afin de ne pas vous couper de l\'interactivité offerte par Twitter, vous
-pouvez en contrepartie [ouvrir vos messages
-privés](https://twitter.com/settings/safety).
+**Signalez** les faits sur la plateforme **Pharos** en cas d’injure, de diffamation, de menace, d’incitation à la haine, à la discrimination, à la violence ou de mise en danger : [Internet-signalement.gouv.fr](https://www.internet-signalement.gouv.fr/).
 
 
-![messages privés ouverts](/assets/i/twitter-mp.png)
-
-Note:Les harceleurs recherchent l'attention, ils n'ont aucun intérêt à  écrire un message que personne ne verra à part vous.</aside>
+**Déposez plainte** [au commissariat de police ou à la brigade de gendarmerie](https://www.interieur.gouv.fr/Contact/Contacter-une-brigade-de-gendarmerie-ou-un-commissariat-de-police) ou encore par écrit au [procureur de la République du tribunal judiciaire](https://www.service-public.fr/particuliers/vosdroits/R11469) dont vous dépendez en fournissant toutes les preuves en votre possession.
 
 
-Demetricator
-------------
-
-
-[Demetricator](https://bengrosser.com/projects/twitter-demetricator/),une extension pour Firefox et Chrome, permet de cacher le nombre de **followers**, **likes** et **retweets**. Sans chiffres vous subirez moins la pression du nombre d'interactions.
-
-
-Bodyguard
+Embauchez un garde du corps
 --------
 
-
-[BodyGuard](https://www.bodyguard.ai/) est une application disponible sur iphoen et android qui modère en temps réel les contenus haineux, racistes, homophobes, ou liés au harcèlement sexuel ou moral sur **Twitter**, **Facebook**, **Youtube** et **Instagram**.
+[BodyGuard](https://www.bodyguard.ai/) est une application disponible sur iphone et android qui modère en temps réel les contenus haineux, racistes, homophobes, ou liés au harcèlement sexuel ou moral sur **Twitter**, **Facebook**, **Youtube** et **Instagram**.
 
 
 Les règles de modération et le traitement des contenus identifiés comme haineux sont paramétrables.

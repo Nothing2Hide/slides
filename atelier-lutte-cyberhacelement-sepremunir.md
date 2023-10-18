@@ -1,7 +1,7 @@
 # Comment s'en prémunir ?
 
 
-[Contrôler vos traces en ligne](https://slides.nothing2hide.org/conference-donnees-personnelles.html)
+[Contrôler vos traces en ligne](/atelier-controler-traces.html)
 
 
 ![Options de vie privée](/assets/i/twitter-privacy.png)
