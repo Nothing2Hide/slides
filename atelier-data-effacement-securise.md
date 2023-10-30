@@ -37,3 +37,8 @@ Si vous savez comment utiliser le terminal sur Mac OS, vous pouvez depuis Mac OS
 
     rm -P
 
+
+Mac OS
+------
+
+Malheureusement, en raison de la façon dont les SSD, les clés USB et les cartes SD fonctionnent, il est difficile, sinon impossible, de supprimer en toute sécurité à la fois des fichiers précis et l’espace disque libre. C’est pourquoi la meilleure approche en matière de protection des données reste l'utilisation du chiffrement intégral de votre disque.
