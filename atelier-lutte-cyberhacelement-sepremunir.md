@@ -1,17 +1,43 @@
 # Comment s'en prémunir ?
 
-
-[Contrôler vos traces en ligne](/atelier-controler-traces.html)
-
-
-![Options de vie privée](/assets/i/twitter-privacy.png)
+Le meilleur moyen de se prémunir du harcèlement en ligne est d'agir en amont. Il est donc essentiel de connaître **quelles informations nous concernant sont accessibles en ligne**, réfléchir à ce qu'elles révèlent sur nous et prendre des mesures pour les supprimer lorsque cela est possible.
 
 
-Vérifiez les [options de confidentialité](https://twitter.com/settings/safety) de votre compte twitter
+Sur vos réseaux sociaux
+----
+
+Passez en revue les paramètres de confidentialité de vos comptes de réseaux sociaux pour voir quelles données sont exposées sur [Twitter](https://twitter.com/settings/audience_and_tagging),
+[Facebook](https://www.facebook.com/privacy/checkup/?source=settings_and_privacy), [Instagram ](https://echap.eu.org/ressources/guides/guide-de-confidentialite-et-de-securite-pour-instagram/),
+[Tiktok](https://support.tiktok.com/fr/account-and-privacy/account-privacy-settings/making-your-account-public-or-private).
 
 
-![Options de vie privée](/assets/i/facebook-privacy.png)
+Sortez les vieux squelettes du placard
+---
+
+Vérifiez que vous n'avez pas oublié un vieux compte sur une plate-forme ou un service en ligne avec [whatsmyname](https://whatsmyname.app/)
 
 
-* Regardez [ce que les autres peuvent voir de votre profil](https://fr-fr.facebook.com/help/288066747875915) Facebook
-* Vérifiez les [options de confidentialité](https://www.facebook.com/settings?tab=privacy) de votre compte Facebook
+Have you been powned?
+----
+
+Vérifier qu'aucun de vos comptes n'ai fait l'objet d'une fuite de données. Entrez votre adresse mail sur [Firefox Monitor](https://monitor.firefox.com/) ou dans [haveibeenpwned](https://haveibeenpwned.com/).
+
+
+
+Identifiez les informations que l'on peut trouver sur vous
+---
+
+* Faites des recherches sur vous et sur les membres de votre famille proche
+* Configurez des [alertes Google](https://www.google.fr/alerts#) pour votre nom, votre adresse et d'autres informations telles que votre date de naissance ou votre adresse. Prévoyez des alertes pour les fautes d'orthographe courantes de votre nom
+
+
+Sensibilisez votre entourage
+----
+
+Parlez avec votre famille et vos amis des informations qu'ils publient sur vous et sur les autres. Expliquez quelles données vous êtes prêt à partager et quelles données vous souhaitez garder confidentielles. Discutez avec eux de la possibilité de limiter les publications dans lesquelles ils vous marquent.
+
+
+Compartimentez vos activités
+----
+
+Dans la mesure du possible, itilisez des comptes différents pour votre travail et pour votre vie personnelle : une adresse mail pour le travail, une pour le personnel, idem pour les réseaux sociaux. 
