@@ -2,6 +2,14 @@ Un mouchard de poche
 ============
 
 
+![Le portable un mouchard de poche](/assets/i/mouchard-poche-1.png)
+Note: Montrer le schéma sans le glossaire et demander aux participants quelles données d'après eux transitent d'un smartphone.
+
+
+![Le portable un mouchard de poche](/assets/i/mouchard-poche-2.png)
+Note: Les identifiants uniques associés  à chacun de ces composants peuvent être transmis sans chiffrement. Lorsque cela se produit, les utilisateurices sont susceptibles d’être suivis et pistés à l’aide de ces identifiants. Il est aussi possible de corréler ces identifiants avec les lieux par lesquels les utilisateurs sont passés. 
+
+
 En veille
 ---------
 
@@ -35,7 +43,7 @@ téléphone peut théoriquement être activé.
 Batterie démontée
 -----------------
 
--   Sans batterie, pas d\'énergie, pas de signaux transmis, pas de
+-   Sans batterie, pas d'énergie, pas de signaux transmis, pas de
     surveillance.
 -   Problème : peu de téléphones disposent encore d\'une batterie
     amovible
