@@ -1,8 +1,12 @@
-# Quelle stratégie adopter ?
+Compartimentez vos activités
+======
+
+Dans la mesure du possible, utilisez des comptes différents pour votre travail et pour votre vie personnelle : une adresse mail pour le travail, une pour le personnel, idem pour les réseaux sociaux. 
 
 
-Anonyme ou pas ?
----
+Quelle stratégie adopter ?
+------
+
 -   Identité réelle
 -   ~~Anonymat~~
 -   Pseudonymat

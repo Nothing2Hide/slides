@@ -23,7 +23,6 @@ Have you been powned?
 Vérifier qu'aucun de vos comptes n'ai fait l'objet d'une fuite de données. Entrez votre adresse mail sur [Firefox Monitor](https://monitor.firefox.com/) ou dans [haveibeenpwned](https://haveibeenpwned.com/).
 
 
-
 Identifiez les informations que l'on peut trouver sur vous
 ---
 
@@ -35,9 +34,3 @@ Sensibilisez votre entourage
 ----
 
 Parlez avec votre famille et vos amis des informations qu'ils publient sur vous et sur les autres. Expliquez quelles données vous êtes prêt à partager et quelles données vous souhaitez garder confidentielles. Discutez avec eux de la possibilité de limiter les publications dans lesquelles ils vous marquent.
-
-
-Compartimentez vos activités
-----
-
-Dans la mesure du possible, itilisez des comptes différents pour votre travail et pour votre vie personnelle : une adresse mail pour le travail, une pour le personnel, idem pour les réseaux sociaux. 
