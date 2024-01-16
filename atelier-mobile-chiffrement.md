@@ -9,57 +9,51 @@ La base
 -   Éviter les schémas (Android), les empreintes ou la reconnaissance faciale
 
 
-Android
+Le chiffrement
 -------
 
-Le chiffrement de vos données est activé par défaut depuis **Android 6.0
-Marshmallow**. Le chiffrement se fait de façon invisible lorsque le
-configurateur vous demande de choisir un verrouillage d'écran : schéma,
-code PIN ou mot de passe. Reconnaissance faciale et empreinte digitale
-ne rentrent pas dans le lot !
+Votre smartphone propose des options de chiffrement par défaut. 
 
 
-iPhone
-------
+###  Android
 
-Depuis **iOS 8** les données personnelles sur les téléphones d'Apple
-sont chiffrées par défaut lorsque le téléphone est verrouillé par un
-code ou par Touch ID.
+Le chiffrement de vos données est activé par défaut depuis **Android 6.0 Marshmallow**. Celui-ci s'effectue' de façon invisible lorsque le configurateur vous demande de choisir un verrouillage d'écran : schéma, code PIN ou mot de passe. Reconnaissance faciale et empreinte digitale ne rentrent pas dans le lot !
 
-Il est possible de configurer un effacement automatique après 10
-tentatives infructueuses de déverouillage.
+
+Pour vérifier que le chiffrement est bien activé allez dans 
+
+>  Paramètres > Sécurité > Chiffrement
+
+Si le chiffrement n'est pas activé, branchez votre téléphone sur secteur et lancez le chiffrement.
+
+
+###  iPhone
+
+Depuis **iOS 8** les données personnelles sur les téléphones d'Apple sont chiffrées par défaut lorsque le téléphone est  verrouillé par un code ou par Touch ou Face ID
+
+
+Si vous avez la possibilité d’utiliser Face ID (reconnaissance faciale), nous vous le recommandons. Certains experts en sécurité numérique ont réussi à pirater Touch ID (lecteur d'empreinte digitale).
+
+
+Enfin, si votre téléphone contient des données très sensibles, il est possible de configurer un effacement automatique après 10 tentatives infructueuses de déverrouillage
+
+> paramètres > Touch ID et Code > Effacer les données
 
 
 ![](/assets/i/ios-erasing.webp){height="600"}
 
 
-Des données partout
--------------------
-
-Rappelez-vous, votre smartphone contient des données à plusieurs
-endroits :
-
--   Sur la carte sim
--   Dans la mémoire du téléphone
--   Sur la carte SD
--   Dans les \"nuages\" si vous utilisez une service de cloud icloud ou
-    Google drive
-
 
 Tella : un coffre fort local
 ----------------------------
 
-
-Tella est une application disponible sur [Android](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl) et [iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) qui permet de prendre des photos et vidéos et de les stocker chiffrées, de les camoufler, voire des les effacer en cas d'urgence.
-
-
-<img src="/assets/i/tella-installation.gif" alt="Installation de Tella" title="Installation de Tella" height="600px" />
+[Tella](https://tella-app.org/) est une application disponible sur Android et iOS. Tella vous permet de stocker des fichiers, photos, vidéos et autres, dans un coffre fort chiffré.
 
 
-<img src="/assets/i/tella-video.gif" alt="Prise d'images, de vidéos ou de sons dans Tella" title="Prise d'images, de vidéos ou de sons dans Tella" height="600px" />
+Vous pouvez également paramétrer la possibilité d’envoyer les données enregistrées vers un serveur pour une sauvegarde automatique.
 
 
-<img src="/assets/i/tella-import.gif" alt="Import de fichiers dans Tella" title="Import de fichiers dans Tella" height="600px" />
+Tella dispose d'un mode camouflage qui permet de dissimuler l'application sur votre téléphone.
 
 
-<img src="/assets/i/tella-camouflage-icon.gif" alt="Camoufler l'icône de Tella" title="Camoufler l'icône de Tella" height="600px" />
+Enfin, Tella dispose d'une fonctionnalité “Panic button” qui vous permet d’effacer tout le contenu du coffre fort d’un simple geste.
