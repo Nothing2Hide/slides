@@ -30,11 +30,11 @@ S. Signalez
 
 **Signalez** les contenus auprès des plateformes :
 
-* [Facebook](https://www.facebook.com/help/263149623790594URL)
-* [Twitter](https://www.facebook.com/help/263149623790594)
-* [LinkedIn](https://www.linkedin.com/help/linkedin/answer/37855/identifier-et-signaler-du-spam-et-des-contenus-inappropries-ou-abusifs?lang=fr)
+* [Facebook](https://www.facebook.com/help/263149623790594)
+* [Twitter](https://help.x.com/fr/rules-and-policies/twitter-report-violation1)
+* [LinkedIn](https://www.linkedin.com/help/linkedin/answer/a544974/reconnaitre-et-signaler-comme-spam-de-contenu-inappropries-et-un-des-groupes)
 * [Instagram](https://www.facebook.com/help/instagram/165828726894770)
-* [Snapchat](https://www.facebook.com/help/instagram/165828726894770)
+* [Snapchat](https://help.snapchat.com/hc/en-us/articles/7012399221652-How-do-I-report-abuse-or-illegal-content-on-Snapchat)
 * [TikTok](https://support.tiktok.com/fr/safety-hc/report-a-problem)
 * [WhatsApp](https://faq.whatsapp.com/general/security-and-privacy/staying-safe-on-whatsapp/?lang=fr#Report)
 * [YouTube](https://support.google.com/youtube/answer/2802027)
