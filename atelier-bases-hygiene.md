@@ -29,10 +29,17 @@ Plus bas dans la même fenêtre pour le Pare-Feu :
 ### Mac
 
 Pour vérifier ou activer le firewall, se rendre dans les Préférences
-Système / Sécurité et Confidentialité / Onglet Cliquez pour l'activer :
+Système / Sécurité et Confidentialité
 
 
-![Pare feu Mac OS](/assets/i/firewall_mac.png)
+![Pare feu Mac OS](/assets/i/macosventura-firewall.jpg)
+
+
+Cliquez pour l'activer
+
+
+![Pare feu Mac OS](/assets/i/macosventura-firewall-enable.webp)
+
 
 
 Verouillez
