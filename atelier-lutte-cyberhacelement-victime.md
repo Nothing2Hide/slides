@@ -46,12 +46,6 @@ S. Signalez
 **Déposez plainte** [au commissariat de police ou à la brigade de gendarmerie](https://www.interieur.gouv.fr/Contact/Contacter-une-brigade-de-gendarmerie-ou-un-commissariat-de-police) ou encore par écrit au [procureur de la République du tribunal judiciaire](https://www.service-public.fr/particuliers/vosdroits/R11469) dont vous dépendez en fournissant toutes les preuves en votre possession.
 
 
-Embauchez un garde du corps
---------
-
-[BodyGuard](https://www.bodyguard.ai/) est une application disponible sur iphone et android qui modère en temps réel les contenus haineux, racistes, homophobes, ou liés au harcèlement sexuel ou moral sur **Twitter**, **Facebook**, **Youtube** et **Instagram**.
-
-
 Les règles de modération et le traitement des contenus identifiés comme haineux sont paramétrables.
 
 
