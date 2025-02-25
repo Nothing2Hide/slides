@@ -11,7 +11,7 @@ est possible.
 
 
 
-Identifier les informations que l'on peut trouver sur vous
+Identifiez les informations que l'on peut trouver sur vous
 =====
 
 
@@ -29,7 +29,7 @@ Sur vos réseaux sociaux
 
 
 
-Supprimer les données
+Supprimez les données
 ====================
 
 
