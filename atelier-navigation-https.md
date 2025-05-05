@@ -2,7 +2,7 @@ Points d'interception en ligne
 ====
 
 
-<img src="/assets/i/interception.png" alt="Les points d'interception" title="Les point d'interception'" width="990" height="" />
+[![Le trafic http classique](/assets/i/interception.png)](/assets/i/interception.png)
 
 
 http[s] ?
@@ -32,7 +32,7 @@ http[s]
 3.  **Intégrité** : les données envoyées ne peuvent être modifiées
 
 
-<img src="/assets/i/interception-https.png" alt="Les points d'interception'" title="Les point d'interception'" class="r-stretch" />
+[![le trafic https](/assets/i/interception-https.png)](/assets/i/interception-https.png)
 
 
 Solution

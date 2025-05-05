@@ -14,10 +14,10 @@ Solution
 Protégez et chiffrez votre connection avec un [VPN](https://wiki.nothing2hide.org/doku.php?id=protectionnumerique:vpn)
 
 
-<img src="/assets/i/vpn-and-https-2-en.png" alt="VPN et https" title="VPN et https" class="r-stretch" width="auto" height="" />
+[![Le trafic https avec un VPN](/assets/i/vpn-and-https-2-en.png)](/assets/i/vpn-and-https-2-en.png)
 
 
 Sur smartphone
 --------------
 
--   Openvpn connect pour  [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn) et [Iphone](https://itunes.apple.com/fr/app/openvpn-connect/id590379981?mt=8)
+- Openvpn connect pour  [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn) et [Iphone](https://itunes.apple.com/fr/app/openvpn-connect/id590379981?mt=8)
