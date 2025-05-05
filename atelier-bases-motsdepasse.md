@@ -10,8 +10,20 @@ robuste](https://nothing2hide.org/fr/verifier-la-robustesse-de-votre-mot-de-pass
     <li class="fragment">Plus votre phrase de passe comporte de caractères, plus elle sera difficile à craquer</li>
     <li class="fragment">Évitez les titres de films, de romans ou toute information personnelle facile à deviner</li>
     <li class="fragment"><strong>Utilisez une phrase différente par service</strong></li>
-    <li class="fragment">Aidez-vous de gestionnaires de mot de passe : <a href="https://bitwarden.com/">Bitwarden</a>, <a href="https://www.dashlane.com/">Dashlane</a> ou <a href="http://keepass.info/">KeePass</a></li>
+    <li class="fragment">Aidez-vous de gestionnaires de mot de passe : <a href="https://bitwarden.com/">Bitwarden</a>, <a href="http://somesite.com/">ProtonPass</a>
+     ou <a href="http://keepass.info/">KeePass</a></li>
 </ul>
+
+
+|                             | ProtonPass | Bitwarden | KeepassXC |
+| ----------------------------| ---------- | ---------- | ---------|
+| Open source                 | Oui        | Oui        | Oui      |
+| Synchronisation             | Oui        | Oui        | Non      |
+| Générateur de mots de passe | Oui        | Oui        | Oui      |
+| Gratuit                     | Freemium   | Freemium   | Oui      |
+
+
+![La force d\'un mot de passe](/assets/i/password-table-fr.png)
 
 
 ![La force d\'un mot de passe](/assets/i/password_strength.png)

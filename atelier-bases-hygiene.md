@@ -42,7 +42,7 @@ Cliquez pour l'activer
 
 
 
-Verouillez
+Verrouillez
 ----
 
 **Verrouillez** votre session sur ordinateur et smartphone
@@ -51,12 +51,20 @@ Verouillez
 Chiffrez
 -----
 
-**[Chiffrez](/atelier-data.html#/3)** vos données sur votre disque dur, support externes, sur votre [smartphone](/atelier-mobile.html#/3) et dans le *cloud* avec PGP, BitLocker, [VeraCrypt](/atelier-data.html#/3/1), FileVault ou [Cryptomator](/atelier-data.html#/3/2).
+**[Chiffrez](/atelier-data.html#/3)** vos données sur votre disque dur, support externes, sur votre [smartphone](/atelier-mobile.html#/3) et dans le *cloud* avec PGP, BitLocker, [VeraCrypt](/atelier-data.html#/3/1), [FileVault](https://support.apple.com/fr-fr/guide/mac-help/mh11785/mac) ou [Cryptomator](/atelier-data.html#/3/2).
 
 
-Paramètres de sécurité
-----------------------
+Dans le cloud
+----
 
-Vérifiez quels [appareils](https://myaccount.google.com/device-activity)
-et [quelles applications](https://myaccount.google.com/permissions) ont
-accès à votre compte Google.
+
+
+|                                       | <small>Chiffrement en transit</small> | <small>Chiffrement serveur</small> | <small>E2E</small> | <small>Open source</small> |
+| ------------------------------------------------------------ | -------------------------- | ----------------------- | ------------------------------- | --------------- |
+| [NextCloud](https://nextcloud.com/blog/nextcloud-introducing-native-integrated-end-to-end-encryption/) | 🗹                          | 🗹                       | 🗹                               | 🗹               |
+| [Cryptpad](https://docs.cryptpad.org/en/user_guide/security.html) | 🗹                          | 🗹                       | 🗹                               | 🗹               |
+| [Protondrive](https://proton.me/fr/drive/security)           | 🗹                          | 🗹                       | 🗹                               | 🗹               |
+| [iCloud](https://support.apple.com/en-us/102651)             | 🗹                          | 🗹                       | 🗹                               | 🗷               |
+| [Onedrive, Sharepoint](https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo) | 🗹                          | 🗹                       | 🗷                               | 🗷               |
+| [Google Drive](https://support.google.com/drive/answer/10519333?hl=en&co=GENIE.Platform%3DDesktop&oco=1) | 🗹                          | 🗹                       | 🗷                               | 🗷               |
+| [Dropbox](https://www.dropbox.com/fr/features/cloud-storage/cloud-security) | 🗹                          | 🗹                       | 🗷                               | 🗷               |

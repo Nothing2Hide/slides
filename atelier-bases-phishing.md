@@ -27,12 +27,18 @@ Question
 `https://drive.google.com.downlaod-photo.sytez.net`
 
 
-S’il est important d’installer un antivirus sur son poste, il est encore plus important de faire preuve de bon sens lorsque vous recevez un lien ou une pièce jointe par mail, Messenger, SMS, Whatsapp, Skype, etc. Les réseaux sociaux et les outils de communication sont les principaux vecteurs de transmission de virus.
+**Les réseaux sociaux et les outils de communication sont les principaux vecteurs de transmission de virus**. 
 
 
-* Ne téléchargez pas de fichiers ou ne cliquez pas sur des liens qui vous sont envoyés par des expéditeurs inconnus.
-* Vérifiez soigneusement l’adresse mail ou le compte Twitter de ceux qui partagent un lien avec vous. En cas de doute, vérifiez l’identité de l’expéditeur auprès d’autres contacts ou par l’intermédiaire d’un moteur de recherche.
-* Si le fichier ou l’expéditeur vous semble suspect, n'hésitez pas à contacter des experts qui pourront vous aider
+S’il est important d’installer un antivirus sur son poste, il est encore plus important de faire preuve de bon sens lorsque vous recevez un lien ou une pièce jointe par mail, Messenger, SMS, Whatsapp, etc. 
+
+
+<ul>
+    <li class="fragment">Ne téléchargez pas de fichiers ou ne cliquez pas sur des liens qui vous sont envoyés par des expéditeurs inconnus.</li>
+    <li class="fragment">Vérifiez soigneusement l’adresse mail ou les compte de RS de celleux qui partagent un lien avec vous. En cas de doute, vérifiez l’identité de l’expéditeur·ice auprès d’autres contacts ou via une recherche en ligne.</li>
+    <li class="fragment">Si le fichier ou l’expéditeur·ice semble suspect, contactez votre IT ou des experts ou sein de votre réseau pour vous aider.</li>
+</ul>
+
 
 
 Quiz
