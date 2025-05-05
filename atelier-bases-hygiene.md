@@ -41,7 +41,6 @@ Cliquez pour l'activer
 ![Pare feu Mac OS](/assets/i/macosventura-firewall-enable.webp)
 
 
-
 Verrouillez
 ----
 
@@ -56,7 +55,6 @@ Chiffrez
 
 Dans le cloud
 ----
-
 
 
 |                                       | <small>Chiffrement en transit</small> | <small>Chiffrement serveur</small> | <small>E2E</small> | <small>Open source</small> |

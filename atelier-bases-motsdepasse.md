@@ -1,5 +1,5 @@
 ~~Mots de passe~~
------------------
+==============
 
 Votre mot de passe est-il [suffisamment
 robuste](https://nothing2hide.org/fr/verifier-la-robustesse-de-votre-mot-de-passe/) ?
