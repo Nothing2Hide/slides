@@ -1,4 +1,4 @@
-Chiffrement et smartphone
+Données
 ==========================
 
 
@@ -41,7 +41,6 @@ Enfin, si votre téléphone contient des données très sensibles, il est possib
 
 
 ![](/assets/i/ios-erasing.webp){height="600"}
-
 
 
 Tella : un coffre fort local

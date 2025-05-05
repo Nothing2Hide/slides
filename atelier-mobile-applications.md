@@ -1,18 +1,16 @@
-Applications droits et permissions
+Applications
+======
+
+
+Deux écosystèmes
 ----------------------------------
 
-Comme sur un poste informatique on n'installe pas n'importe quelle
-application sur son Smartphone. Il faut vérifier les droits que réclame
-une application sur votre smartphone. Ex : est-il normal qu'une
-application lampe de poche réclame l'accès à vos contacts ?
 
+Il existe deux écosystèmes d'applications majeurs à ce jour : Android (Google) et iOS (apple).
 
-Il y a 2 écosystèmes d'applications majeurs aujourd'hui qui sont Android
-et Apple.
-
-1.  Apple est réputé pour ses contrôles et validations avant la mise à
+1.  iOS est réputé pour ses contrôles et validations avant la mise à
     disposition public.
-2.  Android (Google) hélas beaucoup moins.
+2.  Android hélas beaucoup moins.
 
 
 ![Super Skibydi Killer ](assets/i/malware2.webp)
@@ -20,18 +18,17 @@ et Apple.
 
 À titre d'exemple, cette application *Super Skibydi Killer* a été téléchargée plus d'un millions de fois sur Google play. Elle contient pourtant un virus ainsi que [12 autres applications](https://www.01net.com/actualites/12-applications-android-a-desinstaller-durgence-de-votre-smartphone.html) selon le rapport des analystes de Doctor Web (novembre 2023).
 
-
-Tout comme sur un ordinateur, on n'installe pas n'importe quelle application sur un Smartphone. Il faut vérifier les droits que demande une application sur votre smartphone. Est-il normal qu'une application lampe de poche réclame l'accès à vos contacts ?
-
-
-Selon votre version Android (6 et supérieur), il vous faudra chercher le
-plus souvent dans Paramètres \> Applications \> ( parfois Paramètres
-avancés) \> Autorisation des applis.
+Note: Plus récemment, au cours du premier trimestre 2025, [les spécialistes de Doctor Web ont encore détecté des dizaines de nouvelles menaces sur Google Play](https://news.drweb.fr/show/review/?lng=fr&i=14991). En plus du nombre traditionnellement élevé de chevaux de Troie Android.FakeApp, les experts de Doctor Web ont trouvé sur Google Play des programmes malveillants conçus pour voler des crypto-monnaies, ainsi que des Trojans affichant de la publicité intrusive.
 
 
-![description](/assets/i/android-permissions.png "tool tip")
+Droits et permissions
+-----
 
 
-Afin de vérifier les droits que s'octroie sur votre téléphone une
-application Android, allez faire un tour sur le projet [Exodus
-Privacy](https://exodus-privacy.eu.org/fr/page/what/).
+Tout comme sur un ordinateur, on n'installe pas n'importe quelle application sur un Smartphone. Il faut être attentif aux permissions que celles-ci réclament pour fonctionner sur votre smartphone. Est-il normal qu'une application lampe de poche réclame l'accès à vos contacts ?
+
+
+[Exodus Privacy](https://exodus-privacy.eu.org/fr/page/what/) vous permet de :
+
+* vérifier les permissions que s'octroie une application Android sur votre smartphone
+* comptabiliser le nombre de traqueurs intégrés à une application
