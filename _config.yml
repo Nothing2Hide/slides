@@ -23,9 +23,9 @@ t:
     email:  "Courriel"
     deuxpoints: " :"
     or: "ou"
-    no: "non"
+    non: "non"
   EN:
     email: "Email"
     deuxpoints: ":"
     or: "or"
-    no: "no"
+    non: "no"
