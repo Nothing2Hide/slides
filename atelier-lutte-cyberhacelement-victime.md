@@ -47,6 +47,3 @@ S. Signalez
 
 
 Les règles de modération et le traitement des contenus identifiés comme haineux sont paramétrables.
-
-
-![Réglages bodyguard](/assets/i/bodyguard-reglages.png)
