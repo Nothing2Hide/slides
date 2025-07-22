@@ -1,0 +1,163 @@
+---
+layout: slide
+lang: FR
+title:  "Analyser le contexte d'une image #1"
+subtitle:  'Un atelier présenté par <a href="https://nothing2hide.org">Nothing2Hide</a> pour <a href="https://factoscope.fr">Factoscope</a>'
+transition: slide
+permalink: /factoscope/contexte-image-1/
+order: 0
+onhome: false
+categories: [OSINT]
+licence: "CC BY 3.0"
+---
+
+<section>
+<section data-markdown>
+Objectifs
+================
+</section>
+<section>
+<ol>
+<li>Analyser le contexte d’une image ou d’une vidéo</li>
+<li>Trouver le lieu d'une prise de vue</li>
+<li>Comprendre et utiliser les métadonnées</li>
+</ol>
+</section>
+</section>
+
+<section>
+<section data-markdown>
+## Les fake news sont partout
+</section>
+<section data-markdown>
+### Bruxelles 2016 ?
+
+Suite aux attentats qui ont ciblé l’aéroport et le métro de Bruxelles, [une vidéo de caméra de surveillance](https://www.youtube.com/watch?v=mauYfrcudlY) a commencé à circuler sur les réseaux sociaux. Elle a été reprise par tous les médias. Or cette vidéo a été prise lors d'un attentat en 2011 dans le métro de Minsk.
+</section>
+</section>
+
+
+<section>
+<section data-markdown>
+## Analyser le contexte
+Débunker une photo manipulée, c’est surtout une histoire d’observation.
+</section>
+
+<section data-markdown>
+![Chine](/assets/i/osint-contexte.png)
+</section>
+
+<section data-markdown>
+![Iran](/assets/i/osint-iran.png)
+
+La scène était présentée comme se déroulant en Iran, en décembre 2009. Cette photo est intéressante car elle offre plusieurs détails permettant de la vérifier.   
+</section>
+
+<section>
+<ul>
+<li>Les boucliers de la police iranienne sont-ils de cette couleur ?</li>
+<li>Les trottoirs de Téhéran sont-il peints en jaune ?</li>
+<li>Les jeunes Iraniens habillés de cette façon ?</li>
+<li><a href="https://wunderground.com">Quel temps fait-il en Iran en décembre</a>
+ au moment de la révolution verte en 2009 ?</li>
+</ul>
+</section>
+</section>
+
+<section>
+<section data-markdown>
+## Trouver le lieu d’un prise de vue
+</section>
+<section>
+<ol>
+<li>Réduire la zone de recherche en analysant l’image : architecture, paysage, climat/végétation, son & dialogues, vêtements, affiche, panneau, plaque, etc.</li>
+<li>Obtenir de l’imagerie de référence de la zone de recherche : <a href="https://www.google.com/maps/">Google Streetview</a>, image satellite, images publiées sur les réseaux sociaux, etc. pour comparaison.</li>   
+</ol>
+<aside class="notes">
+<ul>
+    <li>Tips : faire des recherche  sur les indices trouvés.</li>
+</ul>
+</aside>
+</section>
+<section data-markdown>
+Cette photo montre quelques détails qui permettent de localiser très précisément la prise de vue à l'aide de Google Maps. À vous de jouer.
+</section>
+<section data-markdown>
+![china town](/assets/i/osint-chine.png)
+</section>
+</section>
+
+<section>
+<section data-markdown>
+## Les métadonnées
+</section>
+<section data-markdown>
+Tout fichier informatique, en plus de ses données, comprend des informations descriptives appelées “métadonnées”. Elles sont présentes dans les fichiers :
+* pdf
+* jpg, png
+* docx, odt, etc.
+</section>
+<section data-markdown>
+### Lire les métadonnées d’une image
+
+*  En ligne avec le site [fotoforensics](http://fotoforensics.com)
+*  Directement dans votre navigateur avec une extension avec [exif viewer](https://addons.mozilla.org/fr/firefox/search/?q=exifViewer) dans firefox ou [exif viewer](https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm) dans Chrome
+</section>
+<section>
+<ul>
+    <li><a href="https://medium.com/the-generator/spotting-ai-images-6d847809be21#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImJiNDM0Njk1OTQ0NTE4MjAxNDhiMzM5YzU4OGFlZGUzMDUxMDM5MTkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDkxMTkyMDE0NzM5MTg3OTMyMzEiLCJlbWFpbCI6Im5vdGhpbmcyaGlkZTIwMTdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc0OTU1NDU0MSwibmFtZSI6Ik5vdGhpbmcySGlkZSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLVTVhbl9oSTVVb0VXY2MxNWdCZG41aE1wM3Q1QkFfVzd3dC0zNGVKRFN5VkpKMXlBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik5vdGhpbmcySGlkZSIsImlhdCI6MTc0OTU1NDg0MSwiZXhwIjoxNzQ5NTU4NDQxLCJqdGkiOiJlNGE0NGZlMzUxMjMxZWE4YmViMjAxZjI4YzMzZThkMGM0N2U5NmM1In0.cTcbzvb_xlCCZlMJCyw_Prne_NkOtqbYg7l7rTh34dHuWbCZgCm4pHodZXXuZhFTdd_eqIdKvduLd93GNgtbjphZ5Bd_ccywVjjQk_t4dyFB6I_qfMuxg8cTC355qPYwPWJN3rsmb5SLVfKFLUQacAyxHS0kn1IsaQazZlTx36BnlgVJ4zfF58y9XYpXxcpOcSZf6usu0_nFNxS0iPgBVBWbsnaxP6eG5c-PnCr6B2v9mDMCiDG2phdxlInxHDSeADO5NBa0Ng7u3XNNJpO7vm8X2lGxy6Xqi9OEIzAAVa6Sm97WzboEYdWCnX-IAg3CO5WmsPAoU0S608ywWI9pjg">Les images générées par IA contiennent des données spécifiques</a>
+     authentifiant leur provenance d'un outil d'IA générative : les données <acronym title="Coalition for Content Provenance and Authenticity">C2PA</acronym>.</li>
+    <li>Tous outils degénération d'image ne respectent pas ce standard (Midjourney pour en citer qu'un service).</li>
+    <li>Les images générées par IA ne contiennent pas de méta données exif.</li>
+</section>
+<section data-markdown>
+* La plupart des services d’hébergement d’images et tous les réseaux sociaux, suppriment aujourd’hui les métadonnées des images.
+* Il est très facile de supprimer les métadonnées d'une image en l'exportant dans un autre format que l'original (jpeg -> png) ou en en faisant une capture écran.
+</section>
+<section data-markdown>
+L'image suivante contient des métadonnées C2PA indiquant qu'elle a été générée par IA.
+</section>
+<section data-markdown>
+![Une image d'un skieur générée par IA par Mistral](/assets/i/iageneratedimage.jpg)
+</section>
+<section data-markdown>
+Celle-ci, générée avec le site [This person does not exist](https://this-person-does-not-exist.com/en), n'en contient pas.
+</section>
+<section data-markdown>>
+![Une image de visage générée par IA par Thispersondoesnotexists](/assets/i/osint_fake-face.jpg)
+</section>
+<section data-markdown>
+### Donc ?
+* Si une image contient des métadonnées C2PA, c'est forcément une image générée par IA.
+* Si une image ne contient pas de métadonnées C2PA, cela ne vous assure pas qu'elle n'ait pas été générée par IA.
+</section>
+<section data-markdown>
+### Et alors, l'outil magique ?
+</section>
+<section data-markdown data-background-image="/assets/i/Personality-Profile-Uncle-Sam-version-2.webp">
+# Vous !
+</section>
+<section data-markdown>
+* ~~Les personnes ont-elles 6 doigts ?~~
+* Est-ce que vous disposez de la version ORIGINALE ?
+* Savez-vous QUI a pris cette photo ?
+* Savez-vous OÙ cette photo a été prise ?
+* Savez-vous QUAND cette photo a été prise ?
+* Savez-vous POURQUOI cette photo a été prise ?
+</section>
+</section>
+
+
+<section>
+<section data-markdown>
+Pour aller plus loin
+================
+</section>
+<section data-markdown>
+* Exercices de vérification de photos #1 [mever.iti.gr](https://mever.iti.gr/forensics/)
+* Exercices de vérification de photos #2 [Sharpen your senses](https://innovation.dw.com/sharpen-your-senses/index.html#module0-1) par la Deutsche Welle
+* [Invid](https://chrome.google.com/webstore/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe), le couteau suisse de l’analyse d’image et du “débunkage”, à installer comme extension du navigateur Chrome
+* [Videos visual verification guide](https://firstdraftnews.org/wp-content/uploads/2017/03/FDN_verificationguide_videos.pdf)
+* [Photo visual verification guide](https://firstdraftnews.org/wp-content/uploads/2017/03/FDN_verificationguide_photos.pdf?x40896)
+</section>
+</section>
