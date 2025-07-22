@@ -1,7 +1,7 @@
 ---
 layout: slide
 lang: FR
-title:  "Images et vidéos"
+title:  "Analyse d'images et de vidéos"
 transition: slide
 order: 2
 onhome: true
@@ -36,36 +36,6 @@ Elle a été reprise par tous les médias. **Fake ou pas fake ?**
 
 <section>
 <section data-markdown>
-Les Les métadonnées
-================
-Comment obtenir des informations sur une image à partir de ses métadonnées ?
-</section>
-<section data-markdown>
-Tout fichier informatique, en plus de ses données, comprend des informations descriptives appelées “métadonnées”. Elles sont présentes dans les fichiers :
-* pdf
-* jpg, png
-* docx, odt, etc.
-</section>
-<section data-markdown>
-Lire les métadonnées d’une image
-----
-Directement dans votre navigateur avec une extension : 
-*  [exif viewer](https://addons.mozilla.org/fr/firefox/search/?q=exifViewer) dans firefox
-*  [exif viewer](https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm) dans Chrome
-*  En ligne avec le site [Jeffrey image Meta Data Viewer](http://exif.regex.info/down.html)
-</section>
-<section data-markdown>
-Exercice
-----
-Lire les métadonnées de cette [image](/assets/i/img-full-of-data.jpg).
-</section>
-<section data-markdown>
-Depuis [la “mésaventure” de John McAfee](https://www.wired.com/2012/12/how-vice-got-john-mcafee-caught/), la plupart des services d’hébergement d’images et tous les réseaux sociaux, suppriment aujourd’hui les métadonnées des images.
-</section>
-</section>
-
-<section>
-<section data-markdown>
 Recherche inversée
 ================
 Identifier le premier site de publication d’une image ou d’une photo.
@@ -78,11 +48,9 @@ Vérifier l'antériorité d'une image ou d'une vidéo avec
 * [Karmadecay](http://karmadecay.com/) (reddit)
 * [Citizen evidence](https://citizenevidence.amnestyusa.org/) pour les vidéos
 </section>
-</section>
 
-<section>
 <section data-markdown>
-Fake ou non ?
+Exercices : Fake ou non ?
 ================
 </section>
 <section data-markdown>
@@ -103,7 +71,7 @@ Analyser le contexte
 Les outils c’est bien, mais ça ne fait pas tout. Débunker une photo manipulée, c’est surtout une histoire d’observation.
 </section>
 <section data-markdown>
-  ![Chine](/assets/i/osint-contexte.png)
+![Chine](/assets/i/osint-contexte.png)
 </section>
 <section data-markdown>
 ![Iran](/assets/i/osint-iran.png)
@@ -112,37 +80,129 @@ La scène était présentée comme se déroulant en Iran, en décembre 2009. Cet
 </section>
 
 <section data-markdown>
-	Les boucliers de la police iranienne sont-ils de cette couleur ? Les trottoirs de Téhéran peints en jaune ? Les jeunes Iraniens habillés de cette façon ? Quel temps fait-il en Iran en décembre ?
+* Les boucliers de la police iranienne sont-ils de cette couleur ?
+* Les trottoirs de Téhéran peints en jaune ?
+* Les jeunes Iraniens habillés de cette façon ?
+* **Quel temps fait-il en Iran en décembre ?**
 </section>
 <section data-markdown>
   Pour connaître la météo en tout lieu et tout temps : [wunderground.com](https://wunderground.com)
 </section>
+</section>
+
+
+<section>
 <section data-markdown>
-  D’après la légende sur YouTube, [cette vidéo](https://www.youtube.com/watch?v=rPMgw_Xcdzw) montre un groupe de réfugiés attaquer une voiture de police à Erfurt, une ville du centre de l’Allemagne. Deux détails pouvaient néanmoins faire tiquer.
+Trouver le lieu d’un prise de vue
+=====
+</section>
+<section>
+<ol>
+<li>Réduire la zone de recherche en analysant l’image : architecture, paysage, climat/végétation, son & dialogues, vêtements, affiche, panneau, plaque, etc.</li>
+<li>Obtenir de l’imagerie de référence de la zone de recherche : <a href="https://www.google.com/maps/">Google Streetview</a>, image satellite, images publiées sur les réseaux sociaux, etc. pour comparaison.</li>   
+</ol>
+<aside class="notes">
+<ul>
+    <li>Tips : faire des recherche  sur les indices trouvés.</li>
+</ul>
+</aside>
 </section>
 <section data-markdown>
-1. La couleur des voitures de police. Une simple recherche sur Internet vous permet de découvrir que ce ne sont pas les couleurs utilisées par la ville de Erfurt ;
-1. En écoutant bien la vidéo on entend que les soit disant réfugiés parlent tous en allemand.
+Cette photo montre quelques détails qui permettent de localiser très précisément la prise de vue à l'aide de Google Maps. À vous de jouer.
 </section>
 <section data-markdown>
-Cette photo montre quelques détails qui permettent de localiser très précisément la prise de vue à l'aide de Google Maps.
-</section>
-<section data-markdown>
-  ![china town](/assets/i/osint-chine.png)
-</section>
-<section data-markdown>
-  ![Linden New-Jersey](/assets/i/osint-linden.png)
-  Le 17 septembre 2016, l'explosion d'une bombe blesse 29 personnes à New York. Deux jours plus tard un suspect est arrêté à Linden dans le New Jersey. Tout de suite après l’arrestation, une photo circule. Ainsi qu’une vidéo. Cette photo est-elle vraiment une photo de l'arrestation du poseur de bombe ?
+![china town](/assets/i/osint-chine.png)
 </section>
 </section>
+
+
 
 <section>
 
 <section data-markdown>
+Les métadonnées
+=========
+</section>
+
+<section data-markdown>
+Tout fichier informatique, en plus de ses données, comprend des informations descriptives appelées “métadonnées”. Elles sont présentes dans les fichiers :
+* pdf
+* jpg, png
+* docx, odt, etc.
+</section>
+
+<section data-markdown>
+### Lire les métadonnées d’une image
+*  En ligne avec le site [fotoforensics](http://fotoforensics.com)
+*  Directement dans votre navigateur avec une extension avec [exif viewer](https://addons.mozilla.org/fr/firefox/search/?q=exifViewer) dans firefox ou [exif viewer](https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm) dans Chrome
+</section>
+
+<section>
+<ul>
+    <li><a href="https://medium.com/the-generator/spotting-ai-images-6d847809be21#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImJiNDM0Njk1OTQ0NTE4MjAxNDhiMzM5YzU4OGFlZGUzMDUxMDM5MTkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDkxMTkyMDE0NzM5MTg3OTMyMzEiLCJlbWFpbCI6Im5vdGhpbmcyaGlkZTIwMTdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc0OTU1NDU0MSwibmFtZSI6Ik5vdGhpbmcySGlkZSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLVTVhbl9oSTVVb0VXY2MxNWdCZG41aE1wM3Q1QkFfVzd3dC0zNGVKRFN5VkpKMXlBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik5vdGhpbmcySGlkZSIsImlhdCI6MTc0OTU1NDg0MSwiZXhwIjoxNzQ5NTU4NDQxLCJqdGkiOiJlNGE0NGZlMzUxMjMxZWE4YmViMjAxZjI4YzMzZThkMGM0N2U5NmM1In0.cTcbzvb_xlCCZlMJCyw_Prne_NkOtqbYg7l7rTh34dHuWbCZgCm4pHodZXXuZhFTdd_eqIdKvduLd93GNgtbjphZ5Bd_ccywVjjQk_t4dyFB6I_qfMuxg8cTC355qPYwPWJN3rsmb5SLVfKFLUQacAyxHS0kn1IsaQazZlTx36BnlgVJ4zfF58y9XYpXxcpOcSZf6usu0_nFNxS0iPgBVBWbsnaxP6eG5c-PnCr6B2v9mDMCiDG2phdxlInxHDSeADO5NBa0Ng7u3XNNJpO7vm8X2lGxy6Xqi9OEIzAAVa6Sm97WzboEYdWCnX-IAg3CO5WmsPAoU0S608ywWI9pjg">Les images générées par IA contiennent des données spécifiques</a>
+     authentifiant leur provenance d'un outil d'IA générative : les données <acronym title="Coalition for Content Provenance and Authenticity">C2PA</acronym>.</li>
+    <li>Tous outils degénération d'image ne respectent pas ce standard (Midjourney pour en citer qu'un service).</li>
+    <li>Les images générées par IA ne contiennent pas de méta données exif.</li>
+</section>
+
+<section data-markdown>
+* Depuis [la “mésaventure” de John McAfee](https://www.wired.com/2012/12/how-vice-got-john-mcafee-caught/), la plupart des services d’hébergement d’images et tous les réseaux sociaux, suppriment aujourd’hui les métadonnées des images.
+* Il est très facile de supprimer les métadonnées d'une image en l'exportant dans un autre format que l'original (jpeg -> png) ou en en faisant une capture écran.
+</section>
+
+<section data-markdown>
+L'image suivante contient des métadonnées C2PA indiquant qu'elle a été générée par IA.
+</section>
+
+<section data-markdown>
+![Une image d'un skieur générée par IA par Mistral](/assets/i/iageneratedimage.jpg)
+</section>
+
+<section data-markdown>
+Celle-ci, générée avec le site [This person does not exist](https://this-person-does-not-exist.com/en), n'en contient pas.
+</section>
+
+<section data-markdown>>
+![Une image de visage générée par IA par Thispersondoesnotexists](/assets/i/osint_fake-face.jpg)
+</section>
+
+<section data-markdown>
+### Donc ?
+* Si une image contient des métadonnées C2PA, c'est forcément une image générée par IA.
+* Si une image ne contient pas de métadonnées C2PA, cela ne vous assure pas qu'elle n'ait pas été générée par IA.
+</section>
+
+<section data-markdown>
+### Et alors, l'outil magique ?
+</section>
+
+<section data-markdown data-background-image="/assets/i/Personality-Profile-Uncle-Sam-version-2.webp">
+# Vous !
+</section>
+
+<section data-markdown>
+* ~~Les personnes ont-elles 6 doigts ?~~
+* Est-ce que vous disposez de la version ORIGINALE ?
+* Savez-vous QUI a pris cette photo ?
+* Savez-vous OÙ cette photo a été prise ?
+* Savez-vous QUAND cette photo a été prise ?
+* Savez-vous POURQUOI cette photo a été prise ?
+</section>
+
+</section>
+
+
+
+<section>
+<section data-markdown>
 Pour aller plus loin
 ================
-* D'autres exercices de vérification de photos sur [mever.iti.gr](https://mever.iti.gr/forensics/)
-*	[Invid](https://chrome.google.com/webstore/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe), le couteau suisse de l’analyse d’image et du “débunkage”, à installer comme extension du navigateur Chrome
+</section>
+<section data-markdown>
+* Exercices de vérification de photos #1 [mever.iti.gr](https://mever.iti.gr/forensics/)
+* Exercices de vérification de photos #2 [Sharpen your senses](https://innovation.dw.com/sharpen-your-senses/index.html#module0-1) par la Deutsche Welle
+* [Invid](https://chrome.google.com/webstore/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe), le couteau suisse de l’analyse d’image et du “débunkage”, à installer comme extension du navigateur Chrome
 * [Videos visual verification guide](https://firstdraftnews.org/wp-content/uploads/2017/03/FDN_verificationguide_videos.pdf)
 * [Photo visual verification guide](https://firstdraftnews.org/wp-content/uploads/2017/03/FDN_verificationguide_photos.pdf?x40896)
+</section>
 </section>
