@@ -18,7 +18,7 @@
 	<div class="pack">
 	  {% for cat in site.category-list-en %}
 			<h2>{{ cat }}</h2>
-			{% assign pages=site.pages | where:"lang", page.lang | sort:"order"%} 
+		{% assign pages=site.pages | where:"lang", page.lang | sort:"order"%} 
 	    {% for page in pages %}
 		    {% if page.onhome == true %}
 			    {% for pc in page.categories %}
