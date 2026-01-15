@@ -109,6 +109,15 @@ Olvid
 [Olvid](https://olvid.io/) :  Un simple pseudo suffit pour se créer un compte. Sur Olvid les communications **et** les métadonnées sont chiffrées de bout en bout. L’application est certifié CSPN par l’Agence nationale de la sécurité des systèmes d’information (ANSSI). Olvid propose une version gratuite avec quelques fonctionnalités en moins (pas d'appels vocaux).
 
 
+Globaleaks
+--
+[Globaleaks](https://www.globaleaks.org/) est une plate forme de leaks permettant à vos sources de vous transmettre des documents dèe manière chiffrée et anonyme, sans connaissances techniques spécifiques.
+
+Note: Anticor utilise Globaleaks https://alertes-corruption.anticor.org/#/
+
+
+
+
 <img src="/assets/i/careful.gif" alt="On n'est jamais trop prudent" title="On n'est jamais trop prudent" width="" height="500" />
 
 On n'est jamais trop prudent !
