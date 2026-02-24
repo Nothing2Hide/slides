@@ -16,14 +16,10 @@ Hygiène numérique
 ### Windows
 
 Pour vérifier ou activer l'antivirus ainsi que le Firewall, Tapez
-Windows Defender dans le menu *Démarrer* :
-
-![Parefeu Windows](/assets/i/parefeu-win10.png)
+_Pare-feu_ dans le menu *Démarrer* et sélectionnez _Vérifier l'état du pare-feu_ :
 
 
-Plus bas dans la même fenêtre pour le Pare-Feu :
-
-![Pare feu Windows 2](/assets/i/parefeu-win10-2.png)
+![Pare feu Windows 2](/assets/i/check-firewall.png)
 
 
 ### Mac
@@ -33,9 +29,6 @@ Système / Sécurité et Confidentialité
 
 
 ![Pare feu Mac OS](/assets/i/macosventura-firewall.jpg)
-
-
-Cliquez pour l'activer
 
 
 ![Pare feu Mac OS](/assets/i/macosventura-firewall-enable.webp)
@@ -51,6 +44,12 @@ Chiffrez
 -----
 
 **[Chiffrez](/atelier-data.html#/3)** vos données sur votre disque dur, support externes, sur votre [smartphone](/atelier-mobile.html#/3) et dans le *cloud* avec PGP, BitLocker, [VeraCrypt](/atelier-data.html#/3/1), [FileVault](https://support.apple.com/fr-fr/guide/mac-help/mh11785/mac) ou [Cryptomator](/atelier-data.html#/3/2).
+
+
+## Pour aller plus loin
+
+* Le guide pour paramétrer de manière sécurisée [un ordinateur Windows](https://wiki.nothing2hide.org/doku.php?id=hotline:windowsos)
+* Le guide pour paramétrer de manière sécurisée [un ordinateur Mac](https://wiki.nothing2hide.org/doku.php?id=hotline:os-hardening:macos)
 
 
 Dans le cloud
