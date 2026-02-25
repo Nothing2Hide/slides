@@ -2,15 +2,13 @@ Hameçonnage
 ======
 
 
-<img src="/assets/i/fishing.gif" alt="Phishing" title="Phishing"  class="r-stretch" />
+![Phishing Mondial Relay](/assets/i/phishing-mondialrelay.png)
 
 
-URLs
-====
-
-Savoir lire une url pour éviter [les attaques type phishing](https://freedom.press/training/email-security-tips/) :
-
-`protocole://sousdomaine.domaine.tld`
+* Le terme "phishing" ou "hameçonnage" fait référence à la pêche, utilisant un appât pour piéger la victime
+* Premier incident de sécurité le plus signalé en entreprise (40%) 
+* Prend la forme message électronique (email, tweet, message WhatsApp ou Telegram, SMS)
+* Semble provenir d'une personne de confiance
 
 
 Question
@@ -24,21 +22,28 @@ Question
 ----
 
 À qui appartient l'adresse ci-dessous ?
-`https://drive.google.com.downlaod-photo.sytez.net`
+`https://drive.google.com.downlaod-photo.sytez.net/`
 
 
-**Les réseaux sociaux et les outils de communication sont les principaux vecteurs de transmission de virus**. 
+Lutter contre le phishing
+----
 
 
-S’il est important d’installer un antivirus sur son poste, il est encore plus important de faire preuve de bon sens lorsque vous recevez un lien ou une pièce jointe par mail, Messenger, SMS, Whatsapp, etc. 
+Savoir lire une url pour éviter [les attaques type phishing](https://freedom.press/training/email-security-tips/) :
+
+`protocole://sousdomaine.domaine.tld`
 
 
-<ul>
-    <li class="fragment">Ne téléchargez pas de fichiers ou ne cliquez pas sur des liens qui vous sont envoyés par des expéditeurs inconnus.</li>
-    <li class="fragment">Vérifiez soigneusement l’adresse mail ou les compte de RS de celleux qui partagent un lien avec vous. En cas de doute, vérifiez l’identité de l’expéditeur·ice auprès d’autres contacts ou via une recherche en ligne.</li>
-    <li class="fragment">Si le fichier ou l’expéditeur·ice semble suspect, contactez votre IT ou des experts ou sein de votre réseau pour vous aider.</li>
-</ul>
+En cas de doute, demandez à votre voisin, ami, femme, mari, collègue, chat, poisson rouge. Demandez.
 
+
+![Demandez de l'aide](/assets/i/leia.png)
+
+
+**Ne cliquez pas** sur le lien et allez directement sur le service concerné en passant par un moteur de recherche.
+
+
+![Ne cliquez pas.](/assets/i/dontclick.jpg)
 
 
 Quiz
