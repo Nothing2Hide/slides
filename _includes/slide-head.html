@@ -10,9 +10,9 @@
   {%if page.theme %}
     <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme"/>
   {% else %}
-    <link rel="stylesheet" href="{{ "/assets/reveal.js/dist/theme/" | prepend: site.baseurl | append: "black" | append: '.css' }}" id="theme"/>
+    <link rel="stylesheet" href="/assets/reveal.js/dist/theme/black.css" id="theme"/>
   {% endif %}
-
+    <link rel="stylesheet" href="/assets/css/reveal-n2h.css" id="modifs-theme"/>
 
 	<!-- Printing and PDF exports -->
 	<script>
