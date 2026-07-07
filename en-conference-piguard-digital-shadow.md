@@ -27,7 +27,7 @@ Note: Opening slide. Digital Shadows was organized by Streaming Asylum, in partn
 
 
 
-# 1. What is PiGuard?
+# What is PiGuard?
 
 
 
@@ -108,7 +108,7 @@ Anyone who needs *group-level*, low-maintenance circumvention - not just a perso
 
 
 
-# 2. Using PiGuard
+# Using PiGuard
 
 
 
