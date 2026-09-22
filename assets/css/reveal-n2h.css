@@ -1,1 +1,21 @@
-strong {}
+@media only screen {
+  strong {
+    font-weight: 900;
+  }
+  .reveal .footer {
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    font-size: 0.5em;
+    color: #ccc;
+    font-style: italic;
+  }
+  .reveal .proton-slide, .reveal .proton-slide * { background-color:#f7f5ff; }
+  .reveal .proton-slide h2, .reveal .proton-slide h1 { color:#4b2fd6; }
+  .reveal .proton-slide table { font-size:0.46em; border-collapse:collapse; width:100%; margin:0; }
+  .reveal .proton-slide th { background:#6D4AFF; color:#fff; padding:.35em .5em; text-align:left; }
+  .reveal .proton-slide td { border-bottom:1px solid #d9d2f5; padding:.35em .5em; vertical-align:top; }
+  .reveal .proton-slide tr:nth-child(even) td { background:#efeaff; }
+  .reveal .proton-slide strong { color:#4b2fd6; }
+}

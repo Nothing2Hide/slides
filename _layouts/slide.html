@@ -8,15 +8,25 @@
 			<div class="slides">
 				<section>
 					<h1>{{page.title}}</h1>
-					{% if page.subtitle != nil %}<p><em>{{ page.subtitle }}</em></p>{% endif %}
+					{% if page.subtitle != nil %}<h2 class="r-fit-text">{{ page.subtitle }}</h2>{% endif %}
 				</section>
-				{{ content }}
+				  {{ content }}
 			   	{% include slide-contact.html %}
 				<section>
 					<a href="https://nothing2hide.org"><img src="https://nothing2hide.org/fr/wp-content/uploads/sites/2/2022/09/logo-square-red.png" alt="Nothing2Hide" title="Nothing2Hide" height="300" /></a>
 					<p><small>Contenu sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">Creative Commons CC BY SA</a>.</small></p>
 				</section>			   	
 			</div>
+			{% if page.footer != nil %}
+  			<div class="footer">{{ page.footer }}</div>
+  			<script>
+  // displayed upon load, hides when slide changes
+  Reveal.addEventListener('slidechanged', function(event) {
+    document.querySelector('.reveal .footer').style.display = 'none';
+  });
+</script>
+
+			{% endif %}
 		</div>
     
    	{% include slide-footer.html %}
