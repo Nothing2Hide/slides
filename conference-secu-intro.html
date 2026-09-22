@@ -105,7 +105,8 @@ order: 1
   </div>
   
  <div id="chiffrement" class="step"  data-x="3300" data-y="3625" data-z="-1000" data-rotate="90" data-scale="1">
-	<p><strong>Chiffrez</strong> vos données sur votre disque dur, clés USB, dans le cloud chez Apple, Google ou Dropbox <small>avec PGP, BitLocker, <a href="https://nothing2hide.org/slides/atelier-data.html#/1/4">VeraCrypt</a>, FileVault, <a href="https://cryptomator.org/">Cryptomator</a></small></p>
+	<p><strong>Chiffrez</strong> vos données sur votre disque dur, clés USB, dans les clouds de Microsoft ou Google <small>avec PGP, BitLocker, <a href="https://nothing2hide.org/slides/atelier-data.html#/1/4">VeraCrypt</a>, FileVault, <a href="https://cryptomator.org/">Cryptomator</a></small>. Ou utilisez <a href="https://proton.me/fr/drive">Proton drive</a>
+	.</p>
 	  <!-- démo : prise de contrôle d'un windows ou linux non chiffré avec boot usb GP -->
 </div>
 
@@ -120,7 +121,7 @@ order: 1
 -->
 <div id="passwords" class="step" data-x="-2700" data-y="2700" data-z="-500" data-rotate="0" data-scale="2">
 <h1><strike>Mots de passe</strike></h1>
-    <p>Votre mot de passe est-il vraiment robuste ? Qui veut <a href="http://howsecureismypassword.net">essayer</a> ?</p>
+    <p>Votre mot de passe est-il vraiment robuste ? Qui veut <a href="https://nothing2hide.org/fr/verifier-la-robustesse-de-votre-mot-de-passe/">essayer</a> ?</p>
 </div>
 
 <div id="passphrases" class="step"  data-x="-1500" data-y="4200" data-z="2000" data-rotate="90" data-scale="2">
@@ -155,21 +156,11 @@ order: 1
 -->
 
 <div id="traceordi" class="step" data-x="1000" data-y="0" data-z="-1000" data-rotate="0" data-scale="2">
-  <h1>Des traces...</h1>
-  <h2>sur votre ordinateur ou votre smartphone</h2>
+  <h1>Navigation privée, vraiment ?</h1>
 </div>
 
 <div id="traceordi-liste" class="step" data-x="1730" data-y="-2100" data-z="-500" data-rotate="-90" data-scale="2">
-  <p>Historique de navigation, cookies, mots de passe enregistrés, historique des fichiers, <a href="https://www.lepoint.fr/politique/la-note-judiciaire-secrete-transmise-par-urvoas-a-solere-13-12-2017-2179219_20.php#11">messages</a>, chat, emails, etc.</p>
-</div>
-
-
-<div id="erasingsolutions" class="step"  data-x="1730" data-y="-5000" data-z="-500" data-rotate="-90" data-scale="2">
-  <ul>
-    <li>Utilisez les messages éphémères sur WhatsApp, Signal, Telegram (préférez Signal quand même)</li>
-    <li>Effacez vos fichiers de <a href="https://nothing2hide.org/slides/atelier-data.html#/2/1">manière sécurisée</a></li>
-    <li>Pour les plus paranos : utilisez un <strong>live OS</strong> tel que <a href="https://tails.boum.org/">Tails</a> ou <a href="https://www.qubes-os.org/">Qubes</a></li>
-  </ul>
+  <p><strong>>Ce qui est supprimé dans une fenêtre de navigation privée</strong> :  historique de navigation, cookies, mots de passe enregistrés, historique des fichiers téléchargés.</p>
 </div>
 
 
@@ -182,12 +173,8 @@ order: 1
 -->
 
 <div id="badwifi1" class="step" data-x="3900" data-y="-2500" data-rotate="0" data-scale="2">
-  <h1>Des traces...</h1>
-  <h2>sur le réseau</h2>
-</div>
-
-<div id="wifiiphone" class="step" data-x="6000" data-y="-2500" data-scale="1">
-  <img src="{{site.url}}{{site.baseurl}}/assets/i/wifiiphone1.png" alt="analyse wifi ipone"> 
+  <h1>Ce qui n'est pas supprimé : </h1>
+  <h2>Tout le reste</h2>
 </div>
 
 <div id="amiuniq" class="step" data-x="7000" data-y="-3500" data-z="1" data-scale="2">
@@ -196,11 +183,10 @@ order: 1
 
 
 <div id="solutions" class="step" data-x="6000" data-y="-1700" data-z="0" data-scale="1">
-<h2>Protégez vos communications</h2>
+<h2>Protégez votre identité en ligne</h2>
 <ul>
-	<li><a href="http://nothing2hide.org/slides/atelier-navigation.html#/3">https</a> : chiffre votre traffic internet <em>si le site web visité le propose</em></li>
+	<li><strike><a href="https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:vpn">VPN</a> : chiffre toute connection sortante depuis votre ordinateur vers Internet</strike></li>
 	<li><a href="http://torproject.org">Tor</a> : anonymise votre surf en ligne. Anonymisation et chiffrement sont deux choses différentes</li>
-	<li><a href="https://nothing2hide.org/wiki/doku.php?id=protectionnumerique:vpn">VPN</a> : chiffre toute connection sortante depuis votre ordinateur vers Internet</li>
 </ul>
 </div>
 
@@ -211,8 +197,8 @@ order: 1
 5. Téléphone portables - quels signaux emet-il ? GP
 10 mn
 
-*********
--->
+
+
 
 <div id="cellphone" class="step" data-x="4500" data-y="1200" data-rotate="-90" data-z="-1000" data-scale="2">
     <h1>Spyphones</h1>
@@ -255,8 +241,9 @@ order: 1
 
 <div id="dumbphone" class="step" data-x="7000" data-y="1200" data-scale="0.1">
   <img src="{{site.url}}{{site.baseurl}}/assets/i/dumbphone.jpg" alt="Dumbphone"><br/>
-  <!-- Image issue de <a href="http://in30minutes.com">In 30 Minutes guides</a> sous licence CC 2.0 -->
 </div>
+
+-->
 
 <!--
 **********
